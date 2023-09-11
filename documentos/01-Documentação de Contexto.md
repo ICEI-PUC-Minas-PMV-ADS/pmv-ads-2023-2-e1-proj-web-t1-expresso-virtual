@@ -1,6 +1,11 @@
 # Introdução
 
-[Aqui a equipe deve criar um texto descritivo com a visão geral do problema abordado, apresentando o ambiente e as situações envolvidas no problema.]
+O mercado moderno, em constante transformação, coloca os microempreendedores diante de desafios que demandam adaptação, inovação e uma compreensão profunda das necessidades dos consumidores. A falta de presença online impede que potenciais clientes encontrem facilmente informações sobre seus produtos e serviços.
+
+No contexto de inovação, a Rocket Coffee (RC) se destaca como uma cafeteria que apresenta um visual com temática espacial. No entanto, apesar dessa abordagem inovadora, a Rocket Coffee enfrenta dificuldades em atrair clientes de acordo com suas expectativas iniciais após sua inauguração recente, ocasionando o baixo faturamento.
+
+Ao contrário da tendência de mercado, a RC não possui vínculos digitais. A presença online é essencial para a elevação de vendas e ao não ingressar no cenário digital, a RC deixa de alcançar amplamente o seu público alvo. 
+
 
 ## Problema
 [Aqui a equipe deve fornecer uma descrição detalhada do problema a ser resolvido. Não é o momento adequado para abordar questões técnicas relacionadas ao desenvolvimento da aplicação. O objetivo é compreender e comunicar de maneira precisa qual é o desafio ou necessidade que motiva a criação da aplicação.]
