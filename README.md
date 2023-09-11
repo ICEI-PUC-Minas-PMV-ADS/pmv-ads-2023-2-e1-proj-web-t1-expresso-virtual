@@ -1,25 +1,25 @@
-# Título do Projeto
+Expresso Virtual
 
-`CURSO`
+`Análise e desenvolvimento de sistemas`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de Aplicação Web Front-End`
 
-`SEMESTRE`
+`1 SEMESTRE`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+Diego Lucas Soares de Freitas Araújo
+Josef Félix Vieira
+Laura Lanna Brandão
+Lucas Gonçalves de Souza Silva
+Lucas Quintanilha Lacerda
+Vitor Augusto Costa Teles
 
 ## Orientador
 
-* Nome completo do professor
+Joyce Christina de Paiva Carvalho
 
 # Documentação
 
