@@ -11,10 +11,15 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 ## Integrantes
 
 Diego Lucas Soares de Freitas Araújo
+
 Josef Félix Vieira
+
 Laura Lanna Brandão
+
 Lucas Gonçalves de Souza Silva
+
 Lucas Quintanilha Lacerda
+
 Vitor Augusto Costa Teles
 
 ## Orientador
