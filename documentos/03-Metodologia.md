@@ -36,12 +36,13 @@ Para organizar e distribuir as atividades deste projeto, a equipe está fazendo 
 
 ●Backlog do projeto: Onde ficam as tarefas a onde devem ser trabalhadas, todas as atividades do projeto estarão nesta lista.
 
-●A fazer: Esta lista representa as partes que devem ser iniciadas.
+●To do: Esta lista representa as partes que devem ser iniciadas.
 
-●Fazendo: Lista das tarefas já iniciadas
+●In progress: Lista das tarefas já iniciadas
 
-●Feito:Lista de tarefas já feitas
-
+●Done:Lista de tarefas já feitas
+Segue abaixo uam imagem representando o estado atual do kanban
+<img src=
 
 > **Links Úteis**:
 Segue o link do quadro Scrum do grupo utilizando o Trello:https://trello.com/b/iRyRZ1t1/projeto-puc-minas
