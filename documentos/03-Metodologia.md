@@ -5,37 +5,47 @@ Esta seção descreve a organização da equipe para a execução das tarefas do
 
 
 ## Gerenciamento de Projeto
-A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, pois como citam Amaral, Fleury e Isoni (2019, p. 68), seus benefícios são a
 
-“visão clara dos resultados a entregar; ritmo e disciplina necessários à execução; definição de papéis e responsabilidades dos integrantes do projeto (Scrum Owner, Scrum Master e Team); empoderamento dos membros da equipe de projetos para atingir o desafio; conhecimento distribuído e compartilhado de forma colaborativa; ambiência favorável para crítica às ideias e não às pessoas.”
+Optamos por adotar a metodologia ágil do SCRUM para conduzir este projeto, uma vez que, conforme mencionado por Amaral, Fleury e Isoni (2019, p. 68), suas vantagens incluem, facilidade em entender o que for entregar, ritmo constante,  responsabilidades únicas de cada membro do grupo entre outros. Outras vantagens também importantes, como melhoria na comunicação e aumento da colaboração entre envolvidos nos projetos (BERCZUK, 2007); aumento da motivação da equipe de desenvolvimento de produtos (KNIBERG; FARHANG, 2008; PAASIVAARA; DURASIEWICZ; LASSENIUS, 2008); melhoria da qualidade do produto produzido (SUTHERLAND et al., 2008; BARTON; CAMPBELL, 2007); aumento de produtividade da equipe de desenvolvimento (SUTHERLAND et al., 2008; MARÇAL et al., 2007); diminuição no tempo gasto para terminar projetos de desenvolvimento de novos produtos (SUTHERLAND et al., 2008; SANDERS, 2007).
+
 
 ### Divisão de Papéis
 
 A equipe utiliza o Scrum como base para definição do processo de desenvolvimento.
-[Adicione informações abaixo sobre a divisão de papéis entre os membros da equipe.]
-- Scrum Master: Nome de um membro da equipe, principal responsável pela gestão do projeto.
-- Product Owner: Nome de um membro da equipe, representante dos interesses de todos os envolvidos (Stakeholders), define as funcionalidades do produto e prioriza os itens de Product Backlog.
-- Equipe de Desenvolvimento: Nomes de todos os membros da equipe, pois todos os membros deverão implementar uma tela/funcionalidade.
-- Equipe de Design: Nomes dos membros da equipe que trabalharão com design.
+A equipe está organizada como:
 
-> **Links Úteis**:
+ ●Scrum Master: Vitor Teles
+
+ ●Product Owner: Joyce Carvalho
+
+ ●Equipe de desenvolvimento: Lucas Gonçalves e Laura Lanna.
+
+ ●Equipe de design:
+
+ ●Equipe de testers: Lucas Quintanilha
+
+
+>  REMOVER DEPOIS **Links Úteis**:
 > - [11 Passos Essenciais para Implantar Scrum no seu 
 > Projeto](https://mindmaster.com.br/scrum-11-passos/)
 > - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
 
 ### Processo
 
-[Adicione informações sobre detalhes da implementação do Scrum seguido pela equipe. A equipe poderá fazer uso de ferramentas on-line (GitHub Project ou Trello) para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução. O quadro Kanban deverá apresentar a estrutura abaixo. Inserir despois das informações uma imagem do Kanban do projeto.]
-- Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista. 
-- To Do: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando. 
-- Doing: Quando uma tarefa tiver sido iniciada, ela é movida para cá. 
-- Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
+Para organizar e distribuir as atividades deste projeto, a equipe está fazendo uso do Trello, com uma estrutura de listas definida da seguinte forma:
+
+●Backlog do projeto: Onde ficam as tarefas a onde devem ser trabalhadas, todas as atividades do projeto estarão nesta lista.
+
+●A fazer: Esta lista representa as partes que devem ser iniciadas.
+
+●Fazendo: Lista das tarefas já iniciadas
+
+●Feito:Lista de tarefas já feitas
+
 
 > **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+Segue o link do quadro Scrum do grupo utilizando o Trello:https://trello.com/b/iRyRZ1t1/projeto-puc-minas
+e está exibido no estado atual, na imagem abaixo:
 
 
 ### Etiquetas
