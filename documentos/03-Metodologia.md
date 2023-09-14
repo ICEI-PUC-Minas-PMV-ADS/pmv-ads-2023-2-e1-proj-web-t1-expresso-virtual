@@ -45,7 +45,6 @@ Segue abaixo uam imagem representando o estado atual do kanban
 <img src=
 
 > **Links Úteis**:
-Segue o link do quadro Scrum do grupo utilizando o Trello:https://trello.com/b/iRyRZ1t1/projeto-puc-minas
 e está exibido no estado atual, na imagem abaixo:
 
 
