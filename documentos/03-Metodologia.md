@@ -14,15 +14,49 @@ Optamos por adotar a metodologia ágil do SCRUM para conduzir este projeto, uma 
 A equipe utiliza o Scrum como base para definição do processo de desenvolvimento.
 A equipe está organizada como:
 
- ●Scrum Master: Vitor Teles
-
- ●Product Owner: Joyce Carvalho
-
- ●Equipe de desenvolvimento: Lucas Gonçalves e Laura Lanna.
-
- ●Equipe de design:
-
- ●Equipe de testers: Lucas Quintanilha
+ <table>
+<!-- Cabeçalho da tabela - Funções -->
+ <tr>
+  <th>Função</th>
+  <th>Membro</th> 
+ </tr>
+ 
+<!-- Corpo da tabela - Membros -->
+<tr>
+ 
+ <tr>
+  <td>Product Owner</td>
+  <td>Joyce Carvalho</td>
+ </tr>
+ 
+ <tr>
+  <td>Scrum Master</td>
+  <td>Vitor Teles</td>
+ </tr>
+ 
+ <tr>
+  <td>Equipe de desenvolvimento</td>
+  <td>Lucas Gonçalves <br/> Laura Lanna</td>
+ </tr>
+ 
+ <tr>
+  <td>Scrum Master</td>
+  <td>Vitor Teles</td>
+ </tr>
+ 
+ <tr>
+  <td>Equipe de design</td>
+  <td>Josef Félix</td>
+ </tr>
+ 
+ <tr>
+  <td>Equipe de testers</td>
+  <td>Lucas Quintanilha</td>
+ </tr>
+ 
+</tr>
+ 
+</table>
 
 
 >  REMOVER DEPOIS **Links Úteis**:
