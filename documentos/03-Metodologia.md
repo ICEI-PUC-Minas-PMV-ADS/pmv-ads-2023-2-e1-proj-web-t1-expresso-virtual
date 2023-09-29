@@ -40,11 +40,6 @@ A equipe está organizada como:
  </tr>
  
  <tr>
-  <td>Scrum Master</td>
-  <td>Vitor Teles</td>
- </tr>
- 
- <tr>
   <td>Equipe de design</td>
   <td>Josef Félix</td>
  </tr>
