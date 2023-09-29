@@ -32,4 +32,19 @@ Protótipos de baixa fidelidade apresentam de forma simplificada o design da int
 >> - [Figma](https://www.figma.com/)
 
 
+<h3>Tela - Home page</h3>
+<p>A página inicial exibe banners que direcionam para as páginas do site, incluindo Home, Menu, Sobre, Blogs, Login e Registro. Além disso, ela também apresenta alguns produtos e produtos em destaque. </p>
+<hr>
+
+<h3>Tela - Menu</h3>
+<p>A tela Menu mostra nossas variedades de produtos, tanto quanto preço, quantidade e se está disponivel para venda. </p>
+<hr>
+
+<h3>Tela - Sobre Nós</3>
+<p>Esta tela conta um pouco sobre nossa cafeteria, seu começo sua historia e inspirações. </p>
+<hr>
+
+<h3>Tela - Login</h3>
+<p>Aqui é a nossa tela para que o usuário Consumidor//Administrador logue e possa realizar suas açoes. </p>
+<hr>
 
