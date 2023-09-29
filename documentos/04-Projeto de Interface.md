@@ -40,7 +40,7 @@ Protótipos de baixa fidelidade apresentam de forma simplificada o design da int
 <p>A tela Menu mostra nossas variedades de produtos, tanto quanto preço, quantidade e se está disponivel para venda. </p>
 <hr>
 
-<h3>Tela - Sobre Nós</3>
+<h3>Tela - Sobre Nós</h3>
 <p>Esta tela conta um pouco sobre nossa cafeteria, seu começo sua historia e inspirações. </p>
 <hr>
 
