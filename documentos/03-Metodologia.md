@@ -64,7 +64,7 @@ A fazer (To do): Esta lista contém as partes que estão prontas para serem inic
 
 Em andamento (In Progress): Aqui, encontram-se as tarefas que já foram iniciadas e estão em processo de execução.
 
-Em revisão (Under review): Todos os arquivos que necessitam de uma revisão, destinado principalmente a códigos e textos. 
+Em revisão (Under review): Todos os arquivos que necessitam de revisão ou testes, destinado principalmente a códigos e textos. 
 
 Concluído (Done): Esta lista registra as tarefas que foram concluídas com sucesso.
 
@@ -80,8 +80,7 @@ A visualização do progresso do nosso projeto pode ser acompanhada no quadro Ka
   <li>Bug (Erro no código)</li>
   <li>Desenvolvimento (Development)</li>
   <li>Documentação (Documentation)</li>
-  <li>Gerência de Projetos (Project Management)</li>
-  <li>Infraestrutura (Infrastructure)</li>
+  <li>Em revisão (under review)</li>
   <li>Testes (Tests)</li>
 </ul>
 
