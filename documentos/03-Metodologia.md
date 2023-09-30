@@ -72,7 +72,7 @@ A visualização do progresso do nosso projeto pode ser acompanhada no quadro Ka
 
 <figure> 
   <img src=https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/48792332/0b52814f-7d08-4f77-ab88-6541bdbf3e1e
-    <figcaption>Figura 1 - Tela do esquema de cores e categorias</figcaption>
+    <figcaption>Figura 1 - Tela do Kanban</figcaption>
 </figure>
 
 
@@ -89,7 +89,7 @@ A visualização do progresso do nosso projeto pode ser acompanhada no quadro Ka
 
 <figure> 
   <img src="https://user-images.githubusercontent.com/100447878/164068979-9eed46e1-9b44-461e-ab88-c2388e6767a1.png"
-    <figcaption>Figura 2 - Tela do esquema de cores e categorias</figcaption>
+    <figcaption>Figura 2 - Etiquetas utilizadas no projeto</figcaption>
 </figure> 
   
 ### Ferramentas
