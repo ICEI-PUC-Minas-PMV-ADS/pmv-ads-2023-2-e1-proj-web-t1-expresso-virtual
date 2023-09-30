@@ -6,8 +6,9 @@ Esta seção descreve a organização da equipe para a execução das tarefas do
 
 ## Gerenciamento de Projeto
 
-Optamos por adotar a metodologia ágil do SCRUM para conduzir este projeto, uma vez que, conforme mencionado por Amaral, Fleury e Isoni (2019, p. 68), suas vantagens incluem, facilidade em entender o que for entregar, ritmo constante,  responsabilidades únicas de cada membro do grupo entre outros. Outras vantagens também importantes, como melhoria na comunicação e aumento da colaboração entre envolvidos nos projetos (BERCZUK, 2007); aumento da motivação da equipe de desenvolvimento de produtos (KNIBERG; FARHANG, 2008; PAASIVAARA; DURASIEWICZ; LASSENIUS, 2008); melhoria da qualidade do produto produzido (SUTHERLAND et al., 2008; BARTON; CAMPBELL, 2007); aumento de produtividade da equipe de desenvolvimento (SUTHERLAND et al., 2008; MARÇAL et al., 2007); diminuição no tempo gasto para terminar projetos de desenvolvimento de novos produtos (SUTHERLAND et al., 2008; SANDERS, 2007).
-
+Este projeto será conduzido utilizando a metodologia ágil SCRUM, escolhida devido aos seus inúmeros benefícios e à sua notável capacidade de adaptação a mudanças com investimentos moderados. A abordagem ágil é particularmente vantajosa quando a empresa busca entregas incrementais do software, um aspecto crucial para a RC, que está ansiosa por implementar novos meios de comercializar o produto. A flexibilidade e eficiência do SCRUM se alinham perfeitamente à urgência e dinâmica desse contexto, promovendo uma gestão eficaz do projeto e a maximização dos resultados.
+De acordo com Sutherland (2014, p. 12), "O Scrum acolhe a incerteza e a criatividade. Coloca uma estrutura em volta do processo de aprendizagem, permitindo que as equipes avaliem o que já criaram e, o mais importante, de
+que forma o criaram. A estrutura do Scrum busca aproveitar a maneira como as equipes realmente trabalham, dando a elas as ferramentas para se auto-organizar e, o mais importante, aprimorar rapidamente a velocidade e a qualidade de seu trabalho."
 
 ### Divisão de Papéis
 
@@ -61,21 +62,17 @@ A equipe está organizada como:
 
 ### Processo
 
-Para organizar e distribuir as atividades deste projeto, a equipe está fazendo uso do Trello, com uma estrutura de listas definida da seguinte forma:
+Para organizar e coordenar as atividades deste projeto, nossa equipe está utilizando o GitHub, implementando uma estrutura de listas da seguinte maneira:
 
-●Backlog do projeto: Onde ficam as tarefas a onde devem ser trabalhadas, todas as atividades do projeto estarão nesta lista.
+Backlog do Projeto: Todas as tarefas a serem abordadas são registradas nesta lista, abrangendo todas as atividades do projeto.
 
-●To do: Esta lista representa as partes que devem ser iniciadas.
+A fazer (To do): Esta lista contém as partes que estão prontas para serem iniciadas.
 
-●In progress: Lista das tarefas já iniciadas
+Em andamento (In Progress): Aqui, encontram-se as tarefas que já foram iniciadas e estão em processo de execução.
 
-●Done:Lista de tarefas já feitas
-Segue abaixo uam imagem representando o estado atual do kanban
-<img src=
+Concluído (Done): Esta lista registra as tarefas que foram concluídas com sucesso.
 
-> **Links Úteis**:
-e está exibido no estado atual, na imagem abaixo:
-
+A visualização do progresso do nosso projeto pode ser acompanhada no quadro Kanban, integrado ao projeto do GitHub, disponível no seguinte link: [inserir link aqui]. Para uma representação visual mais clara, consulte a imagem abaixo, ilustrando o estado atual do Kanban do nosso grupo.
 
 ### Etiquetas
 <p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:</p>
