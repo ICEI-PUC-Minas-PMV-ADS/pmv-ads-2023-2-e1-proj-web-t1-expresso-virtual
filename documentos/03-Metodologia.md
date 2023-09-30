@@ -54,12 +54,6 @@ A equipe está organizada como:
  
 </table>
 
-
->  REMOVER DEPOIS **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-
 ### Processo
 
 Para organizar e coordenar as atividades deste projeto, nossa equipe está utilizando o GitHub, implementando uma estrutura de listas da seguinte maneira:
@@ -72,7 +66,10 @@ Em andamento (In Progress): Aqui, encontram-se as tarefas que já foram iniciada
 
 Concluído (Done): Esta lista registra as tarefas que foram concluídas com sucesso.
 
-A visualização do progresso do nosso projeto pode ser acompanhada no quadro Kanban, integrado ao projeto do GitHub, disponível no seguinte link: [inserir link aqui]. Para uma representação visual mais clara, consulte a imagem abaixo, ilustrando o estado atual do Kanban do nosso grupo.
+A visualização do progresso do nosso projeto pode ser acompanhada no quadro Kanban, integrado ao projeto do GitHub, disponível no seguinte link: https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/599/views/2. Para uma representação visual mais clara, consulte a imagem abaixo, ilustrando o estado atual do Kanban do nosso grupo.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/48792332/0b52814f-7d08-4f77-ab88-6541bdbf3e1e)
+
 
 ### Etiquetas
 <p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:</p>
