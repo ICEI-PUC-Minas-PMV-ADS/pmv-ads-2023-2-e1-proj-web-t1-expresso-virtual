@@ -56,7 +56,7 @@ A equipe está organizada como:
 
 ### Processo
 
-Para organizar e coordenar as atividades deste projeto, nossa equipe está utilizando o GitHub, implementando uma estrutura de listas da seguinte maneira:
+Para organizar e coordenar as atividades deste projeto, nossa equipe está utilizando o Kanban do GitHub, implementando uma estrutura de listas da seguinte maneira:
 
 Backlog do Projeto: Todas as tarefas a serem abordadas são registradas nesta lista, abrangendo todas as atividades do projeto.
 
