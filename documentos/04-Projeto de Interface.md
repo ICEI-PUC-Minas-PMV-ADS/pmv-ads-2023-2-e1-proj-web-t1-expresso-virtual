@@ -33,18 +33,18 @@ Protótipos de baixa fidelidade apresentam de forma simplificada o design da int
 
 
 <h3>Tela - Home page</h3>
-<p>A página inicial exibe banners que direcionam para as páginas do site, incluindo Home, Menu, Sobre, Blogs, Login e Registro. Além disso, ela também apresenta alguns produtos e produtos em destaque. </p>
+<p>A página inicial apresenta banners que direcionam para diversas seções do site, como a página principal, o menu, informações sobre nós, blogs, opções de login e registro. Além disso, nesta página, você também encontrará uma seleção de produtos em destaque. </p>
 <hr>
 
 <h3>Tela - Menu</h3>
-<p>A tela Menu mostra nossas variedades de produtos, tanto quanto preço, quantidade e se está disponivel para venda. </p>
+<p>A seção de Menu exibe nossa ampla gama de produtos, incluindo informações sobre preços, promoções, disponibilidade em estoque e quantidade disponível para compra. </p>
 <hr>
 
 <h3>Tela - Sobre Nós</h3>
-<p>Esta tela conta um pouco sobre nossa cafeteria, seu começo sua historia e inspirações. </p>
+<p>>Esta seção revela detalhes essenciais sobre nossa cafeteria, desde o início de nossa jornada até a rica história que a moldou e as inspirações que nos guiaram ao longo do tempo. Explore conosco a trajetória que nos trouxe até aqui, e descubra o coração e a alma por trás de nossa amada cafeteria. </p>
 <hr>
 
 <h3>Tela - Login</h3>
-<p>Aqui é a nossa tela para que o usuário Consumidor//Administrador logue e possa realizar suas açoes. </p>
+<p>Esta é a nossa página de login, onde tanto os consumidores quanto os administradores podem acessar suas contas e executar as ações desejadas. Neste espaço seguro, você pode entrar em sua conta e aproveitar todos os recursos personalizados que oferecemos. Seja você um cliente em busca de produtos incríveis ou um administrador cuidando dos bastidores, esta é a porta de entrada para uma experiência excepcional em nossa plataforma. </p>
 <hr>
 
