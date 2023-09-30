@@ -2,7 +2,7 @@
 
 ## User Flow
 
-A figura 1 exibe o fluxo de interação do usuário através das telas do sistema. Na próxima seção, detalharemos cada uma dessas telas no contexto de um protótipo de alta fidelidade. Para experimentar o protótipo interativo, acesse https://www.figma.com/proto/uW45RJRL3iWaQkEHZryKxE/RocketcoffeeUserFlow?type=design&node-id=201-420&t=fMnkMLfsRoPKX9nr-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=201%3A420
+A figura 1 exibe o fluxo de interação do usuário através das telas do sistema. Na próxima seção, detalharemos cada uma dessas telas no contexto de um protótipo de alta fidelidade. Para experimentar o protótipo interativo, acesse o <a href="https://www.figma.com/proto/uW45RJRL3iWaQkEHZryKxE/RocketcoffeeUserFlow?type=design&node-id=201-420&t=fMnkMLfsRoPKX9nr-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=201%3A420>Prototipo no Figma</a>
 
 ![prototipo1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/144382841/3317935a-7995-47c1-a72a-01540410a244)
 
@@ -13,12 +13,11 @@ Figura 1 - Fluxo de telas do usuário
 ### Protótipo de baixa fidelidade
 
 A estrutura das telas do sistema é consistentemente representada na figura 2. Dentro dessa estrutura, identificamos três principais blocos, que descrevemos abaixo:
-
-.  Cabeçalho: É o espaço onde encontramos o nome da aplicação web e a navegação principal do site, também conhecido como o menu da aplicação.
-
-.  Conteúdo: Este bloco é destinado à apresentação do conteúdo da tela em foco.
-
-.  Rodapé: Aqui, são exibidas informações relacionadas aos direitos autorais.
+<ul>
+<li>Cabeçalho: É o espaço onde encontramos o nome da aplicação web e a navegação principal do site, também conhecido como o menu da aplicação;</li>
+<li>Conteúdo: Este bloco é destinado à apresentação do conteúdo da tela em foco;</li>
+<li>Rodapé: Aqui, são exibidas informações relacionadas aos direitos autorais.</li>
+</ul>
 
 ![prototipo2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/144382841/65aa419e-7947-44c6-b69f-a932899a4f3d)
 
