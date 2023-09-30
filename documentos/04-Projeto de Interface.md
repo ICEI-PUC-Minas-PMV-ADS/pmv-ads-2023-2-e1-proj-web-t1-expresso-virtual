@@ -45,7 +45,8 @@ Figura 6 - Tela Menu
 <h3>Tela - Sobre Nós</h3>
 <p>Esta seção revela detalhes essenciais sobre nossa cafeteria, desde o início de nossa jornada até a rica história que a moldou e as inspirações que nos guiaram ao longo do tempo. Explore conosco a trajetória que nos trouxe até aqui, e descubra o coração e a alma por trás de nossa amada cafeteria. </p>
 
-![telasobre](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/144382841/b101f3c0-83fd-47d6-bff2-72a9c1faefc7)
+![telasobre](![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/144072871/32c45817-2b97-404a-9ea2-7b784c375059)
+)
 
 Figura 7 - Tela Sobre nós
 
