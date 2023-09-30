@@ -1,4 +1,3 @@
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/144382841/1781c012-4ea6-49ae-96ac-2df85fe31d63)
 # Projeto de Interface
 
 ## User Flow
@@ -33,7 +32,7 @@ Figura 2 - Estrutura padrão do site
 ![telahome](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/144382841/9edeea57-3e86-4204-8691-e3dd5c05e003)
 
 Figura 3 - Tela Home page
-
+<hr>
 
 <h3>Tela - Menu</h3>
 <p>A seção de Menu exibe nossa ampla gama de produtos, incluindo informações sobre preços, promoções, disponibilidade em estoque e quantidade disponível para compra. </p>
@@ -46,11 +45,11 @@ Figura 4 - Tela Menu
 
 <h3>Tela - Sobre Nós</h3>
 <p>Esta seção revela detalhes essenciais sobre nossa cafeteria, desde o início de nossa jornada até a rica história que a moldou e as inspirações que nos guiaram ao longo do tempo. Explore conosco a trajetória que nos trouxe até aqui, e descubra o coração e a alma por trás de nossa amada cafeteria. </p>
-<hr>
 
 ![telasobre](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/144382841/b101f3c0-83fd-47d6-bff2-72a9c1faefc7)
 
 Figura 5 - Tela Sobre nós
+
 
 <h3>Tela - Login</h3>
 <p>Esta é a nossa página de login, onde tanto os consumidores quanto os administradores podem acessar suas contas e executar as ações desejadas. Neste espaço seguro, você pode entrar em sua conta e aproveitar todos os recursos personalizados que oferecemos. Seja você um cliente em busca de produtos incríveis ou um administrador cuidando dos bastidores, esta é a porta de entrada para uma experiência excepcional em nossa plataforma. </p>
@@ -59,7 +58,7 @@ Figura 5 - Tela Sobre nós
 ![telalogin](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/144382841/5576886e-de69-45e2-a6a3-7486c5397cf7)
 
 Figura 6 - Tela de Login
-
+<hr>
 
 <h3>Tela - Carrinho</h3>
 <p>A tela do carrinho apresenta todos os produtos que o cliente adicionou, tendo a possibilidade de aumentar ou diminuir a quantidade desejada do produto. Informa o subtotal e tem a  a possibilidade de finalizar a compra. </p>
