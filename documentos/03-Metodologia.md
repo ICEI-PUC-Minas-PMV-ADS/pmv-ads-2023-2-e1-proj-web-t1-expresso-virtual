@@ -71,6 +71,10 @@ Concluído (Done): Esta lista registra as tarefas que foram concluídas com suce
 A visualização do progresso do nosso projeto pode ser acompanhada no quadro Kanban, integrado ao projeto do GitHub, disponível no seguinte link: https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/599/views/2. Para uma representação visual mais clara, consulte a imagem abaixo, ilustrando o estado atual do Kanban do nosso grupo.
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/48792332/0b52814f-7d08-4f77-ab88-6541bdbf3e1e)
+<figure> 
+  <img src=https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/48792332/0b52814f-7d08-4f77-ab88-6541bdbf3e1e
+    <figcaption>Figura 1 - Tela do esquema de cores e categorias</figcaption>
+</figure>
 
 
 ### Etiquetas
@@ -86,7 +90,7 @@ A visualização do progresso do nosso projeto pode ser acompanhada no quadro Ka
 
 <figure> 
   <img src="https://user-images.githubusercontent.com/100447878/164068979-9eed46e1-9b44-461e-ab88-c2388e6767a1.png"
-    <figcaption>Figura 3 - Tela do esquema de cores e categorias</figcaption>
+    <figcaption>Figura 2 - Tela do esquema de cores e categorias</figcaption>
 </figure> 
   
 ### Ferramentas
