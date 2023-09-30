@@ -41,7 +41,7 @@ Protótipos de baixa fidelidade apresentam de forma simplificada o design da int
 <hr>
 
 <h3>Tela - Sobre Nós</h3>
-<p>>Esta seção revela detalhes essenciais sobre nossa cafeteria, desde o início de nossa jornada até a rica história que a moldou e as inspirações que nos guiaram ao longo do tempo. Explore conosco a trajetória que nos trouxe até aqui, e descubra o coração e a alma por trás de nossa amada cafeteria. </p>
+<p>Esta seção revela detalhes essenciais sobre nossa cafeteria, desde o início de nossa jornada até a rica história que a moldou e as inspirações que nos guiaram ao longo do tempo. Explore conosco a trajetória que nos trouxe até aqui, e descubra o coração e a alma por trás de nossa amada cafeteria. </p>
 <hr>
 
 <h3>Tela - Login</h3>
