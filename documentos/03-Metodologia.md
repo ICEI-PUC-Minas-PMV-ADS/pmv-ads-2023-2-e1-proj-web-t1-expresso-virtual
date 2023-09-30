@@ -64,6 +64,8 @@ A fazer (To do): Esta lista contém as partes que estão prontas para serem inic
 
 Em andamento (In Progress): Aqui, encontram-se as tarefas que já foram iniciadas e estão em processo de execução.
 
+Em revisão (Under review): Todos os arquivos que necessitam de uma revisão, destinado principalmente a códigos e textos. 
+
 Concluído (Done): Esta lista registra as tarefas que foram concluídas com sucesso.
 
 A visualização do progresso do nosso projeto pode ser acompanhada no quadro Kanban, integrado ao projeto do GitHub, disponível no seguinte link: https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/599/views/2. Para uma representação visual mais clara, consulte a imagem abaixo, ilustrando o estado atual do Kanban do nosso grupo.
