@@ -37,14 +37,14 @@ A equipe está organizada como:
  
  <tr>
   <td>Equipe de desenvolvimento</td>
-  <td>Lucas Gonçalves <br/> Laura Lanna</td>
+  <td>Lucas Gonçalves <br/> Laura Lanna <br/> Diego Lucas</td>
  </tr>
  
  <tr>
   <td>Equipe de design</td>
   <td>Josef Félix</td>
  </tr>
- 
+
  <tr>
   <td>Equipe de testers</td>
   <td>Lucas Quintanilha</td>
