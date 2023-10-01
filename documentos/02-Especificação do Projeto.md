@@ -48,13 +48,9 @@
 
 |EU COMO... `QUEM`   | QUERO/PRECISO ... `O QUE` |PARA ... `PORQUE`                 |
 | --- | --- | --- |
-| Cliente | Com o site do cardápio da cafeteria, ela pode navegar facilmente pelos itens disponíveis, verificar os preços e ingredientes, e até mesmo fazer um pedido online ou pelo telefone com antecedência.
-| Ele quer um local fora de casa para trabalhar, mas também deseja desfrutar de um ótimo café enquanto realiza suas tarefas. Uma funcionalidade online que destaca a disponibilidade de Wi-Fi rápido, tomadas elétricas e um cardápio diversificado de cafés especiais atrai Carlos para visitar o "Rocket Coffee" como um local de trabalho produtivo.|
-|Sofia, uma entusiasta da gastronomia e amante de novos sabores.|Sofia está em busca de um lugar que ofereça uma variedade de opções de café, incluindo diferentes métodos de preparo e grãos  exclusivos.|Ela quer explorar a diversidade do mundo do café e expandir seu paladar. Uma presença online que destaque a paixão do "Rocket Coffee" pela inovação no café, juntamente com detalhes sobre os métodos de preparo e origens dos grãos, a incentiva a experimentar as ofertas únicas da cafeteria.|
-|Joana, uma moradora local que ama café e está sempre procurando novos lugares para relaxar e estudar|Joana está buscando um café acolhedor e tranquilo para passar algumas horas estudando e desfrutando de um bom café.|Ela quer um ambiente agradável para se concentrar, além de ter acesso ao cardápio e às opções de café. Uma funcionalidade online que mostra fotos do interior da cafeteria, detalhes do menu e horário de funcionamento a ajuda a tomar uma decisão informada sobre visitar o "Rocket Coffee".|
-|João, o gerente da cafeteria que está constantemente procurando maneiras de melhorar o cardápio e a oferta de alimentos e bebidas.|João precisa de uma maneira fácil e flexível de editar o cardápio da cafeteria. Ele deseja adicionar novos itens sazonais, ajustar os preços conforme necessário e até mesmo remover itens que não estão vendendo bem. Com a capacidade de editar o cardápio no site, ele pode fazer todas essas alterações rapidamente, sem depender de um desenvolvedor de sites.|Para João, a capacidade de editar o cardápio no site é fundamental para manter a cafeteria competitiva e atender às preferências dos clientes em constante mudança. Ele pode responder rapidamente às tendências do mercado, introduzindo novos produtos ou promoções sazonais, garantindo que a cafeteria esteja sempre atualizada e atraente para os clientes.|
-
-|
+|Cliente | Eu gostaria de navegar facilmente pelos itens disponíveis online e verificar os preços e ingredientes, antes de fazer o pedido.| Para planejar refeições saudáveis e que caibam no meu bolso.|
+|Cliente | Eu gostaria de saber mais sobre a cafeteria, origem dos grãos de café e os sabores únicos de cada café servido na cafeteria.| Pois sou um entusiasta de café e gosto de visitar novas  cafeterias, após conhecer mais sobre os seus valores e objetivos.|
+|Administrador|Preciso adicionar novos itens sazonais, ajustar os preços conforme necessário e até mesmo remover itens que não estão vendendo bem.|Para que o site não dependa de novos investimentos quando houver pequenas alterações, e manter as informações gerais dos produtos atualizados.|
 
 ## Requisitos do Projeto
 
