@@ -1,20 +1,18 @@
 
 # Metodologia
-
-Esta seção descreve a organização da equipe para a execução das tarefas do projeto e as ferramentas utilizadas para a manutenção dos códigos e demais artefatos.
-
+<p align="justify"> Esta seção descreve a organização da equipe para a execução das tarefas do projeto e as ferramentas utilizadas para a manutenção dos códigos e demais artefatos. </p>
 
 ## Gerenciamento de Projeto
 
-Este projeto será conduzido utilizando a metodologia ágil SCRUM, escolhida devido aos seus inúmeros benefícios e à sua notável capacidade de adaptação a mudanças com investimentos moderados. A abordagem ágil é particularmente vantajosa quando a empresa busca entregas incrementais do software, um aspecto crucial para a RC, que está ansiosa por implementar novos meios de comercializar o produto. A flexibilidade e eficiência do SCRUM se alinham perfeitamente à urgência e dinâmica desse contexto, promovendo uma gestão eficaz do projeto e a maximização dos resultados.
+<p align="justify"> Este projeto será conduzido utilizando a metodologia ágil SCRUM, escolhida devido aos seus inúmeros benefícios e à sua notável capacidade de adaptação a mudanças com investimentos moderados. A abordagem ágil é particularmente vantajosa quando a empresa busca entregas incrementais do software, um aspecto crucial para a RC, que está ansiosa por implementar novos meios de comercializar o produto. A flexibilidade e eficiência do SCRUM se alinham perfeitamente à urgência e dinâmica desse contexto, promovendo uma gestão eficaz do projeto e a maximização dos resultados.</p>
 
-De acordo com Sutherland (2014, p. 12), "O Scrum acolhe a incerteza e a criatividade. Coloca uma estrutura em volta do processo de aprendizagem, permitindo que as equipes avaliem o que já criaram e, o mais importante, de
-que forma o criaram. A estrutura do Scrum busca aproveitar a maneira como as equipes realmente trabalham, dando a elas as ferramentas para se auto-organizar e, o mais importante, aprimorar rapidamente a velocidade e a qualidade de seu trabalho."
+<p align="justify"> De acordo com Sutherland (2014, p. 12), "O Scrum acolhe a incerteza e a criatividade. Coloca uma estrutura em volta do processo de aprendizagem, permitindo que as equipes avaliem o que já criaram e, o mais importante, de
+que forma o criaram. A estrutura do Scrum busca aproveitar a maneira como as equipes realmente trabalham, dando a elas as ferramentas para se auto-organizar e, o mais importante, aprimorar rapidamente a velocidade e a qualidade de seu trabalho." </p>
 
 ### Divisão de Papéis
 
-A equipe utiliza o Scrum como base para definição do processo de desenvolvimento.
-A equipe está organizada como:
+<p align="justify">A equipe utiliza o Scrum como base para definição do processo de desenvolvimento.
+A equipe está organizada como:</p>
 
  <table>
 <!-- Cabeçalho da tabela - Funções -->
@@ -57,7 +55,7 @@ A equipe está organizada como:
 
 ### Processo
 
-Para organizar e coordenar as atividades deste projeto, nossa equipe está utilizando o Kanban do GitHub, implementando uma estrutura de listas da seguinte maneira:
+<p align="justify">Para organizar e coordenar as atividades deste projeto, nossa equipe está utilizando o Kanban do GitHub, implementando uma estrutura de listas da seguinte maneira:</p>
 
 Backlog do Projeto: Todas as tarefas a serem abordadas são registradas nesta lista, abrangendo todas as atividades do projeto.
 
@@ -69,7 +67,7 @@ Em revisão (Under review): Todos os arquivos que necessitam de revisão ou test
 
 Concluído (Done): Esta lista registra as tarefas que foram concluídas com sucesso.
 
-A visualização do progresso do nosso projeto pode ser acompanhada no quadro Kanban, integrado ao projeto do GitHub, disponível no seguinte link: https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/599/views/2. Para uma representação visual mais clara, consulte a imagem abaixo, ilustrando o estado atual do Kanban do nosso grupo.
+<p align="justify">A visualização do progresso do nosso projeto pode ser acompanhada no quadro Kanban, integrado ao projeto do GitHub, disponível no seguinte link: https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/599/views/2. Para uma representação visual mais clara, consulte a imagem abaixo, ilustrando o estado atual do Kanban do nosso grupo.</p>
 
 <figure> 
   <img src=https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/48792332/0b52814f-7d08-4f77-ab88-6541bdbf3e1e
@@ -96,7 +94,8 @@ A visualização do progresso do nosso projeto pode ser acompanhada no quadro Ka
   
 ### Ferramentas
 
-As ferramentas utilizadas no projeto são:
+As ferramentas utilizadas no projeto são: 
+
 
  <table>
 <!-- Cabeçalho da tabela - Ferramentas a serem utilizadas -->
@@ -138,7 +137,8 @@ As ferramentas utilizadas no projeto são:
 </table>
 
 
-Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
+<p align="justify">Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.</p>
+
 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
@@ -150,4 +150,5 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 
 ### Estratégia de Organização de Codificação 
 
-Todos os artefatos relacionados à implementação e visualização dos conteúdos do projeto da aplicação serão inseridos na pasta [codigo-fonte](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/tree/main/codigo-fonte). Consulte também a nossa sugestão referente a estratégia de organização de codificação a ser adotada pela equipe de desenvolvimento do projeto.
+
+<p align="justify">Todos os artefatos relacionados à implementação e visualização dos conteúdos do projeto da aplicação serão inseridos na pasta <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/tree/main/codigo-fonte">código-fonte</a>. Consulte também a nossa sugestão referente a estratégia de organização de codificação a ser adotada pela equipe de desenvolvimento do projeto.</p>
