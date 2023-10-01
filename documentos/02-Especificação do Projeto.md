@@ -14,11 +14,15 @@
 <tr>
 <td><b>Necessidades</b></td>
 <td>  
-      - Acesso ao cardápio da cafeteria <br/> 
-      - Disponibilidade para comprar os produtos da cafeteria <br/>
-      - Acesso às informações dos produtos da cafeteria <br/>
-      - Ambiente de atendimento ao cliente <br/>
-      - Ambiente para criação de perfil. <br/>
+      
+- Acesso ao cardápio da cafeteria;
+- Disponibilidade para comprar os produtos da cafeteria;
+- Acesso às informações dos produtos da cafeteria;
+- Ambiente de atendimento ao cliente;
+- Ambiente para criação de perfil, registro e login;
+- Suporte ao cliente;
+- Assinatura e notificações.
+
 </td>
 </tr>
 </tbody>
@@ -35,9 +39,16 @@
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
-<td>  - Adicionar produtos da cafeteria para vendas online <br/>
-      - Ambiente para atendimento ao cliente  <br/>
-      - Ambiente para visualizar compras realizadas <br/>
+<td>  
+      
+- Adicionar produtos da cafeteria para vendas online;
+- Ambiente para atendimento ao cliente ;
+- Ambiente para visualizar compras realizadas;
+- Monitoramento de estoque;
+- Processamento de pedidos;
+- Atualizar preços;
+- Atualização de informações de conta.
+
 </td>
 </tr>
 </tbody>
