@@ -10,7 +10,7 @@ Ao contrário da tendência de mercado, a RC não possui vínculos digitais. A p
 
 ## Objetivos
 <p align="justify"> O objetivo deste projeto é a construção de um software web que possa ser desenvolvido dentro do custo esperado e que atenda a todas as necessidades levantadas. Após a implantação, o software deverá ampliar a capacidade de venda da Rocket Coffee (RC), oferecendo a oportunidade de realizar vendas também no ambiente virtual. 
-Como objetivos específicos, podemos evidenciar os seguintes termos: 
+Como objetivos específicos, podemos evidenciar os seguintes termos: </p>
 - Fomentar a conexão virtual entre o cliente e a cafeteria;
 - Apresentar um ambiente digital de baixo investimento com a temática da RC;
 - Oferecer uma forma de compra online. 
