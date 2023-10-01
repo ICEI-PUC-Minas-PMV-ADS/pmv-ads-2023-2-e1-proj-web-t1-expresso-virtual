@@ -2,7 +2,7 @@
 
 ## User Flow
 
-A figura 1 exibe o fluxo de interação do usuário através das telas do sistema. Na próxima seção, detalharemos cada uma dessas telas no contexto de um protótipo de alta fidelidade. Para experimentar o protótipo utilizado, acesse o <a href="https://www.figma.com/proto/uW45RJRL3iWaQkEHZryKxE/RocketcoffeeUserFlow?type=design&node-id=201-420&t=fMnkMLfsRoPKX9nr-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=201%3A420"> <ins>Protótipo do projeto</ins></a>
+A figura 1 exibe o fluxo de interação do usuário através das telas do sistema. Na próxima seção, detalharemos cada uma dessas telas no contexto de um protótipo de alta fidelidade. Para experimentar o protótipo utilizado, acesse o <a href="https://www.figma.com/proto/uW45RJRL3iWaQkEHZryKxE/RocketcoffeeUserFlow?type=design&node-id=201-420&t=fMnkMLfsRoPKX9nr-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=201%3A420"> Protótipo do projeto</a>
 
 ![prototipo1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/144382841/3317935a-7995-47c1-a72a-01540410a244)
 
