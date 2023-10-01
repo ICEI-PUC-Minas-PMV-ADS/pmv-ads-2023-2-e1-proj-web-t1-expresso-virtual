@@ -36,7 +36,8 @@ Figura 5 - Tela Home page
 <h3>Tela - Menu</h3>
 <p>A seção de Menu exibe nossa ampla gama de produtos, incluindo informações sobre preços, promoções, disponibilidade em estoque e quantidade disponível para compra. </p>
 
-![Uploading telamenu.jpg…]()
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/144072871/35593f51-ce79-44f8-9b7f-e8c0cabd2d08)
+
 
 
 Figura 6 - Tela Menu
