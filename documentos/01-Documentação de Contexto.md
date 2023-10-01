@@ -14,9 +14,9 @@ O problema que este projeto visa abordar é a falta de uma via moderna para atin
 
 O objetivo deste projeto é a construção de um software web que possa ser desenvolvido dentro do custo esperado e que atenda a todas as necessidades levantadas. Após a implantação, o software deverá ampliar a capacidade de venda da Rocket Coffee (RC), oferecendo a oportunidade de realizar vendas também no ambiente virtual. 
 Como objetivos específicos, podemos evidenciar os seguintes termos: 
-Fomentar a conexão virtual entre o cliente e a cafeteria;
-Apresentar um ambiente digital de baixo investimento com a temática da RC;
-Oferecer uma forma de compra online.
+- Fomentar a conexão virtual entre o cliente e a cafeteria;
+- Apresentar um ambiente digital de baixo investimento com a temática da RC;
+- Oferecer uma forma de compra online.
 
 
 
