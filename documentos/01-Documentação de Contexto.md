@@ -1,24 +1,19 @@
 # Introdução
-
-O mercado moderno, em constante transformação, coloca os microempreendedores diante de desafios que demandam adaptação, inovação e uma compreensão profunda das necessidades dos consumidores. A falta de presença online impede que potenciais clientes encontrem facilmente informações sobre seus produtos e serviços.
+<p align="justify"> O mercado moderno, em constante transformação, coloca os microempreendedores diante de desafios que demandam adaptação, inovação e uma compreensão profunda das necessidades dos consumidores. A falta de presença online impede que potenciais clientes encontrem facilmente informações sobre seus produtos e serviços.
 No contexto de inovação, a Rocket Coffee (RC) se destaca como uma cafeteria que apresenta um visual com temática espacial. No entanto, apesar dessa abordagem inovadora, a Rocket Coffee enfrenta dificuldades em atrair clientes de acordo com suas expectativas iniciais após sua inauguração recente, ocasionando o baixo faturamento.
-Ao contrário da tendência de mercado, a RC não possui vínculos digitais. A presença online é essencial para a elevação de vendas e ao não ingressar no cenário digital, a RC deixa de alcançar amplamente o seu público alvo. 
-
+Ao contrário da tendência de mercado, a RC não possui vínculos digitais. A presença online é essencial para a elevação de vendas e ao não ingressar no cenário digital, a RC deixa de alcançar amplamente o seu público alvo.  </p>
 
 ## Problema
-
-O problema que este projeto visa abordar é a falta de uma via moderna para atingir novos usuários. Sendo a Rocket Coffee uma cafeteria recém inaugurada e com baixo faturamento, manter um método limitado de comercialização e atendimento ao cliente, pode se tornar danoso financeiramente ao decorrer do tempo, gerando baixa capital e dificultando um fluxo financeiro saudável.
+<p align="justify"> O problema que este projeto visa abordar é a falta de uma via moderna para atingir novos usuários. Sendo a Rocket Coffee uma cafeteria recém inaugurada e com baixo faturamento, manter um método limitado de comercialização e atendimento ao cliente, pode se tornar danoso financeiramente ao decorrer do tempo, gerando baixa capital e dificultando um fluxo financeiro saudável.
+. </p>
 
 
 ## Objetivos
-
-O objetivo deste projeto é a construção de um software web que possa ser desenvolvido dentro do custo esperado e que atenda a todas as necessidades levantadas. Após a implantação, o software deverá ampliar a capacidade de venda da Rocket Coffee (RC), oferecendo a oportunidade de realizar vendas também no ambiente virtual. 
+<p align="justify"> O objetivo deste projeto é a construção de um software web que possa ser desenvolvido dentro do custo esperado e que atenda a todas as necessidades levantadas. Após a implantação, o software deverá ampliar a capacidade de venda da Rocket Coffee (RC), oferecendo a oportunidade de realizar vendas também no ambiente virtual. 
 Como objetivos específicos, podemos evidenciar os seguintes termos: 
 - Fomentar a conexão virtual entre o cliente e a cafeteria;
 - Apresentar um ambiente digital de baixo investimento com a temática da RC;
-- Oferecer uma forma de compra online.
-
-
+- Oferecer uma forma de compra online. 
 
 ## Justificativa
 
