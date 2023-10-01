@@ -5,7 +5,7 @@
 <table>
 <tbody>
 <tr align=center>
-<th colspan="2">Perfil cliente </th>
+<th colspan="2">Perfil Cliente </th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
@@ -62,12 +62,12 @@
 
 |  ID   |                                               Descrição                                                         | Prioridade |
 | --- | --- | --- |
-| RF-01 | A aplicação deve permitir o usuário cadastrar uma conta, e adicionar informações, como endereço, telefone e nome |    ALTA    | 
-| RF-02 | A aplicação deve permitir que o usuário faça login em sua conta                                                 |    ALTA    |
-| RF-03 | A aplicação deve permitir que o usuário visualize todos os produtos, preços e seus ingredientes, antes da compra |    ALTA    |
-| RF-04 | A aplicação deve permitir que o usuário compre os produtos através de um carrinho de compras                    |    ALTA    |
+| RF-01 | A aplicação deve permitir o usuário cadastrar uma conta e adicionar informações, como endereço, telefone e nome. |    ALTA    | 
+| RF-02 | A aplicação deve permitir que o usuário faça login em sua conta.                                                 |    ALTA    |
+| RF-03 | A aplicação deve permitir que o usuário visualize todos os produtos, preços e seus ingredientes, antes da compra. |    ALTA    |
+| RF-04 | A aplicação deve permitir que o usuário compre os produtos através de um carrinho de compras.                    |    ALTA    |
 | RF-05 | A aplicação deve permitir que o administrador consiga editar o cardápio, podendo inserir e excluir itens, alterar valores e descrições.  |    ALTA    |
-| RF-06 |A aplicação deve conter informações para contato com a empresa                                                  |    MÉDIA   |
+| RF-06 |A aplicação deve conter informações para contato com a empresa.                                                  |    MÉDIA   |
 
 **Prioridade: Alta / Média / Baixa. 
 
@@ -75,10 +75,10 @@
 
 |   ID   |                                 Descrição                                               | Prioridade |
 | --- | --- | --- |
-| RNF-01 | A aplicação deve ser responsiva permitindo que seja visualizada em qualquer dispositivo |    ALTA    | 
-| RNF-02 | A aplicação deve ser compatível com os navegadores mais utilizados                      |    MÉDIA   |
-| RNF-03 | A aplicação deve ser fácil de usar e entender                                           |    MÉDIA   |
-| RNF-04 | A aplicação deve ser de fácil manutenção                                                |    MÉDIA   |
+| RNF-01 | A aplicação deve ser responsiva permitindo que seja visualizada em qualquer dispositivo. |    ALTA    | 
+| RNF-02 | A aplicação deve ser compatível com os navegadores mais utilizados.                      |    MÉDIA   |
+| RNF-03 | A aplicação deve ser fácil de usar e entender.                                           |    MÉDIA   |
+| RNF-04 | A aplicação deve ser de fácil manutenção.                                                |    MÉDIA   |
 
 **Prioridade: Alta / Média / Baixa. 
 
