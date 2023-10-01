@@ -69,7 +69,7 @@ Figura 9 - Tela Carrinho
 
 
 <h3>Tela - Pagamento</h3>
-<p>Após o cliente decidir tudo que quer comprar e fechar o carrinho, vai ser direcionado a tela de pagamento, onde coloca a forma de pagamento e insere os dados ncessários para finalização da compra. </p>
+<p>Após o cliente decidir tudo que quer comprar e fechar o carrinho, vai ser direcionado a tela de pagamento, no qual o cliente insere a forma de pagamento e insere os dados ncessários para finalização da compra. </p>
 
 ![telapagamento](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/144382841/db03d242-43ce-4c61-b1aa-d464e79f6477)
 
