@@ -18,7 +18,7 @@
       - Disponibilidade para comprar os produtos da cafeteria <br/>
       - Acesso às informações dos produtos da cafeteria <br/>
       - Ambiente de atendimento ao cliente <br/>
-      - Ambiente para criação de perfil, para adição de informações <br/>
+      - Ambiente para criação de perfil. <br/>
 </td>
 </tr>
 </tbody>
