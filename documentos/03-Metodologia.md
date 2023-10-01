@@ -143,7 +143,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 |-------------------------------------|------------------------------------|----------------------------------------|
 | Repositório de código fonte         | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/blob/main/codigo-fonte/README.md |
 | Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual |
-| Projeto de Interface                | Figma                              | https://www.figma.com/file/eZVYcdbqClWZRDP9YCweZF/Rocketcoffee?type=design&node-id=0%3A1&mode=design&t=y3N97qMHqgFrUuUo-1 |
+| Projeto de Interface                | Figma                              | https://www.figma.com/file/uW45RJRL3iWaQkEHZryKxE/RocketcoffeeUserFlow?type=design&node-id=0-1&mode=design |
 | Gerenciamento do Projeto            | GitHub Projects                    | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/599 |
 
 
