@@ -6,7 +6,8 @@
 <p align="justify">A figura 3 exibe o fluxo de interação do usuário através das telas do sistema. Na próxima seção, detalharemos cada uma dessas telas no contexto de um protótipo de alta fidelidade. Para experimentar o protótipo utilizado, acesse o <a href="https://www.figma.com/proto/uW45RJRL3iWaQkEHZryKxE/RocketcoffeeUserFlow?type=design&node-id=201-420&t=fMnkMLfsRoPKX9nr-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=201%3A420"> <ins>Protótipo do projeto</ins></a>
 </p>
 
-![prototipofinal](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/144382841/643edabe-aedf-4605-911d-3511c2ad8ceb)
+![prototipofinall](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/144382841/a5b02504-62dc-4bdf-9f1b-b9deb2e931ef)
+
 
 
 Figura 3 - Fluxo de telas do usuário
@@ -59,7 +60,7 @@ Figura 7 - Tela Sobre nós
 <h3>Tela - Login</h3>
 <p  align="justify">Esta é a nossa página de login, onde tanto os consumidores quanto os administradores podem acessar suas contas e executar as ações desejadas. Neste espaço seguro, você pode entrar em sua conta e aproveitar todos os recursos personalizados que oferecemos. Seja você um cliente em busca de produtos incríveis ou um administrador cuidando dos bastidores, esta é a porta de entrada para uma experiência excepcional em nossa plataforma. </p>
 
-![telalogin](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/144382841/b9569d48-2d63-4151-8cae-3baafd624992)
+![telalogin](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/144382841/b87e33e0-bc03-45ae-94da-0e3e4df0da07)
 
 Figura 8 - Tela de Login
 <hr>
@@ -110,9 +111,15 @@ Figura 13 - Tela Contato
 <hr>
 
 
+<h3>Tela - Pedidos</h3>
+<p> A tela de pedidos é utilizada somente pelo adminstrador, onde o mesmo irá fazer a organização dos pedidos dos clientes</p>
+
+ ![telapedidos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/144382841/65862818-c653-49ae-89c5-2e2f2f22e7ec)
+
+ Figura 14 - Tela Pedidos
+<hr>
 
 
- 
 
 
 
