@@ -96,7 +96,6 @@ A visualização do progresso do nosso projeto pode ser acompanhada no quadro Ka
 
 As ferramentas utilizadas no projeto são:
 
-****
  <table>
 <!-- Cabeçalho da tabela - Ferramentas a serem utilizadas -->
  <tr>
@@ -111,25 +110,25 @@ As ferramentas utilizadas no projeto são:
  <tr>
   <td>Ferramentas de comunicação</td>
   <td>Teams e Whatsapp</td>
-  <td>---</td>
+  <td>Utilizado para reuniões e comunicação entre a equipe</td>
  </tr>
  
  <tr>
   <td>Ferramentas de desenho de tela</td>
   <td>Figma</td>
-  <td></td>
+  <td>Utilizado para criação dos protótipos de tela</td>
  </tr>
  
  <tr>
   <td>Ferramenta de hospedagem de código</td>
   <td>GitHub</td>
-  <td></td>
+  <td>Utilizado para hospedagem e colaboração de código, além da ferramenta de Kanban</td>
  </tr>
  
  <tr>
   <td>Ferramenta de BrainStorm</td>
   <td>LucidChart</td>
-  <td></td>
+  <td>Utilizado para criação do fluxo do cliente e funcionário</td>
  </tr>
  
 </tr>
