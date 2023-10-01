@@ -96,11 +96,46 @@ A visualização do progresso do nosso projeto pode ser acompanhada no quadro Ka
 
 As ferramentas utilizadas no projeto são:
 
-<ul>
-<li>Editor de código</li>
-<li>Ferramentas de comunicação</li>
-<li>Ferramentas de desenho de tela (Figma)</li>
-<li>Ferramenta de hospedagem de código</li>
+****
+ <table>
+<!-- Cabeçalho da tabela - Ferramentas a serem utilizadas -->
+ <tr>
+  <th>Descrição<th>
+  <th>Ferramenta</th>
+  <th>Justificativa<th>
+ </tr>
+ 
+<!-- Corpo da tabela - Nome da ferramenta -->
+<tr>
+ 
+ <tr>
+  <td>Ferramentas de comunicação</td>
+  <td>Teams e Whatsapp</td>
+  <td>---</td>
+ </tr>
+ 
+ <tr>
+  <td>Ferramentas de desenho de tela</td>
+  <td>Figma</td>
+  <td></td>
+ </tr>
+ 
+ <tr>
+  <td>Ferramenta de hospedagem de código</td>
+  <td>GitHub</td>
+ </tr>
+ 
+ <tr>
+  <td>Ferramenta de BrainStorm</td>
+  <td>LucidChart</td>
+  <td></td>
+ </tr>
+ 
+</tr>
+ 
+</table>
+
+<li></li>
 </ul>
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
