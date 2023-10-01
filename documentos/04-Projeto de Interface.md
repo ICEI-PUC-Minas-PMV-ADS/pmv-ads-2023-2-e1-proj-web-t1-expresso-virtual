@@ -2,7 +2,7 @@
 
 ## User Flow
 
-A figura 1 exibe o fluxo de interação do usuário através das telas do sistema. Na próxima seção, detalharemos cada uma dessas telas no contexto de um protótipo de alta fidelidade. Para experimentar o protótipo utilizado, acesse o <a href="https://www.figma.com/proto/uW45RJRL3iWaQkEHZryKxE/RocketcoffeeUserFlow?type=design&node-id=201-420&t=fMnkMLfsRoPKX9nr-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=201%3A420"> Protótipo do projeto</a>
+A figura 3 exibe o fluxo de interação do usuário através das telas do sistema. Na próxima seção, detalharemos cada uma dessas telas no contexto de um protótipo de alta fidelidade. Para experimentar o protótipo utilizado, acesse o <a href="https://www.figma.com/proto/uW45RJRL3iWaQkEHZryKxE/RocketcoffeeUserFlow?type=design&node-id=201-420&t=fMnkMLfsRoPKX9nr-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=201%3A420"> <ins>Protótipo do projeto</ins></a>
 
 ![prototipo1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/144382841/3317935a-7995-47c1-a72a-01540410a244)
 
@@ -12,11 +12,11 @@ Figura 3 - Fluxo de telas do usuário
 
 ### Protótipo de baixa fidelidade
 
-A estrutura das telas do sistema é consistentemente representada na figura 2. Dentro dessa estrutura, identificamos três principais blocos, que descrevemos abaixo:
+A estrutura das telas do sistema é consistentemente representada na figura 4. Dentro dessa estrutura, identificamos três principais blocos, que descrevemos abaixo:
 <ul>
-<li>Cabeçalho: É o espaço onde encontramos o nome da aplicação web e a navegação principal do site, também conhecido como o menu da aplicação;</li>
+<li>Cabeçalho: É o espaço onde encontramos a logo da empresa, atalhos de navegação e formas de login. Considerado como o menu da aplicação;</li>
 <li>Conteúdo: Este bloco é destinado à apresentação do conteúdo da tela em foco;</li>
-<li>Rodapé: Aqui, são exibidas informações relacionadas aos direitos autorais.</li>
+<li>Rodapé: Aqui, são exibidas informações relacionadas aos direitos autorais, mapa de navegação e informações complementares.</li>
 </ul>
 
 ![prototipo2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/144382841/65aa419e-7947-44c6-b69f-a932899a4f3d)
@@ -61,7 +61,7 @@ Figura 8 - Tela de Login
 
 
 <h3>Tela - Carrinho</h3>
-<p>A tela do carrinho apresenta todos os produtos que o cliente adicionou, tendo a possibilidade de aumentar ou diminuir a quantidade desejada do produto. Informa o subtotal e tem a  a possibilidade de finalizar a compra. </p>
+<p>A tela do carrinho apresenta todos os produtos que o cliente adicionou anteriormente, tendo a possibilidade de aumentar de excluir ou aumente e diminuir a quantidade desejada do produto. Nesta tela o cliente pode verificar o subtotal e tem a possibilidade de finalizar a compra. </p>
 
  ![telacarrinho](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/144382841/2f146100-e63d-4662-9720-b098dc98bd07)
 
