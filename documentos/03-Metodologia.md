@@ -100,9 +100,9 @@ As ferramentas utilizadas no projeto são:
  <table>
 <!-- Cabeçalho da tabela - Ferramentas a serem utilizadas -->
  <tr>
-  <th>Descrição<th>
+  <th>Descrição</th>
   <th>Ferramenta</th>
-  <th>Justificativa<th>
+  <th>Justificativa</th>
  </tr>
  
 <!-- Corpo da tabela - Nome da ferramenta -->
@@ -123,6 +123,7 @@ As ferramentas utilizadas no projeto são:
  <tr>
   <td>Ferramenta de hospedagem de código</td>
   <td>GitHub</td>
+  <td></td>
  </tr>
  
  <tr>
@@ -135,8 +136,6 @@ As ferramentas utilizadas no projeto são:
  
 </table>
 
-<li></li>
-</ul>
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
