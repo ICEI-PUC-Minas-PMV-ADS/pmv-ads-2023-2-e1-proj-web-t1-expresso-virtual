@@ -11,6 +11,7 @@ Ao contrário da tendência de mercado, a RC não possui vínculos digitais. A p
 ## Objetivos
 <p align="justify"> O objetivo deste projeto é a construção de um software web que possa ser desenvolvido dentro do custo esperado e que atenda a todas as necessidades levantadas. Após a implantação, o software deverá ampliar a capacidade de venda da Rocket Coffee (RC), oferecendo a oportunidade de realizar vendas também no ambiente virtual. 
 Como objetivos específicos, podemos evidenciar os seguintes termos: </p>
+
 - Fomentar a conexão virtual entre o cliente e a cafeteria;
 - Apresentar um ambiente digital de baixo investimento com a temática da RC;
 - Oferecer uma forma de compra online. 
@@ -27,11 +28,11 @@ A RC necessita de uma solução que não apenas mitigue os desafios atuais, mas 
 O público principal desta proposta é composto por homens e mulheres, jovens e adultos, que são frequentadores assíduos de cafeterias. Eles representam a nossa maior fonte de levantamento de dados precisos relacionados à satisfação de um consumidor de café.
 Para obter uma compreensão mais aprofundada do nosso público-alvo, realizamos pesquisas utilizando o Google Formulários, envolvendo pessoas de diferentes perfis e preferências. Essa abordagem nos permitiu identificar características e perfis pessoais comuns entre eles: </p>
 
-. Possuem de 18 a 35 anos, são mais atraídos por ambientes inovadores e pratos diferenciados.
-. Frequentam cafeterias 1 a 2 vezes por mês e costumam consumir no local.
-. Influenciado pelas redes sociais e procura receber ou procurar lugares principalmente no Instagram, Twitter, YouTube, Facebook.
-. Procura sugestões no Google, uma abordagem mais tradicional nas escolhas de cafeterias.
-. Valorizam ambientes inovadores e temáticos em cafeterias.
-. Valorizam pratos diferenciados.
+- Possuem de 18 a 35 anos, são mais atraídos por ambientes inovadores e pratos diferenciados.
+- Frequentam cafeterias 1 a 2 vezes por mês e costumam consumir no local.
+- Influenciado pelas redes sociais e procura receber ou procurar lugares principalmente no Instagram, Twitter, YouTube, Facebook.
+- Procura sugestões no Google, uma abordagem mais tradicional nas escolhas de cafeterias.
+- Valorizam ambientes inovadores e temáticos em cafeterias.
+- Valorizam pratos diferenciados.
 
 
