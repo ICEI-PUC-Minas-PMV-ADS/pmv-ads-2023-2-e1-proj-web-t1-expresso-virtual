@@ -7,6 +7,7 @@ Esta seção descreve a organização da equipe para a execução das tarefas do
 ## Gerenciamento de Projeto
 
 Este projeto será conduzido utilizando a metodologia ágil SCRUM, escolhida devido aos seus inúmeros benefícios e à sua notável capacidade de adaptação a mudanças com investimentos moderados. A abordagem ágil é particularmente vantajosa quando a empresa busca entregas incrementais do software, um aspecto crucial para a RC, que está ansiosa por implementar novos meios de comercializar o produto. A flexibilidade e eficiência do SCRUM se alinham perfeitamente à urgência e dinâmica desse contexto, promovendo uma gestão eficaz do projeto e a maximização dos resultados.
+
 De acordo com Sutherland (2014, p. 12), "O Scrum acolhe a incerteza e a criatividade. Coloca uma estrutura em volta do processo de aprendizagem, permitindo que as equipes avaliem o que já criaram e, o mais importante, de
 que forma o criaram. A estrutura do Scrum busca aproveitar a maneira como as equipes realmente trabalham, dando a elas as ferramentas para se auto-organizar e, o mais importante, aprimorar rapidamente a velocidade e a qualidade de seu trabalho."
 
