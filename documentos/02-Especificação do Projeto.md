@@ -5,7 +5,7 @@
 <table>
 <tbody>
 <tr align=center>
-<th colspan="2">Perfil Usuário </th>
+<th colspan="2">Perfil cliente </th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
