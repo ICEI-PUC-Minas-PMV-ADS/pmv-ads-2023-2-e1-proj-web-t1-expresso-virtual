@@ -25,10 +25,11 @@ A estrutura das telas do sistema é consistentemente representada na figura 4. D
 <li>Rodapé: Aqui, são exibidas informações relacionadas aos direitos autorais, mapa de navegação e informações complementares.</li>
 </ul>
 </p>
-![prototipo2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/144382841/65aa419e-7947-44c6-b69f-a932899a4f3d)
+
 
 
 ![271787763-65aa419e-7947-44c6-b69f-a932899a4f3d](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/141934958/e2d29a0f-ee98-44c6-bf51-6526ea9b8830)
+
 
 Figura 4 - Estrutura padrão do site
 <hr>
