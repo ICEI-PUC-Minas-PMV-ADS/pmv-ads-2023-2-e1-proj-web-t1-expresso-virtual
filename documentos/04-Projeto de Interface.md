@@ -30,6 +30,8 @@ A estrutura das telas do sistema é consistentemente representada na figura 4. D
 Figura 4 - Estrutura padrão do site
 <hr>
 
+![271787763-65aa419e-7947-44c6-b69f-a932899a4f3d](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/141934958/e2d29a0f-ee98-44c6-bf51-6526ea9b8830)
+
 
 <h3>Tela - Home page</h3>
 <p  align="justify">A página inicial apresenta banners que direcionam para diversas seções do site, como a página principal, o menu, informações sobre nós, blogs, opções de login e registro. Além disso, nesta página, você também encontrará uma seleção de produtos em destaque. </p>
