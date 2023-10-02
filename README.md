@@ -6,7 +6,7 @@ Expresso Virtual
 
 `1 SEMESTRE`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
+O problema que este projeto visa abordar é a falta de uma via moderna para atingir novos usuários. Sendo a Rocket Coffee uma cafeteria recém inaugurada e com baixo faturamento, manter um método limitado de comercialização e atendimento ao cliente, pode se tornar danoso financeiramente ao decorrer do tempo, gerando baixa capital e dificultando um fluxo financeiro saudável.
 
 ## Integrantes
 
