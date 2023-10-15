@@ -48,37 +48,41 @@ a {
   background-color: #f1aa36;
 }
 
-
 section {
   height: 100vh;
-  width: 100%;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 20px 0px 20px 0px;
 }
 
-.cart {
-  width: 80%;
+.info-container {
+  height: 390px;
   display: flex;
+  flex-direction: column;
+  background-color: #ed9812;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
 }
 
-.cart-container {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border: 3px solid #181c26;
-  border-left: none;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  padding: 20px;
+.info-text {
+  width: 60%;
+  margin-top: 20px;
 }
 
-.cart-info {
-  flex: 1; 
-  text-align: center;
-  align-items: center;
+.info-button {
+  border: none;
+  border-radius: 5px;
+  width: 15%;
+  height: 10%;
+  margin-top: 20px;
+  background-color: #593f30;
+  color: #ed9812;
+}
+
+.info-button:active {
+    transform: translateY(2px);
 }
 
 footer {
