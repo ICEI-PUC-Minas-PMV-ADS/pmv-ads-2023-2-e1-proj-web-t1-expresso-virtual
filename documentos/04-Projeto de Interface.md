@@ -3,10 +3,11 @@
 ## User Flow
 
 
-<p align="justify">A figura 3 exibe o fluxo de interação do usuário através das telas do sistema. Na próxima seção, detalharemos cada uma dessas telas no contexto de um protótipo de alta fidelidade. Para experimentar o protótipo utilizado, acesse o <a href="https://www.figma.com/proto/uW45RJRL3iWaQkEHZryKxE/RocketcoffeeUserFlow?type=design&node-id=201-420&t=fMnkMLfsRoPKX9nr-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=201%3A420"> <ins>Protótipo do projeto</ins></a>
+<p align="justify">A figura 3 exibe o fluxo de interação do usuário através das telas do sistema. Na próxima seção, detalharemos cada uma dessas telas no contexto de um protótipo de alta fidelidade. Para experimentar, acesse o <a href="https://www.figma.com/proto/uW45RJRL3iWaQkEHZryKxE/RocketcoffeeUserFlow?type=design&node-id=201-420&t=fMnkMLfsRoPKX9nr-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=201%3A420"> <ins>Protótipo do projeto</ins></a>
 </p>
 
-![prototipofinall](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/144382841/a5b02504-62dc-4bdf-9f1b-b9deb2e931ef)
+
+![prototipofinalcorrecao](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/144382841/7743223c-4f0c-40ec-8268-f22b7f1a63ee)
 
 
 
@@ -115,7 +116,7 @@ Figura 13 - Tela Contato
 
 
 <h3>Tela - Pedidos</h3>
-<p> A tela de pedidos é utilizada somente pelo adminstrador, onde o mesmo irá fazer a organização dos pedidos dos clientes</p>
+<p  align="justify">A tela de pedidos é utilizada somente pelo administrador, após o login específico, onde o mesmo irá administrar os pedidos dos clientes. </p>
 
  ![telapedidos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/144382841/65862818-c653-49ae-89c5-2e2f2f22e7ec)
 
@@ -124,5 +125,21 @@ Figura 13 - Tela Contato
 
 
 
+<h3>Tela - Adicionar Produtos</h3>
+<p  align="justify">Tela na qual o adminstrador irá montar o cardápio, adicionando e removendo produtos sempre que necessário. </p>
+
+![addprodutos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/144382841/6ffd4a4d-2fdb-49f3-bfa7-03ea4b70b5ca)
+
+Figura 15 - Tela Adicionar Produtos
+<hr>
+
+
+<h3>Tela - Meus Pedidos</h3>
+<p align="justify">Após o login do usuário é possível acessar essa tela,  onde mostra todas as compras feitas pelo cliente, em que o mesmo terá acesso ao histórico de pedidos. </p>
+
+![telameuspedidos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/144382841/9cc3d86f-94ee-46a7-94c0-b5e24bfbe78a)
+
+Figura 16 - Tela Meus Pedidos
+<hr>
 
 
