@@ -1,0 +1,35 @@
+*{
+    font-family: 'Roboto',sans-serif;
+}
+
+h1 {
+font-weight: 900;
+font-size: 48px;
+}
+
+h2 {
+    padding: 45px;
+    font-weight: 700;
+    font-size: 36px;
+}
+h3 {
+    font-weight: 700;
+    font-size: 28px;
+}
+
+p, a {
+font-size: 1em;/*16px*/
+color: black;
+}
+.footer p{
+    color:white;
+}
+
+nav a, .button-container  {
+    color: #ed9812;
+    text-decoration: none;
+    font-weight: 100;
+  }
+  .button-container{
+    color: #593f30;
+  }

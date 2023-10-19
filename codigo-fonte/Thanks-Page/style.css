@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+
+header {
+    background-color: #181C27;
+    position: fixed;
+    float: left;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99; /* PARA DAR PRIORIDADE E NENHUM ELEMENTO FICAR POR CIMA */
+    
+}
+
+.btnlogin-popup, .btncarrinho-popup {
+    background: #EE9712;
+    color: #875C27;
+    border-radius: 20px;
+    height: 40px;
+    width: 90px;
+    margin-left: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.navgation a {
+        color: #EE9712;
+        text-decoration: none;
+        padding: 50px;
+}
+
+
+body{
+    background-color: #181C27;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0;
+}
+
+.img-thanks{
+
+    margin-top: 100%;
+}
+
+.text-thanks{
+    color: #EE9712;
+    font-size: 50px;
+    font-family: rowdies;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.rodape{
+    background-color: #181c26;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #ffffff;
+    text-align: center;
+    height: 50px; /* Ajuste a altura conforme necessário */
+    width: 100%;
+    position: fixed;
+    bottom: 0; 
+    
+    
+  }
+
+
+  .container {
+    display: relative;
+    text-align: center;
+    position: relative;
+
+}
