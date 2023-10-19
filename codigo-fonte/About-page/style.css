@@ -1,0 +1,91 @@
+/*
+Marrom links: #593f30
+Cor de fundo: rgb(237, 228, 218);
+Cor dos botões: #ed9812
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: #181c26;
+  }
+  
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  
+  .navigator {
+    width: 40%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+  }
+  
+  .button-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+  }
+  
+  .header-button {
+    background-color: #ed9812;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 10px;
+  }
+  
+  
+  /* TITULO SOBRE NÓS */
+  
+  /* SOBRE NÓS */
+  .sobre-nos {
+    background-color: rgb(237, 228, 218);
+    /*Socorro medida provisória*/
+    min-height: calc(100vh - 113px);
+  }
+  
+  .container {
+    margin: 0 auto;
+    /* Isso centralizará o container horizontalmente */
+    text-align: center;
+    /* Isso centralizará o texto dentro do container */
+    max-width: 1024px;
+  
+  }
+  
+  .img-sobre-nos {
+    display: block;
+    margin: auto;
+    width: 947px;
+    max-width: 90vw;
+  }
+  
+  .info-text {
+    margin: 50px auto 0;
+    padding: 0 0 50px 0;
+    line-height: 1.5em;
+    text-align: justify;
+    width: 947px;
+    max-width: 90vw;
+  }
+  
+  footer {
+    background-color: #181c26;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: space-around;
+    padding: 20px;
+  }
