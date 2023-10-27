@@ -17,7 +17,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 99; /* PARA DAR PRIORIDADE E NENHUM ELEMENTO FICAR POR CIMA */
+    z-index: 99; 
     
 }
 
@@ -72,7 +72,7 @@ body{
     justify-content: space-around;
     color: #ffffff;
     text-align: center;
-    height: 50px; /* Ajuste a altura conforme necessário */
+    height: 50px;
     width: 100%;
     position: fixed;
     bottom: 0; 
