@@ -78,7 +78,6 @@ section {
   }
   .info-button {
     margin-top: 0;
-    height: 10px;
   }
 }
 
@@ -94,7 +93,7 @@ section {
   border-radius: 5px;
   background-color: #593f30;
   color: #ed9812;
-  margin-top: 50px;
+  margin-top: 5%;
 }
 
 .info-button:active {
