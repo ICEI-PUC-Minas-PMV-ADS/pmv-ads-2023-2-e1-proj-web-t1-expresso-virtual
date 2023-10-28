@@ -11,7 +11,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px;
+  padding: 0 20px;
 }
 
 .navigator {
@@ -22,13 +22,7 @@ nav {
   list-style-type: none;
 }
 
-a {
-  color: #ed9812;
-  text-decoration: none;
-}
-
 .button-container {
-  width: 10%;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -36,10 +30,11 @@ a {
 
 .header-button {
   background-color: #ed9812;
-  color: white;
   border: none;
   padding: 10px 20px;
+  margin: 10px;
   border-radius: 20px;
+  cursor: pointer;
 }
 
 .header-button:active {
@@ -47,19 +42,29 @@ a {
   background-color: #f1aa36;
 }
 
+.header-button:active {
+  transform: translateY(2px);
+  background-color: #f1aa36;
+}
 
 section {
-  height: 100vh;
-  width: 100%;
+  min-height: calc(100vh - 211px);
+  text-align: center;
+  background-color: #ebded5;
+}
+
+.container {
   display: flex;
   flex-direction: column;
+  width: 100%;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .cart {
   width: 80%;
   display: flex;
+  margin-bottom: 20px;
 }
 
 .cart-container {
@@ -75,9 +80,62 @@ section {
 }
 
 .cart-info {
-  flex: 1; 
+  flex: 1;
   text-align: center;
   align-items: center;
+}
+
+.cart-footer {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 20px;
+}
+
+.cart-container-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding-right: 190px;
+}
+
+.cart-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 40px;
+  width: 10%;
+  background-color: #181c26;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.cart-price-title {
+  color: white;
+  font-weight: 700;
+}
+
+.cart-price-text {
+  color: white;
+  font-weight: 700;
+}
+
+.cart-button{
+  height: 40px;
+  width: 10%;
+  background-color: #181c26;
+  color: #ed9812;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+.cart-button:active {
+  transform: translateY(2px);
+  background-color: #f1aa36;
+}
+
+.cart-button:active {
+  transform: translateY(2px);
+  background-color: #2f3647;
 }
 
 footer {
