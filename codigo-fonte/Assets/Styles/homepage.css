@@ -58,8 +58,9 @@ section {
 }
 
 .img-home {
+  display: block;
   width: 50%;
-  height: 100%;
+  
   /* width: 550px;
   height: 500px; */
 }
