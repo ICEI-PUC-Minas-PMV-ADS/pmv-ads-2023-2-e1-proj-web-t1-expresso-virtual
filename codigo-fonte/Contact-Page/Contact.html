@@ -7,26 +7,43 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Assets/Styles/header.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../Assets/tipografia.css">
     <title>Document</title>
 </head>
 
 <body>
+    
+    
     <header>
         <nav>
-            <img width="130" src="img/spacecoffee222 1.png" alt="Logo Rocket Coffee" />
-            <div class="navigator">
-                <a href="../Home-Page/home.html">Home</a>
-                <a href="#">Cardápio</a>
-                <a href="../About-page/index.html">Sobre</a>
-                <a href="../Contact-Page/Contact.html">Contato</a>
+          <div class="container">
+            <div class="nav-container">
+              
+              <div class="container-button-responsivo">
+                <img src="../Assets/image/spacecoffee222 1.png" alt="Logo Rocket Coffee" />
+                <button type="button" id="btn-menu-responsivo" class="btn-menu-responsivo">⚙️</button>
+              </div>
+              
+              <div id="navigator" class="navigator navigator--is-hidden">
+                <button type="button" id="btn-close-menu" class="btn-close btn-close--is-hidden">x</button>
+                <div class="link-container">
+                  <a class="nav-link" href="../Home-Page/home.html">Home</a>
+                  <a class="nav-link" href="#">Cardápio</a>
+                  <a class="nav-link" href="../About-page/index.html">Sobre</a>
+                  <a class="nav-link" href="../Contact-Page/Contact.html">Contato</a>
+                </div>
+                <div class="button-container">
+                  <button class="header-button">Login</button>
+                  <button class="header-button" onclick="window.location.href='../Cart-Page/cart.html';">
+                    Carrinho
+                  </button>
+                </div>
+              </div>
             </div>
-            <div class="button-container">
-                <button class="header-button">Login</button>
-                <button class="header-button" onclick="window.location.href='../Cart-Page/cart.html';">Carrinho</button>
-            </div>
-        </nav>
-    </header>
+          </div>
+        </header>
 
 
 
@@ -65,6 +82,8 @@
     <footer>
         <p><strong>ROCKET COFFEE</strong> | 2023 | Todos os direitos reservados</p>
     </footer>
+
+    <script src="../Assets/scripts/menu-responsivo.js"></script>
 </body>
 
 </html>

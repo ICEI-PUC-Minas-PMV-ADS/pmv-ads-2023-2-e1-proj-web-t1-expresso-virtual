@@ -33,3 +33,9 @@ nav a, .button-container  {
   .button-container{
     color: #593f30;
   }
+
+  @media (max-width:900px) {
+    h2 {
+        padding: 45px 0;
+    }
+  }

@@ -1,49 +1,17 @@
 * {
-    
     margin: 0;
     padding: 0;
     font-family: "Roboto", sans-serif;
 }
 
-
-
-
-
-
-body{
+body {
     background-color: #EBDED5;
-    
+
 }
 
 
-header{
-    width: 100%;
-    background-color:#181c26;
-}
-
-
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-
-.navigator { 
-    display: flex;
-    width: 40%;
-    justify-content: space-around;
-}
-
-
-a {
-    text-decoration: none;
-    color: #EC9812;
-}
-
-
-.header-button{
-    background-color:#EC9812;
+.header-button {
+    background-color: #EC9812;
     margin: 30px;
     height: 40px;
     width: 100px;
@@ -54,8 +22,7 @@ a {
     font-size: 1em;
 }
 
-
-article{
+article {
     display: grid;
     text-align: center;
     align-items: center;
@@ -64,22 +31,20 @@ article{
     font-size: 23px;
     margin-top: -150px;
     width: 90%;
-    margin-bottom: -30px ;
-    grid-template-columns: 1fr 1fr; 
+    margin-bottom: -30px;
+    grid-template-columns: 1fr 1fr;
 }
 
 .elemento1 {
-    display: flex;  
+    display: flex;
     grid-area: elemento2;
 }
-
 
 .elemento2 {
     grid-area: elemento2;
     padding-left: 150px;
     padding-top: 100px;
 }
-
 
 h2 {
     font-family: rowdies;
@@ -88,14 +53,14 @@ h2 {
 div.main {
     align-items: center;
     text-align: center;
-    width:400px;
+    width: 400px;
     height: 315px;
     border-radius: 20px 0 0 20px;
     background-color: #EC9812;
     box-shadow: rgba(0, 0, 0, 0.733) 0px 3px 3px;
 }
 
-.img{
+.img {
     padding-top: 30px;
 }
 
@@ -117,7 +82,7 @@ h3 {
     font-weight: 900;
 }
 
-address{
+address {
     margin-top: 30px;
     font-weight: 900;
 }
@@ -125,7 +90,7 @@ address{
 
 .logo {
     border-radius: 50px;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 
@@ -143,14 +108,14 @@ address{
 
 input::placeholder {
     position: absolute;
-    top:0;
+    top: 0;
     padding: 5px;
     color: #5F6C8C;
-  }
+}
 
-textarea::placeholder{
+textarea::placeholder {
     color: #5F6C8C;
-}  
+}
 
 #input_nome {
     margin-right: 5%;
@@ -172,7 +137,7 @@ textarea::placeholder{
     border: none;
     background-color: #D9D9D9;
     font-family: rowdies;
- 
+
 }
 
 
@@ -198,5 +163,5 @@ footer {
     width: 100%;
     height: 40px;
     background-color: #181C26;
-    color:#ffffff;
+    color: #ffffff;
 }
