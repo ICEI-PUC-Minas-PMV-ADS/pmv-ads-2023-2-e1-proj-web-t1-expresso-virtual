@@ -3,10 +3,6 @@
   padding: 0;
 }
 
-header {
-  background-color: #181c26;
-}
-
 section {
   min-height: calc(100vh - 211px);
   text-align: center;

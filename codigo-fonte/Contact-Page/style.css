@@ -10,18 +10,6 @@ body {
 }
 
 
-.header-button {
-    background-color: #EC9812;
-    margin: 30px;
-    height: 40px;
-    width: 100px;
-    border-radius: 50px;
-    color: #2e1c06;
-    border: none;
-    cursor: pointer;
-    font-size: 1em;
-}
-
 article {
     display: grid;
     text-align: center;
