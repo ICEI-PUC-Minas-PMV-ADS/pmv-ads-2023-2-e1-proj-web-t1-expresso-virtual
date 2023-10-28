@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Rocket Coffee</title>
   <link rel="stylesheet" href="../Assets/Styles/header.css">
+  <link rel="stylesheet" href="../Assets/Styles/janela-login.css">
   <link rel="stylesheet" href="../Assets/Styles/homepage.css" />
   <link rel="stylesheet" href="../Assets/tipografia.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" />
@@ -16,12 +17,12 @@
     <nav>
       <div class="container">
         <div class="nav-container">
-          
+
           <div class="container-button-responsivo">
             <img src="../Assets/image/spacecoffee222 1.png" alt="Logo Rocket Coffee" />
             <button type="button" id="btn-menu-responsivo" class="btn-menu-responsivo">⚙️</button>
           </div>
-          
+
           <div id="navigator" class="navigator navigator--is-hidden">
             <button type="button" id="btn-close-menu" class="btn-close btn-close--is-hidden">x</button>
             <div class="link-container">
@@ -31,7 +32,7 @@
               <a class="nav-link" href="../Contact-Page/Contact.html">Contato</a>
             </div>
             <div class="button-container">
-              <button class="header-button">Login</button>
+              <button id="btn-link-login" class="header-button">Login</button>
               <button class="header-button" onclick="window.location.href='../Cart-Page/cart.html';">
                 Carrinho
               </button>
@@ -39,17 +40,18 @@
           </div>
         </div>
       </div>
-    </header>
-    
-    <section>
-      <div class="container">
-        <div class="hero">
-          <img class="img-home" src="imgs/pexels-photo-4422875 1.png" alt="Produto da cafeteria" />
-          
-          <div class="info-container">
-            <h2>Café Expresso</h2>
-            <p class="info-text">
-              Sinta a energia e a sofisticação de um autêntico café expresso.
+  </header>
+
+
+  <section>
+    <div class="container">
+      <div class="hero">
+        <img class="img-home" src="imgs/pexels-photo-4422875 1.png" alt="Produto da cafeteria" />
+
+        <div class="info-container">
+          <h2>Café Expresso</h2>
+          <p class="info-text">
+            Sinta a energia e a sofisticação de um autêntico café expresso.
             Desfrute do seu momento especial a qualquer hora do dia. Faça sua
             escolha hoje e permita que nossos grãos excepcionais levem você a
             uma jornada de sabor inigualável. Experimente nosso café Premium e
@@ -65,6 +67,9 @@
     <p>ROCKET COFFEE | 2023 | Todos os direitos reservados</p>
   </footer>
   <script src="../Assets/scripts/menu-responsivo.js"></script>
+  <script src="../Assets/scripts/janela-login.js"></script>
+  <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+  <script src=""></script>
 </body>
 
 </html>
