@@ -10,43 +10,7 @@ Cor dos botões: #ed9812
     box-sizing: border-box;
   }
   
-  header {
-    background-color: #181c26;
-  }
-  
-  
-  nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
-  }
-  
-  .navigator {
-    width: 40%;
-  
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    list-style-type: none;
-  }
-  
-  .button-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  
-  }
-  
-  .header-button {
-    background-color: #ed9812;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 20px;
-    margin: 10px;
-  }
-  
-  
+
   /* TITULO SOBRE NÓS */
   
   /* SOBRE NÓS */
