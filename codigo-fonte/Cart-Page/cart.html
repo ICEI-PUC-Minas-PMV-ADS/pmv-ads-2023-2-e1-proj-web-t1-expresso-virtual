@@ -1,119 +1,106 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rocket Coffee</title>
-    <link rel="stylesheet" href="../Assets/Styles/header.css">
-    <link rel="stylesheet" href="../Assets/Styles/cart-page.css" />
-    <link rel="stylesheet" href="../Assets/tipografia.css" />
 
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"
-    />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rocket Coffee</title>
+  <link rel="stylesheet" href="../Assets/Styles/header.css">
+  <link rel="stylesheet" href="../Assets/Styles/cart-page.css" />
+  <link rel="stylesheet" href="../Assets/tipografia.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" />
+</head>
 
-  <body>
-    <header>
-      <nav>
-        <div class="container">
-          <div class="nav-container">
-            
-            <div class="container-button-responsivo">
-              <img src="../Assets/image/spacecoffee222 1.png" alt="Logo Rocket Coffee" />
-              <button type="button" id="btn-menu-responsivo" class="btn-menu-responsivo">⚙️</button>
-            </div>
-            
-            <div id="navigator" class="navigator navigator--is-hidden">
-              <button type="button" id="btn-close-menu" class="btn-close btn-close--is-hidden">x</button>
-              <div class="link-container">
-                <a class="nav-link" href="../Home-Page/home.html">Home</a>
-                <a class="nav-link" href="#">Cardápio</a>
-                <a class="nav-link" href="../About-page/index.html">Sobre</a>
-                <a class="nav-link" href="../Contact-Page/Contact.html">Contato</a>
-              </div>
-              <div class="button-container">
-                <button class="header-button">Login</button>
-                <button class="header-button" onclick="window.location.href='../Cart-Page/cart.html';">
-                  Carrinho
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
-
-    <section id="section-cart">
-      <h2>Carrinho</h2>
+<body>
+  <header>
+    <nav>
       <div class="container">
-        <div class="cart">
-          <img class="cart-img" src="https://picsum.photos/300/300" />
-          <div class="cart-container">
-            <div class="cart-info">
-              <p>Produto</p>
-              <p>Café expresso</p>
-            </div>
-            <div class="cart-info">
-              <p>Quantidade</p>
-              <button>+</button><button>-</button>
-            </div>
-            <div class="cart-info">
-              <p>Valor</p>
-              <p>R$ 9,90</p>
-            </div>
+        <div class="nav-container">
+          <div class="container-button-responsivo">
+            <img src="../Assets/image/spacecoffee222 1.png" alt="Logo Rocket Coffee" />
+            <button type="button" id="btn-menu-responsivo" class="btn-menu-responsivo">⚙️</button>
           </div>
-        </div>
-        <div class="cart">
-          <img class="cart-img" src="https://picsum.photos/300/300" />
-          <div class="cart-container">
-            <div class="cart-info">
-              <p>Produto</p>
-              <p>Café expresso</p>
+          <div id="navigator" class="navigator navigator--is-hidden">
+            <button type="button" id="btn-close-menu" class="btn-close btn-close--is-hidden">x</button>
+            <div class="link-container">
+              <a class="nav-link" href="../Home-Page/home.html">Home</a>
+              <a class="nav-link" href="#">Cardápio</a>
+              <a class="nav-link" href="../About-page/index.html">Sobre</a>
+              <a class="nav-link" href="../Contact-Page/Contact.html">Contato</a>
             </div>
-            <div class="cart-info">
-              <p>Quantidade</p>
-              <button>+</button><button>-</button>
-            </div>
-            <div class="cart-info">
-              <p>Valor</p>
-              <p>R$ 9,90</p>
-            </div>
-          </div>
-        </div>
-        <div class="cart">
-          <img class="cart-img" src="https://picsum.photos/300/300" />
-          <div class="cart-container">
-            <div class="cart-info">
-              <p>Produto</p>
-              <p>Café expresso</p>
-            </div>
-            <div class="cart-info">
-              <p>Quantidade</p>
-              <button>+</button><button>-</button>
-            </div>
-            <div class="cart-info">
-              <p>Valor</p>
-              <p>R$ 9,90</p>
+            <div class="button-container">
+              <button class="header-button">Login</button>
+              <button class="header-button" onclick="window.location.href='../Cart-Page/cart.html';">
+                Carrinho
+              </button>
             </div>
           </div>
         </div>
       </div>
+  </header>
 
-      <div class="cart-footer">
-        <div class="cart-container-footer">
-          <div class="cart-price">
-            <p class="cart-price-title">Total</p>
-            <p class="cart-price-text">R$19,80</p>
+  <section id="section-cart">
+    <h2>CARRINHO</h2>
+    <div class="container">
+      <div class="cart">
+        <img class="cart-img" src="./imgs/cafe-expresso.jpg" />
+        <div class="cart-container">
+          <div class="cart-info">
+            <p>Produto</p>
+            <p>Café expresso</p>
           </div>
-          <button class="cart-button">FINALIZAR COMPRA</button>
+          <div class="cart-info">
+            <p>Quantidade</p>
+            <div class="cart-info-button">
+              <img src="./imgs/seta-para-cima.png" />
+              <p>1</p>
+              <img src="./imgs/seta-para-baixo.png" />
+            </div>
+          </div>
+          <div class="cart-info">
+            <p>Valor</p>
+            <p>R$ 9,90</p>
+          </div>
         </div>
       </div>
-    </section>
+      <div class="cart">
+        <img class="cart-img" src="./imgs/croissant.jpg" />
+        <div class="cart-container">
+          <div class="cart-info">
+            <p>Produto</p>
+            <p>Croissant</p>
+          </div>
+          <div class="cart-info">
+            <p>Quantidade</p>
+            <div class="cart-info-button">
+              <img class="cart-info-button-img" src="./imgs/seta-para-cima.png" />
+              <p>1</p>
+              <img class="cart-info-button-img" src="./imgs/seta-para-baixo.png" />
+            </div>
+          </div>
+          <div class="cart-info">
+            <p>Valor</p>
+            <p>R$ 9,90</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <footer class="footer">
-      <p>ROCKET COFFEE | 2023 | Todos os direitos reservados</p>
-    </footer>
-    <script src="../Assets/scripts/menu-responsivo.js">
-  </body>
+    <div class="cart-footer">
+      <div class="cart-container-footer">
+        <div class="cart-price">
+          <p class="cart-price-title">Total</p>
+          <p class="cart-price-text">R$19,80</p>
+        </div>
+        <button class="cart-button">FINALIZAR COMPRA</button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>ROCKET COFFEE | 2023 | Todos os direitos reservados</p>
+  </footer>
+  <script src="../Assets/scripts/menu-responsivo.js" />
+</body>
+
 </html>
