@@ -13,14 +13,14 @@ As páginas terão como elementos padrões o menu de navegação, o header e o f
 O código utilizado para a construção dos elementos citados, incluindo a responsividade, pode ser consultado <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/tree/main/codigo-fonte">aqui</a>. As imagens e ícones utilizados no projeto estão disponíveis <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/tree/main/documentos/img">aqui</a>.
 
 <p>Para a criação do logotipo do site foi utilizada a cor amarela e azul, pois estas cores juntas remetem a XXXXXXXXXXX </p>
-
+<hr>
 <h3><b>Home Page</b></h3>
 <p>Exibe informações sobre itens do cardápio, botões de login, e acesso ao cardápio, contato e sobre nós.</p>
 <figure> 
   <img src="IMAGEM HOME PAGE">
   <figcaption> Figura 1 - Tela de Homepage
 </figure> 
-
+<hr>
 <h3><b>Página Sobre Nós</b></h3>
 <p>Exibe informações sobre a cafeteria e sua história .</p>
 <figure> 
@@ -28,7 +28,6 @@ O código utilizado para a construção dos elementos citados, incluindo a respo
   <figcaption>Figura 2 - Tela de Sobre Nós    
 </figure> 
 <hr>
-  
 
 <figure> 
   <img src="IMAGEM FALE CONOSCO">
