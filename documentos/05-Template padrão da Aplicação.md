@@ -5,7 +5,7 @@ O layout padrão do site foi construído com as linguagens de marcação HTML e 
 As páginas terão como elementos padrões o menu de navegação, o header e o footer, além dos elementos de identidade visual citados abaixo:
 
 <ul>
-<li>Cores: RGB: #3E497A, whitesmoke, goldenrod e white;</li>
+<li>Cores: black; white; #ed9812;#593f30; </li>
 <li>Font-family: Roboto,sans-serif.</li>
 <li>Font-size: 48px. </li>
 </ul>
