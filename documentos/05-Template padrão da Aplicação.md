@@ -24,7 +24,7 @@ O código utilizado para a construção dos elementos citados, incluindo a respo
 <h3><b>Página Sobre Nós</b></h3>
 <p>Exibe informações sobre a cafeteria e sua história .</p>
 <figure> 
-  <img src="img/Sobre nos.png.png">
+  <img src="img/SobreNos.png.png">
   <figcaption>Figura 2 - Tela de Sobre Nós    
 </figure> 
 <hr>
