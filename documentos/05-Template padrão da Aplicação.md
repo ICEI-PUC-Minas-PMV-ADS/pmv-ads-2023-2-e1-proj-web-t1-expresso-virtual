@@ -12,7 +12,7 @@ As páginas terão como elementos padrões o menu de navegação, o header e o f
   
 O código utilizado para a construção dos elementos citados, incluindo a responsividade, pode ser consultado <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/tree/main/codigo-fonte">aqui</a>. As imagens e ícones utilizados no projeto estão disponíveis <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/tree/main/documentos/img">aqui</a>.
 
-<p>Para a criação do logotipo do site foi utilizada a cor amarela e azul, pois estas cores juntas remetem a O azul passa confiança, Esta cor foi comprovada como a cor da inteligência, da comunicação e da confiança. É também a cor mais associada à comunicação. O amarelo é uma cor da paleta quente, e remete a algo sereno, alegre e, como não poderia deixar de ser, quente. Essa tonalidade é a que percebemos de forma mais rápida, em especial, na visão periférica.  </p>
+<p>Para a criação do logotipo do site foi utilizada a cor amarela e azul. A cor azul foi comprovada como a cor da inteligência, da comunicação e da confiança. É também a cor mais associada à comunicação. O amarelo é uma cor da paleta quente e remete a algo sereno, alegre. Essa tonalidade é a que percebemos de forma mais rápida, em especial, na visão periférica.  </p>
 <hr>
 <h3><b>Home Page</b></h3>
 <p>Exibe informações sobre itens do cardápio, botões de login, e acesso ao cardápio, contato e sobre nós.</p>
