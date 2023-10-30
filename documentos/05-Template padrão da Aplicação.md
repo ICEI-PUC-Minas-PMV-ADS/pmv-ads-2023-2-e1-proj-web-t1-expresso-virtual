@@ -30,7 +30,7 @@ O código utilizado para a construção dos elementos citados, incluindo a respo
 <hr>
 
 <figure> 
-  <img src="img/faleConosco.png">
+  <img src="img/FaleConosco.JPG">
     <figcaption>Figura 3 - Tela Fale Conosco
 </figure> 
 <hr>

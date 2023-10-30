@@ -33,7 +33,7 @@ h3 {
 .block-master {
     display: flex;
     justify-content: center;
-    box-shadow: rgba(114, 114, 114, 0.733) 0px 3px 3px;
+
     border-radius: 20px;
     margin: auto;
 }
@@ -44,6 +44,7 @@ section.main {
     height: 315px;
     border-radius: 20px 0 0 20px;
     background-color: #EC9812;
+    box-shadow: rgba(114, 114, 114, 0.733) 0px 3px 3px;
 }
 
 
@@ -168,7 +169,6 @@ strong {
         text-align: center;
         width: 100%;
         padding: 10px 0;
-        border-radius: 0;
-        /* border-radius: 20px 0 0 20px; */
+        border-radius: 20px 20px 0 0;
 }
 }
