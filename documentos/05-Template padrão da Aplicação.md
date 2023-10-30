@@ -12,7 +12,13 @@ As páginas terão como elementos padrões o menu de navegação, o header e o f
   
 O código utilizado para a construção dos elementos citados, incluindo a responsividade, pode ser consultado <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/tree/main/codigo-fonte">aqui</a>. As imagens e ícones utilizados no projeto estão disponíveis <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/tree/main/documentos/img">aqui</a>.
 
-<p>Para a criação do logotipo do site foi utilizada a cor amarela e azul. A cor azul foi comprovada como a cor da inteligência, da comunicação e da confiança. É também a cor mais associada à comunicação. O amarelo é uma cor da paleta quente e remete a algo sereno, alegre. Essa tonalidade é a que percebemos de forma mais rápida, em especial, na visão periférica.  </p>
+<p>O logotipo do site foi cuidadosamente criado com uma combinação de cores que transmitem significados específicos. A escolha das cores amarela e azul foi intencional, pois cada uma delas carrega uma mensagem distintamente positiva.
+
+O azul foi escolhido por sua associação com a confiança, inteligência e comunicação. Estudos têm comprovado que o azul é considerado a cor da inteligência e está fortemente ligado à confiança. Além disso, é a cor mais relacionada com a comunicação, transmitindo uma sensação de confiabilidade e credibilidade.
+
+Já o amarelo, como parte da paleta quente, transmite serenidade, alegria e calor. É uma cor vibrante que naturalmente atrai atenção, sendo percebida de forma rápida, especialmente na visão periférica. Sua tonalidade brilhante e alegre complementa a mensagem do logotipo, trazendo uma sensação acolhedora e otimista.
+
+Assim, a combinação de azul e amarelo no logotipo do site foi estrategicamente planejada para transmitir confiança, inteligência, alegria e calor, oferecendo uma primeira impressão visual marcante e acolhedora aos visitantes. </p>
 <hr>
 <h3><b>Home Page</b></h3>
 <p>Exibe informações sobre itens do cardápio, botões de login, e acesso ao cardápio, contato e sobre nós.</p>
