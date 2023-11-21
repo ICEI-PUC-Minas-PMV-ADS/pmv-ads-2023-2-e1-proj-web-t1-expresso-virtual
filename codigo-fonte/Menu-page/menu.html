@@ -1,101 +1,81 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Assets/Styles/menu.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Assets/Styles/menu.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Cardápio</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav>
-            <div class="container">
-                <div class="nav-container">
-
-                    <div class="container-button-responsivo">
-                        <img src="img/spacecoffee222 1.png" alt="Logo Rocket Coffee" />
-                        <button type="button" id="btn-menu-responsivo" class="btn-menu-responsivo">⚙️</button>
-                    </div>
-
-                    <div id="navigator" class="navigator navigator--is-hidden">
-                        <button type="button" id="btn-close-menu" class="btn-close btn-close--is-hidden">x</button>
-                        <div class="link-container">
-                            <a class="nav-link" href="../Home-Page/home.html">Home</a>
-                            <a class="nav-link" href="#">Cardápio</a>
-                            <a class="nav-link" href="../About-page/index.html">Sobre</a>
-                            <a class="nav-link" href="../Contact-Page/Contact.html">Contato</a>
-                        </div>
-                        <div class="button-container">
-                            <button class="header-button">Login</button>
-                            <button class="header-button"
-                                onclick="window.location.href='../Cart-Page/cart.html';">Carrinho</button>
-                        </div>
-                    </div>
-                </div>
+      <nav>
+        <div class="container">
+          <div class="nav-container">
+            <div class="container-button-responsivo">
+              <img src="img/spacecoffee222 1.png" alt="Logo Rocket Coffee" />
+              <button
+                type="button"
+                id="btn-menu-responsivo"
+                class="btn-menu-responsivo"
+              >
+                ⚙️
+              </button>
             </div>
-        </nav>
+
+            <div id="navigator" class="navigator navigator--is-hidden">
+              <button
+                type="button"
+                id="btn-close-menu"
+                class="btn-close btn-close--is-hidden"
+              >
+                x
+              </button>
+              <div class="link-container">
+                <a class="nav-link" href="../Home-Page/home.html">Home</a>
+                <a class="nav-link" href="#">Cardápio</a>
+                <a class="nav-link" href="../About-page/index.html">Sobre</a>
+                <a class="nav-link" href="../Contact-Page/Contact.html"
+                  >Contato</a
+                >
+              </div>
+              <div class="button-container">
+                <button class="header-button">Login</button>
+                <button
+                  class="header-button"
+                  onclick="window.location.href='../Cart-Page/cart.html';"
+                >
+                  Carrinho
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
     </header>
 
-
-
-    
     <article>
-        <h2 class="elemento1">CARDÁPIO</h2>
+      <h2 class="elemento1">CARDÁPIO</h2>
     </article>
-    
-    
-    
+
     <main>
-        <section>
-            <div class="container-card">
-                <div class="cafe1">
-                    <img class="img-cafe" width="520px" src="img/destaque 1.png" alt="">
-                    <div class="cafeA">
-                        <h2>Café A</h2>
-                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, optio. Ab magni magnam voluptatem! Nisi sequi non distinctio excepturi? Autem.</p>
-                    </div>
-                    <div class="btn">
-                        <button class="add">ADICIONAR AO CARRINHO <img width="40px" class="img-cart"
-                                src="img/shopping-cart-add-button_icon-icons 1.png" alt="">
-                        </button>
-
-                        <br>
-                        <button class="buy">COMPRAR</button>
-                    </div>
-                </div>
-                <div class="cafe2">
-                    <img class="img-cafe" width="520px" src="img/destaque 1.png" alt="">
-                    <div class="cafeA">
-                        <h2>Café B</h2>
-                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, optio. Ab magni magnam voluptatem! Nisi sequi non distinctio excepturi? Autem.</p>
-                    </div>
-                    <div class="btn">
-                        <button class="add">ADICIONAR AO CARRINHO <img width="40px" class="img-add"
-                                src="img/shopping-cart-add-button_icon-icons 1.png" alt="">
-                        </button>
-
-                        <br>
-
-                        <button class="buy">COMPRAR</button>
-                    </div>
-                </div>
-            </div>
-        </section>
+      <section>
+        <div class="container-card" id="products-list">
+        </div>
+      </section>
     </main>
-
-
-
-
-
     <footer>
-        <p><strong>ROCKET COFFEE</strong> | 2023 | Todos os direitos reservados</p>
+      <p>
+        <strong>ROCKET COFFEE</strong> | 2023 | Todos os direitos reservados
+      </p>
     </footer>
-</body>
-
+    <script src="./products.js"></script>
+  </body>
 </html>
