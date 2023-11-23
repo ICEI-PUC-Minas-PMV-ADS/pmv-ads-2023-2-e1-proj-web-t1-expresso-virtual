@@ -1,130 +1,75 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
-body {
-    position: relative;
-}
-
-.container {
-    margin: auto;
-    max-width: 1024px;
-}
-
-.formulario {
-    position: absolute;
-    top: 0;
-    left: 0;
+#login {
+    position: fixed;
+    display: flex;
+    align-items: center;
     width: 100vw;
+    max-width: 100vw;
     height: 100vh;
-    background-color: none;
-    transition: all 0.5s ease-out;
-}
+    max-height: 100vh;
+    background-color: rgba(0, 0, 0, .2);
+    backdrop-filter: blur(5px);
+    box-shadow: 10px 10px 8px black;
 
-.formulario--is-hidden {
-    display: none;
-}
-
-.formulario__caixa {
-    display: flex;
-    justify-content: space-between;
-    width: 900px;
-    margin: 10vh auto;
-}
-
-form>h2 {
-    text-align: center;
-    margin: 25px 0;
 }
 
 
-.formulario__caixa__form>form {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 450px;
-    height: 500px;
-    background-color: white;
-    border: 1px solid black;
-}
-
-.form__inputArea {
-    margin: 10px auto;
-}
-
-.form__inputArea__label {
-    display: block;
-    margin: -5px 0 5px;
-    font-size: 15px;
-}
-
-.form__inputArea__input {
-    width: 300px;
-    padding: 5px;
-    outline: none;
+.caixaModal {
+    min-width: 400px;
+    min-height: 300px;
+    padding: 40px;
+    margin: auto;
+    width: auto;
     border-radius: 2px;
-    border: solid #ccc 1px;
+    background-color: white;
 }
 
-.btn__login {
-    width: 300px;
-    margin: 20px auto;
-    padding: 10px;
-    border-radius: 50px;
-    background-color: darkblue;
-    color: white;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    transition: .5s;
-}
-
-.btn__login:hover {
-    transform: scale(1.05);
-}
-
-.form__inputArea__input:focus {
-    border: 1px solid grey;
-}
-
-.formulario__caixa__img {
-    position: relative;
-    width: 450px;
-    height: 500px;
-}
-
-.formulario__caixa__img>img {
-    display: block;
-    width: 450px;
-    height: 500px;
-}
-
-
-.formulario__caixa__img>.btn__close__form {
-    position: absolute;
-    top: 0;
-    right: 0;
+#closeModal {
+    margin-left: calc(100% - 20px);
     background-color: transparent;
-    width: 50px;
     border: none;
-    cursor: pointer;
 }
 
-.btn__close__form>ion-icon {
-    font-size: 40px;
-    color: aliceblue;
+ion {
+    font-size: 16px;
+    width: 16px;
 }
 
-.aviso__cadastro {
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+}
+
+.labelModal {
+    display: block;
+    margin: 10px 0;
     width: 300px;
-    margin: 0 auto;
-    text-align: center;
-    color: #353535;
 }
 
-.aviso__cadastro>a,
-a:checked {
-    color: #353535;
+
+input[name="campoCadastroLogin"] {
+    display: block;
+    width: 300px;
+    padding: 10px 10px;
+    border: 1px solid #c9c9c9;
+    border-radius: 2px;
+    transition-timing-function: linear;
+    transition: .7s;
+    margin: auto;
+
+}
+
+input[name="campoCadastroLogin"]:focus {
+    outline: none;
+    border-color: black;
+}
+
+#btnLogin, #btnCadastro {
+    margin: 30px auto;
+    width: 300px;
+    padding: 10px;
+    border-radius: 2px;
+    font-size: 16px;
 }
