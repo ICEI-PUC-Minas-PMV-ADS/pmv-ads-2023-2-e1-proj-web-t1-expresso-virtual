@@ -13,6 +13,49 @@
 </head>
 
 <body>
+
+  <section id="login">
+    <div class="caixaModal">
+      <div class=" containerModal">
+        <button type="button" id="closeModal"><ion-icon name="close-outline" id="close-outline"></ion-icon></button>
+
+        <div class="inputGroup" id="groupNome">
+          <label class="labelModal" for="inputNome">Nome Completo</label>
+          <input type="text" name="campoCadastroLogin" id="inputNome">
+        </div>
+
+        <div class="inputGroup" id="groupEmail">
+          <label class="labelModal" for="inputEmail">Email</label>
+          <input type="text" name="campoCadastroLogin" id="inputEmail">
+        </div>
+
+
+        <div class="inputGroup" id="groupSenha">
+          <label class="labelModal" for="inputSenha">Senha</label>
+          <input type="password" name="campoCadastroLogin" id="inputSenha">
+        </div>
+
+        <div class="inputGroup" id="groupEsqueciASenha">
+          <button type="button" id="esqueciASenha">Esqueci a senha</button>
+        </div>
+
+        <div class="inputGroup">
+          <button type="button" id="btnLogin">Login</span></button>
+          <button type="button" id="btnCadastro">Cadastre-se</span></button>
+        </div>
+
+        <div class="inputgroup">
+          <button type="button" id="linkCadastro">Ou cadastre-se</button>
+          <button type="button" id="linkLogin">Faça Login</button>
+        </div>
+
+      </div>
+
+    </div>
+
+    </div>
+  </section>
+
   <header>
     <nav>
       <div class="container">
@@ -32,7 +75,7 @@
               <a class="nav-link" href="../Contact-Page/Contact.html">Contato</a>
             </div>
             <div class="button-container">
-              <button id="btn-link-login" class="header-button">Login</button>
+              <button id="btnModalLogin" class="header-button">Login</button>
               <button class="header-button" onclick="window.location.href='../Cart-Page/cart.html';">
                 Carrinho
               </button>
@@ -42,8 +85,7 @@
       </div>
   </header>
 
-
-  <section>
+  <section id="heroPrincipal">
     <div class="container">
       <div class="hero">
         <img class="img-home" src="imgs/pexels-photo-4422875 1.png" alt="Produto da cafeteria" />
@@ -66,10 +108,13 @@
   <footer class="footer">
     <p>ROCKET COFFEE | 2023 | Todos os direitos reservados</p>
   </footer>
+  <script type="module" src="https://unpkg.com/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule="" src="https://unpkg.com/ionicons@latest/dist/ionicons/ionicons.js"></script>
   <script src="../Assets/scripts/menu-responsivo.js"></script>
-  <script src="../Assets/scripts/janela-login.js"></script>
-  <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
-  <script src=""/>
+  <script type="module" src="../Assets/scripts/sessaoIniciada.js"></script>
+  <script type="module" src="../Assets/scripts/crudLogin.js"></script>
+  <script type="module" src="../Assets/scripts/janela-login.js"></script>
+
 </body>
 
 </html>
