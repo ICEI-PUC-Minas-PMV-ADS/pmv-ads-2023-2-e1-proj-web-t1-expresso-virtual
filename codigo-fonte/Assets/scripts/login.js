@@ -11,12 +11,9 @@ window.addEventListener('DOMContentLoaded', () => {
 
     btnModalLogin.onclick = () => {
         login.style.display = "flex";
-
-        //some ao clicarmos em login
         groupNome.style.display = "none"
         btnCadastro.style.display = "none";
         linkLogin.style.display = "none";
-        //aparece ao clicar em Login
         linkCadastro.style.display = "block";
         btnLogin.style.display = "block"
     }
@@ -29,6 +26,10 @@ window.addEventListener('DOMContentLoaded', () => {
         //aparece ao clicar em Login
         linkCadastro.style.display = "block";
         btnLogin.style.display = "block"
+        inputNome.value = ''
+        inputSenha.value = ''
+        inputEmail.value = ''
+
 
     }
 
@@ -40,6 +41,10 @@ window.addEventListener('DOMContentLoaded', () => {
         groupNome.style.display = "flex";
         linkLogin.style.display = "block";
         btnCadastro.style.display = "block";
+        btnLogin.style.display = "block"
+        inputNome.value = ''
+        inputSenha.value = ''
+        inputEmail.value = ''
 
     }
     let nomeUsuario, emailUsuario, senhaUsuario;

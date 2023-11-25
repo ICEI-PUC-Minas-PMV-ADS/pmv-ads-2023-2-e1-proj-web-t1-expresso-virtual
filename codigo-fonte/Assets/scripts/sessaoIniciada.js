@@ -5,6 +5,7 @@ if(localStorage.getItem('usuarioLogado') != null){
     btnUser.style.display = "block";
     IconBtnUser.style.display = "block"
     btnModalLogin.style.display = "none"
+    login.style.display = "none";
 
     btnUser.onclick = () => {
         alert("deslogado")
