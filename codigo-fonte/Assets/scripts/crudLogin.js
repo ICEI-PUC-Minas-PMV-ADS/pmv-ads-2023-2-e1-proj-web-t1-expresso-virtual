@@ -26,7 +26,9 @@ export function verificarLogin(emailUsuario, senhaUsuario) {
         }
     })
     if (verificarLoginUsuario != null && verificarLoginUsuario != undefined) {
-        iniciarSessao(verificarLoginUsuario)
+        localStorage.setItem('usuarioLogado', JSON.stringify(verificarLoginUsuario))
+        iniciarSessao()
+
     } else {
         alert("usuário não cadastrado")
         console.log(verificarLoginUsuario)

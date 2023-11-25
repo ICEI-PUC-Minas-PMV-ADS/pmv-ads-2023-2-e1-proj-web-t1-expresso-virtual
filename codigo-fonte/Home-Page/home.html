@@ -17,7 +17,7 @@
   <section id="login">
     <div class="caixaModal">
       <div class=" containerModal">
-        <button type="button" id="closeModal"><ion-icon name="close-outline" id="close-outline"></ion-icon>x</button>
+        <button type="button" id="closeModal"><ion-icon name="close-outline" id="close-outline"></ion-icon></button>
 
         <div class="inputGroup" id="groupNome">
           <label class="labelModal" for="inputNome">Nome Completo</label>
@@ -74,9 +74,9 @@
               <a class="nav-link" href="../About-page/index.html">Sobre</a>
               <a class="nav-link" href="../Contact-Page/Contact.html">Contato</a>
             </div>
-            <div class="button-container">
+            <div class="button-container" id="btnContainer">
               <button id="btnModalLogin" class="header-button">Login</button>
-              <button id="btnUser">⚙️</button>
+              <button id="btnUser"><ion-icon name="log-out-outline" id="IconBtnUser" ></ion-icon></button>
               <button class="header-button" onclick="window.location.href='../Cart-Page/cart.html';">
                 Carrinho
               </button>
@@ -84,6 +84,7 @@
           </div>
         </div>
       </div>
+    </nav>
   </header>
 
   <section id="heroPrincipal">
@@ -114,7 +115,7 @@
   <script src="../Assets/scripts/menu-responsivo.js"></script>
   <script type="module" src="../Assets/scripts/sessaoIniciada.js"></script>
   <script type="module" src="../Assets/scripts/crudLogin.js"></script>
-  <script type="module" src="../Assets/scripts/janela-login.js"></script>
+  <script type="module" src="../Assets/scripts/login.js"></script>
 
 </body>
 
