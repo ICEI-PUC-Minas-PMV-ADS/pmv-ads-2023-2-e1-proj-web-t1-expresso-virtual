@@ -2,8 +2,8 @@
 import { cadastro, verificarLogin } from './crudLogin.js';
 import { iniciarSessao } from './sessaoIniciada.js';
 
-
-window.addEventListener('load', () => {
+window.addEventListener('DOMContentLoaded', () => {
+    iniciarSessao()
 
     closeModal.onclick = () => {
         login.style.display = "none";
@@ -75,4 +75,3 @@ window.addEventListener('load', () => {
         }
     }
 })
-
