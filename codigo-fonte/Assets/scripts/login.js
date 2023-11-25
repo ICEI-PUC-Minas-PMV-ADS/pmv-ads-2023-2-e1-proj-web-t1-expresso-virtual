@@ -1,15 +1,9 @@
 
 import { cadastro, verificarLogin } from './crudLogin.js';
+import { iniciarSessao } from './sessaoIniciada.js';
 
-
-window.addEventListener('load',() => {
-
-    groupNome.style.display = "none"
-    btnCadastro.style.display = "none";
-    linkLogin.style.display = "none";
-    linkCadastro.style.display = "block";
-    btnLogin.style.display = "block"
-
+window.addEventListener('DOMContentLoaded', () => {
+    iniciarSessao()
 
     closeModal.onclick = () => {
         login.style.display = "none";

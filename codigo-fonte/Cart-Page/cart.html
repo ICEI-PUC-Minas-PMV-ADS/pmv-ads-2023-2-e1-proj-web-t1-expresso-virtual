@@ -6,28 +6,76 @@
   <title>Rocket Coffee</title>
   <link rel="stylesheet" href="../Assets/Styles/header.css">
   <link rel="stylesheet" href="../Assets/Styles/cart-page.css" />
-  <link rel="stylesheet" href="../Assets/tipografia.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" />
+  <link rel="stylesheet" href="../Assets/tipografia.css" />
+  <link rel="stylesheet" href="../Assets/Styles/janela-login.css">
+  <link rel="stylesheet" href="../Assets/Styles/homepage.css" />
 </head>
 <body>
+ 
+  <section id="login">
+    <div class="caixaModal">
+      <div class=" containerModal">
+        <button type="button" id="closeModal"><ion-icon name="close-outline" id="close-outline"></ion-icon></button>
+
+        <div class="inputGroup" id="groupNome">
+          <label class="labelModal" for="inputNome">Nome Completo</label>
+          <input type="text" name="campoCadastroLogin" id="inputNome">
+        </div>
+
+        <div class="inputGroup" id="groupEmail">
+          <label class="labelModal" for="inputEmail">Email</label>
+          <input type="text" name="campoCadastroLogin" id="inputEmail">
+        </div>
+
+
+        <div class="inputGroup" id="groupSenha">
+          <label class="labelModal" for="inputSenha">Senha</label>
+          <input type="password" name="campoCadastroLogin" id="inputSenha">
+        </div>
+
+        <div class="inputGroup" id="groupEsqueciASenha">
+          <button type="button" id="esqueciASenha">Esqueci a senha</button>
+        </div>
+
+        <div class="inputGroup">
+          <button type="button" id="btnLogin">Login</span></button>
+          <button type="button" id="btnCadastro">Cadastre-se</span></button>
+        </div>
+
+        <div class="inputgroup">
+          <button type="button" id="linkCadastro">Ou cadastre-se</button>
+          <button type="button" id="linkLogin">Faça Login</button>
+        </div>
+
+      </div>
+
+    </div>
+
+    </div>
+  </section>
+
   <header>
     <nav>
       <div class="container">
         <div class="nav-container">
+
           <div class="container-button-responsivo">
             <img src="../Assets/image/spacecoffee222 1.png" alt="Logo Rocket Coffee" />
             <button type="button" id="btn-menu-responsivo" class="btn-menu-responsivo">⚙️</button>
           </div>
+
           <div id="navigator" class="navigator navigator--is-hidden">
             <button type="button" id="btn-close-menu" class="btn-close btn-close--is-hidden">x</button>
             <div class="link-container">
               <a class="nav-link" href="../Home-Page/home.html">Home</a>
-              <a class="nav-link" href="../Menu-page/menu.html">Cardápio</a>
+              <a class="nav-link" href="#">Cardápio</a>
               <a class="nav-link" href="../About-page/index.html">Sobre</a>
               <a class="nav-link" href="../Contact-Page/Contact.html">Contato</a>
             </div>
-            <div class="button-container">
-              <button class="header-button">Login</button>
+            <div class="button-container" id="btnContainer">
+              <button id="btnModalLogin" class="header-button">Login</button>
+              <button id="btnUser"><ion-icon name="log-out-outline" id="IconBtnUser" ></ion-icon></button>
               <button class="header-button" onclick="window.location.href='../Cart-Page/cart.html';">
                 Carrinho
               </button>
@@ -35,6 +83,7 @@
           </div>
         </div>
       </div>
+    </nav>
   </header>
   <section id="section-cart">
     <div>
@@ -54,7 +103,12 @@
   <footer class="footer">
     <p>ROCKET COFFEE | 2023 | Todos os direitos reservados</p>
   </footer>
+  <script type="module" src="https://unpkg.com/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule="" src="https://unpkg.com/ionicons@latest/dist/ionicons/ionicons.js"></script>
   <script src="../Assets/scripts/menu-responsivo.js"></script>
+  <script type="module" src="../Assets/scripts/sessaoIniciada.js"></script>
+  <script type="module" src="../Assets/scripts/crudLogin.js"></script>
+  <script type="module" src="../Assets/scripts/login.js"></script>
   <script src="./script.js"></script>
 </body>
 </html>
