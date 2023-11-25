@@ -1,10 +1,10 @@
 import { iniciarSessao } from './sessaoIniciada.js';
 
 export async function cadastro(nomeUsuario, emailUsuario, senhaUsuario) {
+    let idUsuario = await geradorId();
     try {
         let usuariosCadastrados = localStorage.getItem('usuarios');
         let ArrUsuariosCadastro = JSON.parse(usuariosCadastrados);
-        idUsuario = await geradorId();
         let cadastro = { nome: nomeUsuario, email: emailUsuario, id: idUsuario, senha: senhaUsuario };
         ArrUsuariosCadastro.push(cadastro);
         localStorage.setItem("usuarios", JSON.stringify(ArrUsuariosCadastro));
