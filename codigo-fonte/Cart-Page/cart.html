@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,7 +9,6 @@
   <link rel="stylesheet" href="../Assets/tipografia.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" />
 </head>
-
 <body>
   <header>
     <nav>
@@ -24,7 +22,7 @@
             <button type="button" id="btn-close-menu" class="btn-close btn-close--is-hidden">x</button>
             <div class="link-container">
               <a class="nav-link" href="../Home-Page/home.html">Home</a>
-              <a class="nav-link" href="#">Cardápio</a>
+              <a class="nav-link" href="../Menu-page/menu.html">Cardápio</a>
               <a class="nav-link" href="../About-page/index.html">Sobre</a>
               <a class="nav-link" href="../Contact-Page/Contact.html">Contato</a>
             </div>
@@ -38,68 +36,25 @@
         </div>
       </div>
   </header>
-
   <section id="section-cart">
-    <h2>CARRINHO</h2>
-    <div class="container">
-      <div class="cart">
-        <img class="cart-img" src="./imgs/cafe-expresso.jpg" />
-        <div class="cart-container">
-          <div class="cart-info">
-            <p>Produto</p>
-            <p>Café expresso</p>
-          </div>
-          <div class="cart-info">
-            <p>Quantidade</p>
-            <div class="cart-info-button">
-              <img class="cart-info-button-img" src="./imgs/seta-para-cima.png" />
-              <p>1</p>
-              <img class="cart-info-button-img" src="./imgs/seta-para-baixo.png" />
+    <div>
+      <h2>CARRINHO</h2>
+        <div class="container" id="cart-container">
+        </div>
+        <div class="cart-footer">
+            <div class="cart-container-footer">
+                <div class="cart-price">
+                    <p class="cart-price-title">Total <span id="preco-total">R$ 0,00</span></p>
+                </div>
+                <button class="cart-button" onclick="finalizePurchase()">FINALIZAR COMPRA</button>
             </div>
-          </div>
-          <div class="cart-info">
-            <p>Valor</p>
-            <p>R$ 9,90</p>
-          </div>
         </div>
-      </div>
-      <div class="cart">
-        <img class="cart-img" src="./imgs/croissant.jpg" />
-        <div class="cart-container">
-          <div class="cart-info">
-            <p>Produto</p>
-            <p>Croissant</p>
-          </div>
-          <div class="cart-info">
-            <p>Quantidade</p>
-            <div class="cart-info-button">
-              <img class="cart-info-button-img" src="./imgs/seta-para-cima.png" />
-              <p>1</p>
-              <img class="cart-info-button-img" src="./imgs/seta-para-baixo.png" />
-            </div>
-          </div>
-          <div class="cart-info">
-            <p>Valor</p>
-            <p>R$ 9,90</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="cart-footer">
-      <div class="cart-container-footer">
-        <div class="cart-price">
-          <p class="cart-price-title">Total <span id="preco-total">R$19,80</span></p>
-        </div>
-        <button class="cart-button">FINALIZAR COMPRA</button>
-      </div>
     </div>
   </section>
-
   <footer class="footer">
     <p>ROCKET COFFEE | 2023 | Todos os direitos reservados</p>
   </footer>
-  <script src="../Assets/scripts/menu-responsivo.js" />
+  <script src="../Assets/scripts/menu-responsivo.js"></script>
+  <script src="./script.js"></script>
 </body>
-
 </html>
