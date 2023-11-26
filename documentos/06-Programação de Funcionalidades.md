@@ -2,11 +2,9 @@
 
 Implementação da aplicação descritas por meio dos requisitos codificados. 
 
-[Utilize a estrutura abaixo para cada funcionalidade entregue na etapa]
-
 ### Tela do Cardápio
 
-[Adicione imagem da funcionalidade/tela](./img/Tela-Cardapio.jpg)
+![Cardápio](./img/Tela-Cardapio.jpg)
 
 
 #### Requisito atendido
@@ -36,7 +34,7 @@ RF-03 	A aplicação deve permitir que o usuário visualize todos os produtos, p
 
 ### Tela do Carrinho
 
-[Adicione imagem da funcionalidade/tela](./img/Tela-Cardapio.jpg)
+![Carrinho](./img/Tela-Carrinho.jpg)
 
 
 #### Requisito atendido
