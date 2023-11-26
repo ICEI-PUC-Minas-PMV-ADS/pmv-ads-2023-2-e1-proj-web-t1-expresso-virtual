@@ -1,16 +1,14 @@
 # Programação de Funcionalidades
 
-Implementação da aplicação descritas por meio dos requisitos codificados. 
+Implementação da aplicação descritas por meio dos requisitos codificados.
 
 ### Tela do Cardápio
 
 ![Cardápio](./img/Tela-Cardapio.jpg)
 
-
 #### Requisito atendido
 
-RF-01 	A aplicação deve permitir que o usuário visualize todos os produtos, preços e seus ingredientes, antes da compra.
-
+RF-01 A aplicação deve permitir que o usuário visualize todos os produtos, preços e seus ingredientes, antes da compra.
 
 #### Artefatos da funcionalidade
 
@@ -22,30 +20,27 @@ RF-01 	A aplicação deve permitir que o usuário visualize todos os produtos, p
 
 ● menu.css
 
-
-
 #### Estrutura de Dados
 
 [menu.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/blob/main/codigo-fonte/Menu-page/menu.html)
 
-
 #### Instruções de acesso
 
-[Adicione as orientações de acesso à funcionalidade]
-
+[Clicando em cardapio no menu vai aparecer os produtos disponiveis para adicionar ao carrinho,]
 
 #### Responsável
 
 Responsável: Laura
 
+<hr>
+
 ### Tela do Carrinho
 
 ![Carrinho](./img/Tela-Carrinho.jpg)
 
-
 #### Requisito atendido
 
-RF-02 	A aplicação deve permitir que o usuário compre os produtos através de um carrinho de compras.
+RF-02 A aplicação deve permitir que o usuário compre os produtos através de um carrinho de compras.
 
 #### Artefatos da funcionalidade
 
@@ -57,28 +52,19 @@ RF-02 	A aplicação deve permitir que o usuário compre os produtos através de
 
 ● cart-page.css
 
-
-
 #### Estrutura de Dados
 
 [cart.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/blob/main/codigo-fonte/Cart-Page/cart.html)
 
-
 #### Instruções de acesso
 
-[Adicione as orientações de acesso à funcionalidade]
-
+[Clicando em cardapio no menu vai aparecer os produtos disponiveis para adicionar ao carrinho, e entao clique em "Adicionar ao carrinho"]
 
 #### Responsável
 
 Responsável: Laura
 
-
-
-
-
-
-
+<hr>
 
 ### Tela do Cadastro
 
@@ -88,11 +74,9 @@ Exemplo de tela de cadastro:
 
 ![Cadastro](./img/Tela-Cadastro.jpg)
 
-
 #### Requisito atendido
 
-RF-03 A aplicação deve permitir que o usuário consiga se cadastrar 
-
+RF-03 A aplicação deve permitir que o usuário consiga se cadastrar
 
 #### Artefatos da funcionalidade
 
@@ -104,36 +88,27 @@ RF-03 A aplicação deve permitir que o usuário consiga se cadastrar
 
 ● janela-login.css
 
-
-
-
 #### Estrutura de Dados
 
 [login.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/blob/main/codigo-fonte/pagina-login/login.html)
-
 
 #### Instruções de acesso
 
 [O acesso a tela de cadastro poderá ser feito através do menu “login”. As estruturas de dados foram baseadas em HTML, CSS e JS.]
 
-
 #### Responsável
 
 Responsável: Vitor
 
-
-
-
+<hr>
 
 ### Tela do Fale Conosco
 
-![FaleConosco](./img/FaleConosco.jpg)
+![FaleConosco](./img/Tela-FaleConosco.jpg)
 
+#### Requisito não atendido
 
-#### Requisito atendido
-
-RF-04 	A aplicação deve permitir que o usuário consiga enviar tickets para o suporte
-
+RF-04 A aplicação deve permitir que o usuário consiga enviar tickets para o suporte
 
 #### Artefatos da funcionalidade
 
@@ -143,39 +118,27 @@ RF-04 	A aplicação deve permitir que o usuário consiga enviar tickets para o 
 
 ● menu-responsivo.js
 
-
-
-
 #### Estrutura de Dados
 
 [contact.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/blob/main/codigo-fonte/Contact-page/contact.html)
-
 
 #### Instruções de acesso
 
 [clicanco em "contato" na navbar aparecerá a pagina, e ao visualizar os campos, deve prenchelos e enviar. As estruturas de dados foram baseadas em HTML, CSS e JS.]
 
-
 #### Responsável
 
 Responsável: Lucas Gonçalves
 
-
-
-
-
-
+<hr>
 
 ### Tela do Login
 
-
-![Login](./img/Tela-login.jpg)
-
+![Login](./img/Tela-Login.jpg)
 
 #### Requisito atendido
 
-RF-05 	A aplicação deve permitir que o usuário consiga se logar
-
+RF-05 A aplicação deve permitir que o usuário consiga se logar
 
 #### Artefatos da funcionalidade
 
@@ -189,19 +152,16 @@ RF-05 	A aplicação deve permitir que o usuário consiga se logar
 
 ● menu-responsivo.js
 
-
-
-
 #### Estrutura de Dados
 
 [login.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/blob/main/codigo-fonte/pagina-login/login.html)
-
 
 #### Instruções de acesso
 
 [O acesso a tela de login poderá ser feito através do menu “login”. As estruturas de dados foram baseadas em HTML, CSS e JS.]
 
-
 #### Responsável
 
 Responsável: Vitor
+
+<hr>
