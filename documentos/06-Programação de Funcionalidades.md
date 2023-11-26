@@ -32,6 +32,11 @@ RF-03 	A aplicação deve permitir que o usuário visualize todos os produtos, p
 
 [Adicione as orientações de acesso à funcionalidade]
 
+
+#### Responsável
+
+Responsável: Laura
+
 ### Tela do Carrinho
 
 ![Carrinho](./img/Tela-Carrinho.jpg)
@@ -60,8 +65,6 @@ RF-04 	A aplicação deve permitir que o usuário compre os produtos através de
 #### Instruções de acesso
 
 [Adicione as orientações de acesso à funcionalidade]
-
-
 
 
 #### Responsável
