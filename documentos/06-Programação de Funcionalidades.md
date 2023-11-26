@@ -6,7 +6,7 @@ Implementação da aplicação descritas por meio dos requisitos codificados.
 
 ### Tela do Cardápio
 
-[Adicione imagem da funcionalidade/tela]
+[Adicione imagem da funcionalidade/tela](./img/Tela-Cardapio.jpg)
 
 
 #### Requisito atendido
