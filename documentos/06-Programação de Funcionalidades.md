@@ -3,6 +3,9 @@
 Implementação da aplicação descritas por meio dos requisitos codificados.
 
 ### Tela do Cardápio (RF-01)
+O acesso a tela de cardápio poderá ser feito através da opção do menu “Cardápio”. As estruturas de dados foram baseadas em HTML, CSS e JS.
+
+Exemplo de tela de cardápio:
 
 ![Cardápio](./img/Tela-Cardapio.jpg)
 
@@ -26,7 +29,7 @@ RF-01: A aplicação deve permitir que o usuário visualize todos os produtos, p
 
 #### Instruções de acesso
 
-Clicando em cardapio no menu vai aparecer os produtos disponiveis para adicionar ao carrinho,
+Clicando em cardapio no menu irá aparecer os produtos disponiveis para adicionar ao carrinho.
 
 #### Responsável
 
@@ -35,6 +38,9 @@ Responsável: Laura
 <hr>
 
 ### Tela do Carrinho (RF-02)
+O acesso a tela de carrinho poderá ser feito através da opção de menu “Carrinho”. As estruturas de dados foram baseadas em HTML, CSS e JS.
+
+Exemplo de tela de carrinho:
 
 ![Carrinho](./img/Tela-Carrinho.jpg)
 
@@ -58,7 +64,7 @@ RF-02: A aplicação deve permitir que o usuário compre os produtos através de
 
 #### Instruções de acesso
 
-[Clicando em cardapio no menu vai aparecer os produtos disponiveis para adicionar ao carrinho, e entao clique em "Adicionar ao carrinho"]
+Clicando em "carrinho" no menu, vai aparecer todos os seus produtos adicionados ao carrinho.
 
 #### Responsável
 
@@ -68,7 +74,7 @@ Responsável: Laura
 
 ### Tela do Cadastro (RF-03)
 
-O acesso a tela de cadastro poderá ser feito através da opção de menu “Cadastre-se”. As estruturas de dados foram baseadas em HTML, CSS e JS.
+O acesso a tela de cadastro poderá ser feito através da opção de menu “Login”. As estruturas de dados foram baseadas em HTML, CSS e JS.
 
 Exemplo de tela de cadastro:
 
@@ -94,7 +100,7 @@ RF-03: A aplicação deve permitir que o usuário consiga se cadastrar
 
 #### Instruções de acesso
 
-O acesso a tela de cadastro poderá ser feito através do menu “login”. As estruturas de dados foram baseadas em HTML, CSS e JS.
+A tela de cadastro poderá ser utilizada através do menu no botão “login” onde o usuario vai ir em "Cadastre-se" e irá preencher os dados.
 
 #### Responsável
 
@@ -103,6 +109,9 @@ Responsável: Vitor
 <hr>
 
 ### Tela do Fale Conosco (RF-04)
+O acesso a tela de Contato poderá ser feito através da opção de menu “Contato”. As estruturas de dados foram baseadas em HTML, CSS.
+
+Exemplor de tela Fale-Conosco:
 
 ![FaleConosco](./img/Tela-FaleConosco.jpg)
 
@@ -124,7 +133,7 @@ RF-04: A aplicação deve permitir que o usuário consiga enviar tickets para o 
 
 #### Instruções de acesso
 
-clicanco em "contato" na navbar aparecerá a pagina, e ao visualizar os campos, deve prenchelos e enviar. As estruturas de dados foram baseadas em HTML, CSS e JS.
+clicanco em "contato" na navbar aparecerá a pagina, e ao visualizar os campos, deve preenchê los e enviar. 
 
 #### Responsável
 
@@ -133,7 +142,9 @@ Responsável: Lucas Gonçalves
 <hr>
 
 ### Tela do Login (RF-05)
+O acesso a tela de Login poderá ser feito através da opção de menu “Login”. As estruturas de dados foram baseadas em HTML, CSS e JS
 
+Exemplo de tela de login:
 ![Login](./img/Tela-Login.jpg)
 
 #### Requisito atendido
@@ -158,7 +169,7 @@ RF-05: A aplicação deve permitir que o usuário consiga se logar
 
 #### Instruções de acesso
 
-O acesso a tela de login poderá ser feito através do menu “login”. As estruturas de dados foram baseadas em HTML, CSS e JS.
+O acesso a tela de login poderá ser feito através do menu “login” onde o usuario poderá colocar suas informações.
 
 #### Responsável
 
