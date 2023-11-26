@@ -2,13 +2,13 @@
 
 Implementação da aplicação descritas por meio dos requisitos codificados.
 
-### Tela do Cardápio
+### Tela do Cardápio (RF-01)
 
 ![Cardápio](./img/Tela-Cardapio.jpg)
 
 #### Requisito atendido
 
-RF-01 A aplicação deve permitir que o usuário visualize todos os produtos, preços e seus ingredientes, antes da compra.
+RF-01: A aplicação deve permitir que o usuário visualize todos os produtos, preços e seus ingredientes, antes da compra.
 
 #### Artefatos da funcionalidade
 
@@ -22,11 +22,11 @@ RF-01 A aplicação deve permitir que o usuário visualize todos os produtos, pr
 
 #### Estrutura de Dados
 
-[menu.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/blob/main/codigo-fonte/Menu-page/menu.html)
+● [menu.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/blob/main/codigo-fonte/Menu-page/menu.html)
 
 #### Instruções de acesso
 
-[Clicando em cardapio no menu vai aparecer os produtos disponiveis para adicionar ao carrinho,]
+Clicando em cardapio no menu vai aparecer os produtos disponiveis para adicionar ao carrinho,
 
 #### Responsável
 
@@ -34,13 +34,13 @@ Responsável: Laura
 
 <hr>
 
-### Tela do Carrinho
+### Tela do Carrinho (RF-02)
 
 ![Carrinho](./img/Tela-Carrinho.jpg)
 
 #### Requisito atendido
 
-RF-02 A aplicação deve permitir que o usuário compre os produtos através de um carrinho de compras.
+RF-02: A aplicação deve permitir que o usuário compre os produtos através de um carrinho de compras.
 
 #### Artefatos da funcionalidade
 
@@ -54,7 +54,7 @@ RF-02 A aplicação deve permitir que o usuário compre os produtos através de 
 
 #### Estrutura de Dados
 
-[cart.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/blob/main/codigo-fonte/Cart-Page/cart.html)
+● [cart.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/blob/main/codigo-fonte/Cart-Page/cart.html)
 
 #### Instruções de acesso
 
@@ -66,7 +66,7 @@ Responsável: Laura
 
 <hr>
 
-### Tela do Cadastro
+### Tela do Cadastro (RF-03)
 
 O acesso a tela de cadastro poderá ser feito através da opção de menu “Cadastre-se”. As estruturas de dados foram baseadas em HTML, CSS e JS.
 
@@ -76,7 +76,7 @@ Exemplo de tela de cadastro:
 
 #### Requisito atendido
 
-RF-03 A aplicação deve permitir que o usuário consiga se cadastrar
+RF-03: A aplicação deve permitir que o usuário consiga se cadastrar
 
 #### Artefatos da funcionalidade
 
@@ -90,11 +90,11 @@ RF-03 A aplicação deve permitir que o usuário consiga se cadastrar
 
 #### Estrutura de Dados
 
-[login.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/blob/main/codigo-fonte/pagina-login/login.html)
+● [login.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/blob/main/codigo-fonte/pagina-login/login.html)
 
 #### Instruções de acesso
 
-[O acesso a tela de cadastro poderá ser feito através do menu “login”. As estruturas de dados foram baseadas em HTML, CSS e JS.]
+O acesso a tela de cadastro poderá ser feito através do menu “login”. As estruturas de dados foram baseadas em HTML, CSS e JS.
 
 #### Responsável
 
@@ -102,13 +102,13 @@ Responsável: Vitor
 
 <hr>
 
-### Tela do Fale Conosco
+### Tela do Fale Conosco (RF-04)
 
 ![FaleConosco](./img/Tela-FaleConosco.jpg)
 
 #### Requisito não atendido
 
-RF-04 A aplicação deve permitir que o usuário consiga enviar tickets para o suporte
+RF-04: A aplicação deve permitir que o usuário consiga enviar tickets para o suporte
 
 #### Artefatos da funcionalidade
 
@@ -120,11 +120,11 @@ RF-04 A aplicação deve permitir que o usuário consiga enviar tickets para o s
 
 #### Estrutura de Dados
 
-[contact.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/blob/main/codigo-fonte/Contact-page/contact.html)
+● [contact.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/blob/main/codigo-fonte/Contact-page/contact.html)
 
 #### Instruções de acesso
 
-[clicanco em "contato" na navbar aparecerá a pagina, e ao visualizar os campos, deve prenchelos e enviar. As estruturas de dados foram baseadas em HTML, CSS e JS.]
+clicanco em "contato" na navbar aparecerá a pagina, e ao visualizar os campos, deve prenchelos e enviar. As estruturas de dados foram baseadas em HTML, CSS e JS.
 
 #### Responsável
 
@@ -132,13 +132,13 @@ Responsável: Lucas Gonçalves
 
 <hr>
 
-### Tela do Login
+### Tela do Login (RF-05)
 
 ![Login](./img/Tela-Login.jpg)
 
 #### Requisito atendido
 
-RF-05 A aplicação deve permitir que o usuário consiga se logar
+RF-05: A aplicação deve permitir que o usuário consiga se logar
 
 #### Artefatos da funcionalidade
 
@@ -154,11 +154,11 @@ RF-05 A aplicação deve permitir que o usuário consiga se logar
 
 #### Estrutura de Dados
 
-[login.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/blob/main/codigo-fonte/pagina-login/login.html)
+● [login.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/blob/main/codigo-fonte/pagina-login/login.html)
 
 #### Instruções de acesso
 
-[O acesso a tela de login poderá ser feito através do menu “login”. As estruturas de dados foram baseadas em HTML, CSS e JS.]
+O acesso a tela de login poderá ser feito através do menu “login”. As estruturas de dados foram baseadas em HTML, CSS e JS.
 
 #### Responsável
 
