@@ -16,3 +16,14 @@ CT-02: Verificar o funcionamento do cardápio carrinho.
 Responsável: Lucas Quintanilha.
 
 https://www.loom.com/share/e851e516c4994f04a2173e86005cdccc
+
+
+CT-03: Verificar o funcionamento do login.
+
+Responsável: Lucas Quintanilha.
+
+https://www.loom.com/share/b001be59660f4b068a9f2a94e367f08d
+
+## Avaliação
+
+Os testes de software mostraram que os requisitos priorizados foram atendidos, funcionando como planejado. Para as próximas iterações, serão acrescentadas melhorias no layout e responsividade da aplicação.
