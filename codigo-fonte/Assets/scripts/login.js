@@ -41,7 +41,6 @@ window.addEventListener('DOMContentLoaded', () => {
         groupNome.style.display = "flex";
         linkLogin.style.display = "block";
         btnCadastro.style.display = "block";
-        btnLogin.style.display = "block"
         inputNome.value = ''
         inputSenha.value = ''
         inputEmail.value = ''

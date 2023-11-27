@@ -8,6 +8,10 @@ export async function cadastro(nomeUsuario, emailUsuario, senhaUsuario) {
         let cadastro = { nome: nomeUsuario, email: emailUsuario, id: idUsuario, senha: senhaUsuario };
         ArrUsuariosCadastro.push(cadastro);
         localStorage.setItem("usuarios", JSON.stringify(ArrUsuariosCadastro));
+        inputNome.value = ''
+        inputSenha.value = ''
+        inputEmail.value = ''
+        alert("Cadastrado com sucesso!")
     } catch (error) {
         let arrInicial = [{ nome: nomeUsuario, email: emailUsuario, id: idUsuario, senha: senhaUsuario }]
         localStorage.setItem('usuarios', JSON.stringify(arrInicial))
