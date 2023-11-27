@@ -33,10 +33,11 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>Informar o endereço do site.</li>
     <li>Visualizar a página Home.</li>
     <li>Clicar nos links da página Home.</li>
+   <li>Todos os botões responsíveis e funcionais</li>
   </ol>
  </td>
  <td>Todos os links da página Home devem encaminhar os usuários para as páginas descritas.</td>
-  <td>Lucas</td>
+  <td>Lucas Quintanilha</td>
 </table>
 
 <table>
@@ -48,14 +49,14 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Critérios de êxito</th>
   <th>Responsável</th>
  </tr>
- <td>CT-02: Verificar o funcionamento do Menu</td>
+ <td>CT-02: Verificar o funcionamento do cardápio carrinho.</td>
  <td>
    <ul>
     <li>RF-03:	A aplicação deve permitir que o usuário visualize todos os produtos, preços e seus ingredientes, antes da compra.</li>
     <li>RF-04: A aplicação deve permitir que o usuário compre os produtos através de um carrinho de compras.</li>
    </ul>
   </td>
-  <td>Verificar se a página está mostrando todas as opções de produtos e adicionando ao carrinho</td>
+  <td>Verificar se a página está mostrando todas as opções de produtos</td>
   <td>
    <ol>
     <li>Acessar o navegador.</li>
@@ -63,10 +64,11 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>Visualizar a página Home.</li>
     <li>Clicar na página Menu.</li>
     <li>Visualizar todos os produtos e adicionar ao carrinho</li>
+    <li>Visualizar o carrinho, quantidade de produtos e valor</li>
    </ol>
    </td>
   <td>Produtos e detalhes do mesmo aparecem e adicionados ao carrinho com sucesso</td>
-  <td>Vítor</td>
+  <td>Lucas Quintanilha</td>
  </tr>
 </table>
 
@@ -80,11 +82,10 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>  
  </tr>
  <tr>
-  <td>CT-03: Verificar o cadastro de usuário</td>
+  <td>CT-03: Verificar o funcionamento do login.</td>
   <td>
    <ul>
-    <li>RF-01:	A aplicação deve permitir o usuário cadastrar uma conta e adicionar informações, como endereço, telefone e nome.</li>
-    <li>RF-02:	A aplicação deve permitir que o usuário faça login em sua conta.</li>
+        <li>RF-02:	A aplicação deve permitir que o usuário faça login em sua conta.</li>
    </ul>
   </td>
   <td>Verificar se um cliente irá conseguir cadastrar seus dados para comprar pelo site</td>
@@ -94,12 +95,11 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>Informar o endereço do site.</li>
     <li>Visualizar a página Home.</li>
     <li>Clicar na página Login.</li>
-    <li>Clicar em registrar</li>
     <li>Colocar seu dados válidos e logar</li>
    </ol>
    </td>
-  <td>Usuário registrado com sucesso e dados salvos no navegador</td>
-  <td>Lucas</td>
+  <td>Usuário registrado e conseguindo logar</td>
+  <td>Lucas Quintanilha</td>
  </tr>
 </table>
 
@@ -113,7 +113,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>  
  </tr>
  <tr>
-  <td>CT-04: Verificar direitos de administrador</td>
+  <td>CT-04: Verificar funcionalidades de administrador</td>
   <td>
    <ul>
     <li>RF-02: A aplicação deve permitir que o usuário faça login em sua conta.</li>
