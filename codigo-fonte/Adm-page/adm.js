@@ -3,7 +3,7 @@ let ArrUsuariosCadastro = JSON.parse(usuariosCadastrados);
 
 
 
-// console.log(dadosArmazenados); é pra exibir os dados no console ou nao?
+//console.log(dadosArmazenados);
 
 puxar.onclick = function () {
     let dadosArmazenados = JSON.parse(localStorage.getItem('usuarios'));
