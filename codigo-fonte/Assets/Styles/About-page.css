@@ -1,11 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-   
   .sobre-nos {
-    background-color: rgb(237, 228, 218);
     min-height: calc(100vh - 113px);
   }
   
@@ -33,11 +26,3 @@
     max-width: 90vw;
   }
   
-  footer {
-    background-color: #181c26;
-    display: flex;
-    margin: auto;
-    text-align: center;
-    justify-content: space-around;
-    padding: 20px;
-  }

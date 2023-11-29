@@ -1,20 +1,10 @@
-* {
-  margin: 0;
-  padding: 0;
-}
 
-.container {
-  max-width: 1020vw;
-  height: 100%;
-
-}
 
 section {
   min-height: calc(100vh - 211px);
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #EBDED5;
 }
 
 .hero {
@@ -57,14 +47,6 @@ section {
   transform: translateY(2px);
 }
 
-footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding: 20px;
-  color: #ffffff;
-  background-color: #181c26;
-}
 
 @media (max-width: 768px) {
   

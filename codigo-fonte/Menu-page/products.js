@@ -71,10 +71,11 @@ for (let key in list) {
     const product = list[key];
     console.log(product.image)
     // Constrói a representação HTML para cada produto
-    products += `<div class="cafe2">
+    products += `
+    <div class="container-cafe">
       <img class="img-cafe" width="500px" src=${product.image} alt=${product.alt}>
       <div class="cafeA">
-        <h2>${product.name}</h2>
+        <h3>${product.name}</h3>
         <p class="text">${product.description}</p>
       </div>
       <div class="btn">

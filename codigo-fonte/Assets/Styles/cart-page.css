@@ -125,15 +125,6 @@ section {
   background-color: #2f3647;
 }
 
-footer {
-  background-color: #181c26;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding: 20px;
-  color: #ed9812;
-}
-
 @media (max-width: 768px) {
   .cart-container {
     flex-direction: column;

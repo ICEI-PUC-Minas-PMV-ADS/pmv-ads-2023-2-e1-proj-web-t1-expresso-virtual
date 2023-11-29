@@ -6,11 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Rocket Coffee</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" />
-  <link rel="stylesheet" href="../Assets/Styles/header.css">
   <link rel="stylesheet" href="../Assets/Styles/homepage.css" />
   <link rel="stylesheet" href="../Assets/Styles/arquivosGerais/tipografia.css">
   <link rel="stylesheet" href="../Assets/Styles/arquivosGerais/estilizacaoGeral.css">
   <link rel="stylesheet" href="../Assets/Styles/janela-login.css">
+  <link rel="stylesheet" href="../Assets/Styles/header.css">
 
 </head>
 
@@ -64,21 +64,21 @@
         <div class="nav-container">
 
           <div class="container-button-responsivo">
-            <img src="../Assets/image/spacecoffee222 1.png" alt="Logo Rocket Coffee" />
+            <img src="../Assets/image/spacecoffee222 1.png" class="header-image" alt="Logo Rocket Coffee" />
             <button type="button" id="btn-menu-responsivo" class="btn-menu-responsivo">⚙️</button>
           </div>
 
           <div id="navigator" class="navigator navigator--is-hidden">
             <button type="button" id="btn-close-menu" class="btn-close btn-close--is-hidden">x</button>
             <div class="link-container">
-              <a class="nav-link" href="../Home-Page/home.html">Home</a>
+              <a class="nav-link" href="../Home-Page/index.html">Home</a>
               <a class="nav-link" href="../Menu-page/menu.html">Cardápio</a>
-              <a class="nav-link" href="../About-page/index.html">Sobre</a>
+              <a class="nav-link" href="../About-page/aboutPage.html">Sobre</a>
               <a class="nav-link" href="../Contact-Page/Contact.html">Contato</a>
             </div>
             <div class="button-container" id="btnContainer">
               <button id="btnModalLogin" class="header-button">Login</button>
-              <button id="btnUser"><ion-icon name="log-out-outline" id="IconBtnUser" ></ion-icon></button>
+              <button id="btnUser"><ion-icon name="log-out-outline" id="IconBtnUser"></ion-icon></button>
               <button class="header-button" onclick="window.location.href='../Cart-Page/cart.html';">
                 Carrinho
               </button>
@@ -107,6 +107,16 @@
         </div>
       </div>
     </div>
+  </section>
+
+  <section id="cards">
+    <div class="container">
+      <div class="container-card"><img src="https://placehold.co/200x200" alt="placeholder" srcset=""><h3>Nome Cafe</h3><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, eaque recusandae dolores quas accusantium dicta officiis incidunt a, voluptate quis modi eligendi. Odio error, cumque consequatur hic consequuntur incidunt delectus.</p><button type="button">comprar</button></div>
+      <div class="container-card"><img src="https://placehold.co/200x200" alt="placeholder" srcset=""><h3>Nome Cafe</h3><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, eaque recusandae dolores quas accusantium dicta officiis incidunt a, voluptate quis modi eligendi. Odio error, cumque consequatur hic consequuntur incidunt delectus.</p><button type="button">comprar</button></div>
+      <div class="container-card"><img src="https://placehold.co/200x200" alt="placeholder" srcset=""><h3>Nome Cafe</h3><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, eaque recusandae dolores quas accusantium dicta officiis incidunt a, voluptate quis modi eligendi. Odio error, cumque consequatur hic consequuntur incidunt delectus.</p><button type="button">comprar</button></div>
+    </div>
+  </section>
+
   </section>
 
   <footer class="footer">
