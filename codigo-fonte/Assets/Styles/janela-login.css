@@ -1,6 +1,7 @@
-button{
+button {
     cursor: pointer;
 }
+
 #login {
     position: fixed;
     display: none;
@@ -34,7 +35,7 @@ button{
 
 ion-icon {
     font-size: 24px;
-  }
+}
 
 
 .inputGroup {
@@ -60,7 +61,7 @@ input[name="campoCadastroLogin"] {
     border-radius: 2px;
     transition-timing-function: linear;
     transition: .7s;
-    margin: auto;
+    margin: 0 auto 10px;
 
 }
 
@@ -69,7 +70,8 @@ input[name="campoCadastroLogin"]:focus {
     border-color: black;
 }
 
-#btnLogin, #btnCadastro {
+#btnLogin,
+#btnCadastro {
     margin: 30px auto;
     width: 300px;
     padding: 10px;
@@ -77,14 +79,50 @@ input[name="campoCadastroLogin"]:focus {
     font-size: 16px;
 }
 
-#btnUser{
+#btnUser {
     display: none;
     background-color: transparent;
     outline: none;
     border: none;
 }
-ion-icon[name="log-out-outline"]{
+
+ion-icon[name="log-out-outline"] {
     display: none;
     color: red;
     z-index: 1;
+    margin: auto;
+}
+
+@media (max-width: 830px) {
+    .caixaModal {
+        min-width: 0;
+        min-height: 0;
+        padding: 40px;
+        width: 100vw;
+        max-width: 500px;
+    }
+
+    .labelModal {
+        display: block;
+        margin: 10px auto;
+        width: 90vw;
+        padding: 0px;
+    }
+
+    .input,
+    input[name="campoCadastroLogin"],
+    .labelModal {
+        width: 90% !important;
+    }
+
+    .containerModal {
+        max-width: 300px;
+        margin: auto;
+
+    }
+
+    #btnLogin,
+    #btnCadastro {
+        width: 90%;
+    }
 }

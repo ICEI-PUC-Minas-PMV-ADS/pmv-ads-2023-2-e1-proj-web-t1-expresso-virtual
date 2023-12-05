@@ -57,35 +57,40 @@
   </section>
 
   <header>
-    <nav>
+    <nav id="navbar">
       <div class="container">
-        <div class="nav-container">
 
-          <div class="container-button-responsivo">
-            <img src="../Assets/image/spacecoffee222 1.png" alt="Logo Rocket Coffee" />
-            <button type="button" id="btn-menu-responsivo" class="btn-menu-responsivo">⚙️</button>
+
+        <div id="navigator" class="navigator navigator--is-hidden">
+
+          <div class="nav-container">
+
+            <div class="container-button-responsivo">
+              <img src="../Assets/image/spacecoffee222 1.png" class="header-image" alt="Logo Rocket Coffee" />
+              <button type="button" id="btnMenu" class="btn-menu-responsivo">⚙️</button>
+            </div>
           </div>
 
-          <div id="navigator" class="navigator navigator--is-hidden">
-            <button type="button" id="btn-close-menu" class="btn-close btn-close--is-hidden">x</button>
-            <div class="link-container">
-              <a class="nav-link" href="../index.html">Home</a>
-              <a class="nav-link" href="../Menu-page/menu.html">Cardápio</a>
-              <a class="nav-link" href="../About-page/aboutPage.html">Sobre</a>
-              <a class="nav-link" href="../Contact-Page/Contact.html">Contato</a>
-            </div>
-            <div class="button-container" id="btnContainer">
-              <button id="btnModalLogin" class="header-button">Login</button>
-              <button id="btnUser"><ion-icon name="log-out-outline" id="IconBtnUser" ></ion-icon></button>
-              <button class="header-button" onclick="window.location.href='../Cart-Page/cart.html';">
-                Carrinho
-              </button>
-            </div>
+          <button type="button" id="btn-close-menu" class="btn-close btn-close--is-hidden">x</button>
+          <div class="link-container">
+            <a class="nav-link" href="../index.html">Home</a>
+            <a class="nav-link" href="../Menu-page/menu.html">Cardápio</a>
+            <a class="nav-link" href="../About-page/aboutPage.html">Sobre</a>
+            <a class="nav-link" href="../Contact-Page/Contact.html">Contato</a>
+          </div>
+          <div class="button-container" id="btnContainer">
+            <button id="btnModalLogin" class="header-button">Login</button>
+            <button id="btnUser"><ion-icon name="log-out-outline" id="IconBtnUser"></ion-icon></button>
+            <button class="header-button" onclick="window.location.href='../Cart-Page/cart.html';">
+              Carrinho
+            </button>
           </div>
         </div>
       </div>
+      </div>
     </nav>
   </header>
+
 
 
 

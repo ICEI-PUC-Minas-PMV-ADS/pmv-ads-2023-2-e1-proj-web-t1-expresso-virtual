@@ -2,19 +2,21 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rocket Coffee</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../Assets/Styles/arquivosGerais/tipografia.css">
-    <link rel="stylesheet" href="../Assets/Styles/arquivosGerais/estilizacaoGeral.css">
-    <link rel="stylesheet" href="../Assets/Styles/About-page.css">
-    <link rel="stylesheet" href="../Assets/Styles/janela-login.css">
-    <link rel="stylesheet" href="../Assets/Styles/homepage.css" />
-    <link rel="stylesheet" href="../Assets/Styles/header.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rocket Coffee</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../Assets/Styles/arquivosGerais/tipografia.css">
+  <link rel="stylesheet" href="../Assets/Styles/arquivosGerais/estilizacaoGeral.css">
+  <link rel="stylesheet" href="../Assets/Styles/About-page.css">
+  <link rel="stylesheet" href="../Assets/Styles/janela-login.css">
+  <link rel="stylesheet" href="../Assets/Styles/homepage.css" />
+  <link rel="stylesheet" href="../Assets/Styles/header.css">
+
 </head>
+
 <body>
 
   <section id="login">
@@ -60,59 +62,69 @@
   </section>
 
   <header>
-    <nav>
+    <nav id="navbar">
       <div class="container">
-        <div class="nav-container">
 
-          <div class="container-button-responsivo">
-            <img src="../Assets/image/spacecoffee222 1.png" class="header-image" alt="Logo Rocket Coffee" />
-            <button type="button" id="btn-menu-responsivo" class="btn-menu-responsivo">⚙️</button>
+
+        <div id="navigator" class="navigator navigator--is-hidden">
+
+          <div class="nav-container">
+
+            <div class="container-button-responsivo">
+              <img src="../Assets/image/spacecoffee222 1.png" class="header-image" alt="Logo Rocket Coffee" />
+              <button type="button" id="btnMenu" class="btn-menu-responsivo">⚙️</button>
+            </div>
           </div>
 
-          <div id="navigator" class="navigator navigator--is-hidden">
-            <button type="button" id="btn-close-menu" class="btn-close btn-close--is-hidden">x</button>
-            <div class="link-container">
-              <a class="nav-link" href="../Home-Page/index.html">Home</a>
-              <a class="nav-link" href="../Menu-page/menu.html">Cardápio</a>
-              <a class="nav-link" href="../About-page/aboutPage.html">Sobre</a>
-              <a class="nav-link" href="../Contact-Page/Contact.html">Contato</a>
-            </div>
-            <div class="button-container" id="btnContainer">
-              <button id="btnModalLogin" class="header-button">Login</button>
-              <button id="btnUser"><ion-icon name="log-out-outline" id="IconBtnUser" ></ion-icon></button>
-              <button class="header-button" onclick="window.location.href='../Cart-Page/cart.html';">
-                Carrinho
-              </button>
-            </div>
+          <button type="button" id="btn-close-menu" class="btn-close btn-close--is-hidden">x</button>
+          <div class="link-container">
+            <a class="nav-link" href="../index.html">Home</a>
+            <a class="nav-link" href="../Menu-page/menu.html">Cardápio</a>
+            <a class="nav-link" href="../About-page/aboutPage.html">Sobre</a>
+            <a class="nav-link" href="../Contact-Page/Contact.html">Contato</a>
+          </div>
+          <div class="button-container" id="btnContainer">
+            <button id="btnModalLogin" class="header-button">Login</button>
+            <button id="btnUser"><ion-icon name="log-out-outline" id="IconBtnUser"></ion-icon></button>
+            <button class="header-button" onclick="window.location.href='../Cart-Page/cart.html';">
+              Carrinho
+            </button>
           </div>
         </div>
+      </div>
       </div>
     </nav>
   </header>
 
-      <section class="sobre-nos">
-        <div class="container">
-        <h2>SOBRE NÓS</h2>
-            <img src="aboutpage.jpeg" alt="Logo Rocket Coffee" class="img-sobre-nos"/> 
-            <p class="info-text">
-                O nome "Rocket Coffee" surgiu de sua imaginação, representando a ideia de elevar a experiência de café a novos patamares.
-                Mark dedicou anos a projetar meticulosamente o interior da cafeteria, trabalhando com artistas e designers para criar um ambiente que lembrasse uma estação espacial futurística.<br>
-                O resultado é uma atmosfera futurista repleta de luzes cintilantes, paredes decoradas com imagens de planetas e estrelas, e até mesmo mesas com tampos que imitam superfícies planetárias.<br>
-                A Rocket Coffee não é apenas um lugar para saborear um delicioso café, mas também uma experiência que transporta os clientes para uma jornada intergaláctica a cada visita.
-            </p>
-            
-        </div>
-    </section>
+  <section class="sobre-nos">
+    <div class="container">
+      <h2>SOBRE NÓS</h2>
+      <img src="aboutpage.jpeg" alt="Logo Rocket Coffee" class="img-sobre-nos" />
+      <p class="info-text">
+        O nome "Rocket Coffee" surgiu de sua imaginação, representando a ideia de elevar a experiência de café a novos
+        patamares.
+        Mark dedicou anos a projetar meticulosamente o interior da cafeteria, trabalhando com artistas e designers para
+        criar um ambiente que lembrasse uma estação espacial futurística.<br>
+        O resultado é uma atmosfera futurista repleta de luzes cintilantes, paredes decoradas com imagens de planetas e
+        estrelas, e até mesmo mesas com tampos que imitam superfícies planetárias.<br>
+        A Rocket Coffee não é apenas um lugar para saborear um delicioso café, mas também uma experiência que transporta
+        os clientes para uma jornada intergaláctica a cada visita.
+      </p>
 
-        <footer class="footer">
-            <p><strong>ROCKET COFFEE</strong> | 2023 | Todos os direitos reservados</p>
-          </footer>
-      </section>
-      <script type="module" src="https://unpkg.com/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
-      <script nomodule="" src="https://unpkg.com/ionicons@latest/dist/ionicons/ionicons.js"></script>
-      <script src="../Assets/scripts/menu-responsivo.js"></script>
-      <script type="module" src="../Assets/scripts/sessa2oIniciada.js"></script>
-      <script type="module" src="../Assets/scripts/crudLogin.js"></script>
-      <script type="module" src="../Assets/scripts/login.js"></script>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p><strong>ROCKET COFFEE</strong> | 2023 | Todos os direitos reservados</p>
+  </footer>
+  </section>
+
+  <script type="module" src="https://unpkg.com/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule="" src="https://unpkg.com/ionicons@latest/dist/ionicons/ionicons.js"></script>
+  <script src="../Assets/scripts/menu-responsivo.js"></script>
+  <script type="module" src="../Assets/scripts/sessa2oIniciada.js"></script>
+  <script type="module" src="../Assets/scripts/crudLogin.js"></script>
+  <script type="module" src="../Assets/scripts/login.js"></script>
 </body>
+
 </html>

@@ -1,8 +1,14 @@
-let navigator = document.getElementById("navigator")
-let btnMenu = document.getElementById("btn-menu-responsivo").addEventListener('click', () => {
-    navigator.classList.remove("navigator--is-hidden")
-});
-let btnCloseMenu = document.getElementById("btn-close-menu").addEventListener('click', () => {
-    navigator.classList.add("navigator--is-hidden")
-});
+let condicional = 0;
 
+btnMenu.onclick = () => {
+    if(condicional == 0){
+        navbar.style.height = '400px';
+        navbar.style.marginBotton = '20px';
+        condicional = 1;
+    }else{
+        navbar.style.height = '90px';
+        navbar.style.marginBotton = '0';
+        condicional = 0;
+    }
+
+}
