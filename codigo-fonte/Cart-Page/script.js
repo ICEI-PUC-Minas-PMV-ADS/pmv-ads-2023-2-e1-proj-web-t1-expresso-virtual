@@ -160,6 +160,8 @@ function finalizePurchase() {
   renderCart();
 
   alert("Compra finalizada! O carrinho foi esvaziado.");
+  window.location.href = "../Thanks-Page/thanks.html";
+
 }
 
 // Chame a função renderCart() para inicializar o carrinho na página
