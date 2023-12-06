@@ -7,7 +7,9 @@ window.addEventListener('DOMContentLoaded', () => {
 
     closeModal.onclick = () => {
         login.style.display = "none";
+
     }
+
 
     btnModalLogin.onclick = () => {
         login.style.display = "flex";
@@ -15,15 +17,19 @@ window.addEventListener('DOMContentLoaded', () => {
         btnCadastro.style.display = "none";
         linkLogin.style.display = "none";
         linkCadastro.style.display = "block";
+        logintext.style.display = "block"
         btnLogin.style.display = "block"
     }
 
+
     linkLogin.onclick = () => {
         //some ao clicarmos em login
+        logintext.style.display = "none"
         groupNome.style.display = "none"
         btnCadastro.style.display = "none";
         linkLogin.style.display = "none";
         //aparece ao clicar em Login
+        logintext.style.display = "block"
         linkCadastro.style.display = "block";
         btnLogin.style.display = "block"
         inputNome.value = ''
@@ -35,9 +41,11 @@ window.addEventListener('DOMContentLoaded', () => {
 
     linkCadastro.onclick = () => {
         //some ao clicarmos em login
+        logintext.style.display = "block"
         linkCadastro.style.display = "none";
         btnLogin.style.display = "none";
         //aparece ao clicar em Login
+        logintext.style.display = "none"
         groupNome.style.display = "flex";
         linkLogin.style.display = "block";
         btnCadastro.style.display = "block";

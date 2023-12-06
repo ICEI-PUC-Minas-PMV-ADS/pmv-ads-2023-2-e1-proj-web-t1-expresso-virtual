@@ -1,5 +1,8 @@
-button {
+#esqueciASenha, #linkCadastro, #linkLogin {
     cursor: pointer;
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
 }
 
 #login {
@@ -17,14 +20,29 @@ button {
 
 }
 
+#linkLogin {
+
+}
+
+#registertext {
+    color: var(--cor4);
+    font-size: 2.5em;
+    padding-bottom: 60px;
+    
+}
+#logintext {
+    color: var(--cor4);
+    font-size: 2.5em;
+}
 .caixaModal {
     min-width: 400px;
     min-height: 300px;
     padding: 40px;
     margin: auto;
     width: auto;
-    border-radius: 2px;
-    background-color: white;
+    border-radius: 10px;
+    background-color:var(--cor6);
+    border: 2px solid var(--cor3);
 }
 
 #closeModal {
@@ -58,7 +76,8 @@ input[name="campoCadastroLogin"] {
     width: 300px;
     padding: 10px 10px;
     border: 1px solid var(--cor13);
-    border-radius: 2px;
+    border-radius: 5px;
+    border: 2px solid rgb(170, 170, 170);
     transition-timing-function: linear;
     transition: .7s;
     margin: 0 auto 10px;
@@ -70,13 +89,65 @@ input[name="campoCadastroLogin"]:focus {
     border-color: var(--cor4);
 }
 
+#linkLogin:hover,
+#linkLogin:focus {
+  transition: 0.4s;
+  transform: translateX(8px) scale(1.1)
+}
+#linkCadastro:hover,
+#linkCadastro:focus {
+  transition: 0.4s;
+  transform: translateX(8px) scale(1.1)
+}
+
+#esqueciASenha:hover,
+#esqueciASenha:focus {
+  transition: 0.4s;
+  transform: translateX(8px) scale(1.1)
+}
+
+#btnLogin:hover,
+#btnLogin:focus {
+  transition: 0.1s;
+  transform: translateX(1px) scale(0.96) 
+}
+
+#btnCadastro:hover,
+#btnCadastro:focus {
+  transition: 0.1s;
+  transform: translateX(1px) scale(0.96) 
+}
+
 #btnLogin,
 #btnCadastro {
     margin: 30px auto;
     width: 300px;
     padding: 10px;
-    border-radius: 2px;
+    border-radius: 100px;
     font-size: 16px;
+    background: var(--cor3);
+    border: none;
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--cor6);
+}
+
+.nomeImg{
+    display: flex;
+    margin-left: 330px;
+    margin-bottom: -70px;
+}
+.emailImg {
+    display: flex;
+    margin-left: 330px;
+    margin-bottom: -30px;
+    
+}
+.senhaImg{
+    
+    display: flex;
+    margin-left: 330px;
+    margin-bottom: -30px;
 }
 
 #btnUser {
