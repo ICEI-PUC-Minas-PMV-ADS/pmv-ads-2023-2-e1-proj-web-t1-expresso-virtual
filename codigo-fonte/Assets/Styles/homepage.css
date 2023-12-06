@@ -13,7 +13,7 @@
 .info-container {
   display: flex;
   flex-direction: column;
-  background-color: #ed9812;
+  background-color: var(--cor1);
   align-items: center;
   justify-content: center;
   padding: 0 5% 0 5%;
@@ -30,8 +30,8 @@
   padding: 10px 25px;
   border: none;
   border-radius: 5px;
-  background-color: #593f30;
-  color: #ed9812;
+  background-color: var(--cor2);
+  color: var(--cor1);
   margin-top: 20px;
 }
 
@@ -69,7 +69,7 @@
 }
 
 .card-text {
-  color: grey;
+  color: var(--cor9);
   font-size: 13px;
   line-height: 1.5em;
   text-align: center;
@@ -83,10 +83,7 @@
   margin: 15px auto;
 }
 
-
 @media (max-width: 768px) {
-
-
   .hero {
     display: block;
   }
@@ -102,7 +99,7 @@
   .info-button {
     margin: 20px 0;
   }
-  .card-container{
+  .card-container {
     width: 100%;
   }
 }

@@ -57,7 +57,7 @@ input[name="campoCadastroLogin"] {
     display: block;
     width: 300px;
     padding: 10px 10px;
-    border: 1px solid #c9c9c9;
+    border: 1px solid var(--cor13);
     border-radius: 2px;
     transition-timing-function: linear;
     transition: .7s;
@@ -67,7 +67,7 @@ input[name="campoCadastroLogin"] {
 
 input[name="campoCadastroLogin"]:focus {
     outline: none;
-    border-color: black;
+    border-color: var(--cor4);
 }
 
 #btnLogin,
@@ -88,7 +88,7 @@ input[name="campoCadastroLogin"]:focus {
 
 ion-icon[name="log-out-outline"] {
     display: none;
-    color: red;
+    color: var(--cor11);
     z-index: 1;
     margin: auto;
 }

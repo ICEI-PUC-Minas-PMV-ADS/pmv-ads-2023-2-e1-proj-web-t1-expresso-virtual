@@ -52,8 +52,8 @@ address {
     width: 700px;
     min-width: 300px;
     border-radius: 0px 20px 20px 0px;
-    background-color: #181c26;
-    box-shadow: rgba(0, 0, 0, 0.733) 0px 2px 3px;
+    background-color: var(--cor3);
+    box-shadow: var(--cor4)(0, 0, 0, 0.733) 0px 2px 3px;
 }
 
 input {
@@ -62,11 +62,11 @@ input {
 
 input::placeholder {
     padding: 5px;
-    color: #5F6C8C;
+    color: var(--cor8);
 }
 
 textarea::placeholder {
-    color: #5F6C8C;
+    color: var(--cor8);
 }
 
 .input {
@@ -74,7 +74,7 @@ textarea::placeholder {
     height: 30px;
     font-size: 1em;
     margin-bottom: 10px;
-    background-color: #D9D9D9;
+    background-color: var(--cor7);
     font-family: rowdies;
     border: none;
 
@@ -91,7 +91,7 @@ textarea::placeholder {
     height: 180px;
     width: 100%;
     border: none;
-    background-color: #D9D9D9;
+    background-color: var(--cor7);
     font-family: rowdies;
     margin-top: 5px;
     padding: 5px;

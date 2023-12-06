@@ -16,7 +16,7 @@ article {
 .container-cafe {
   display: flex;
   flex-direction: column;
-  border: thin #e7e7e7 solid;
+  border: thin var(--cor10) solid;
   padding: 10px;
   border-radius: 6px;
   transition: .5s;
@@ -33,7 +33,7 @@ article {
 }
 
 p.text {
-  color: black;
+  color: var(--cor4);
   text-align: center;
   width: 90%;
   height: 100px;
@@ -56,7 +56,7 @@ p.text {
   align-items: center;
   border-radius: 14px;
   font-family: rowdies;
-  background: #f1aa36;
+  background: var(--cor1);
   border: none;
   cursor: pointer;
 }
@@ -66,18 +66,18 @@ p.text {
 }
 
 .add:hover {
-  background: white;
+  background: var(--cor6);
   transition: 0.5s;
 }
 
 .add:active {
-  box-shadow: 7px 6px 20px 1px rgba(0, 0, 0, 0.24);
+  box-shadow: 7px 6px 20px 1px var(--cor4)(0, 0, 0, 0.24);
   transform: translateY(8px);
 }
 
 .buy {
   font-family: rowdies;
-  background: #f1aa36;
+  background: var(--cor1);
   border-radius: 14px;
   width: 200px;
   height: 40px;
@@ -86,12 +86,12 @@ p.text {
 }
 
 .buy:hover {
-  background: white;
+  background: var(--cor6);
   transition: 0.5s;
 }
 
 .buy:active {
-  box-shadow: 7px 6px 20px 1px rgba(0, 0, 0, 0.24);
+  box-shadow: 7px 6px 20px 1px var(--cor4)(0, 0, 0, 0.24);
   transform: translateY(8px);
 }
 

@@ -14,19 +14,22 @@ h3 {
 }
 
 p, a {
-font-size: 1em;/*16px*/
-color: black;
+font-size: var(--fontSize-P-A);
+font-family: var(--font-padrao);
+color:var(--cor10);
 }
 .footer p{
-    color:white;
+    color:var(--cor6);
+    font-family: var(--font-padrao)
 }
 
 nav a, .button-container  {
-    color: #ed9812;
+    color: var(--cor1);
     text-decoration: none;
+    font-family: var(--font-padrao);
   }
   .button-container{
-    color: #593f30;
+    color:var(--cor3);
   }
 
   @media (max-width:900px) {

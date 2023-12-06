@@ -7,7 +7,7 @@
 
 
 header {
-    background-color: #181C27;
+    background-color: var(--cor3);
     position: fixed;
     float: left;
     top: 0;
@@ -22,8 +22,8 @@ header {
 }
 
 .btnlogin-popup, .btncarrinho-popup {
-    background: #EE9712;
-    color: #875C27;
+    background: var(--cor1);
+    color: var(--cor2);
     border-radius: 20px;
     height: 40px;
     width: 90px;
@@ -33,14 +33,14 @@ header {
 }
 
 .navgation a {
-        color: #EE9712;
+        color: var(--cor1);
         text-decoration: none;
         padding: 50px;
 }
 
 
 body{
-    background-color: #181C27;
+    background-color: var(--cor3);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -55,7 +55,7 @@ body{
 }
 
 .text-thanks{
-    color: #EE9712;
+    color: var(--cor1);
     font-size: 50px;
     font-family: rowdies;
     position: absolute;
@@ -66,11 +66,11 @@ body{
 }
 
 .rodape{
-    background-color: #181c26;
+    background-color: var(--cor3);
     display: flex;
     align-items: center;
     justify-content: space-around;
-    color: #ffffff;
+    color: var(--cor6);
     text-align: center;
     height: 50px;
     width: 100%;

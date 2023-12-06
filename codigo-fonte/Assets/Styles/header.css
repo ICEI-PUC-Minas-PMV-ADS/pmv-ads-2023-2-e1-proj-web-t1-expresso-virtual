@@ -1,5 +1,5 @@
 header {
-  background-color: #181c26;
+  background-color: var(--cor3);
 }
 nav{
   width: 100vw;
@@ -37,8 +37,8 @@ cursor: pointer;
   padding: 10px;
   border-radius: 10px;
   transition: .5s;
-  background-color: #181c26;
-  border: 1px solid white;
+  background-color: var(--cor3);
+  border: 1px solid var(--cor6);
 }
 
 .btn-menu-responsivo:hover,
@@ -65,7 +65,7 @@ cursor: pointer;
 }
 
 .header-button {
-  background-color: #ed9812;
+  background-color: var(--cor1);
   border: none;
   padding: 10px 20px;
   margin: 10px;
@@ -75,7 +75,7 @@ cursor: pointer;
 
 .header-button:active {
   transform: translateY(2px);
-  background-color: #f1aa36;
+  background-color: var(--cor1);
 }
 
 @media (max-width: 830px) {
