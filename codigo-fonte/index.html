@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" />
   <link rel="stylesheet" href="Assets/Styles/arquivosGerais/tipografia.css">
   <link rel="stylesheet" href="Assets/Styles/header.css">
-  
+
 </head>
 
 <body>
@@ -35,65 +35,88 @@
           <input type="text" name="campoCadastroLogin" id="inputEmail">
         </div>
 
-
-        <div class="inputGroup" id="groupSenha">
-          <label class="labelModal" for="inputSenha">Senha</label>
+        <div class="inputGroup" id="groupCep">
+          <label class="labelModal" for="inputCep">CEP</label>
           <img id="senhaImg" class="senhaImg" src="./Assets/image/lock-alt-solid-24.png" alt="">
-          <input type="password" name="campoCadastroLogin" id="inputSenha">
+          <input type="text" name="campoCadastroLogin" id="inputCep" onkeyup="mascara('#####-###',this,event,true)">
         </div>
 
-        <div class="inputGroup" id="groupEsqueciASenha">
-          <button type="button" id="esqueciASenha">Esqueci a senha</button>
+        <div class="inputGroup" id="groupRua">
+          <label class="labelModal" for="inputRua">Rua</label>
+          <img id="senhaImg" class="senhaImg" src="./Assets/image/lock-alt-solid-24.png" alt="">
+          <input type="text" name="campoCadastroLogin" id="inputRua">
         </div>
 
-        <div class="inputGroup">
-          
-          <button type="button" id="btnLogin">Login</span></button>
-          <button type="button" id="btnCadastro">Cadastre-se</span></button>
-        </div>
+        <div class="inputGroup" id="groupNumero">
+          <div>
+            <label class="labelModal" for="inputNumero">Número</label>
+            <input type="Number" name="campoCadastroLogin" id="inputNumero">
+          </div>
+          <div>
+            <label class="labelModal" for="inputNumero">Complemento</label>
+            <input type="text" name="campoCadastroLogin" id="inputNumero">
+          </div>
+          </div>
 
-        <div class="inputgroup">
-          <button type="button" id="linkCadastro">Ou cadastre-se</button>
-          <button type="button" id="linkLogin">Faça Login</button>
+          <div class="inputGroup" id="groupSenha">
+            <label class="labelModal" for="inputSenha">Senha</label>
+            <img id="senhaImg" class="senhaImg" src="./Assets/image/lock-alt-solid-24.png" alt="">
+            <input type="password" name="campoCadastroLogin" id="inputSenha" >
+          </div>
+
+
+          <div class="inputGroup" id="groupEsqueciASenha">
+            <button type="button" id="esqueciASenha">Esqueci a senha</button>
+          </div>
+
+          <div class="inputGroup">
+
+            <button type="button" id="btnLogin">Login</span></button>
+            <button type="button" id="btnCadastro">Cadastre-se</span></button>
+          </div>
+
+          <div class="inputgroup">
+            <button type="button" id="linkCadastro">Ou cadastre-se</button>
+            <button type="button" id="linkLogin">Faça Login</button>
+          </div>
+
         </div>
 
       </div>
-
-    </div>
 
     </div>
   </section>
   <header>
     <nav id="navbar">
       <div class="container">
-        
 
-          <div id="navigator" class="navigator navigator--is-hidden">
 
-            <div class="nav-container">
+        <div id="navigator" class="navigator navigator--is-hidden">
 
-              <div class="container-button-responsivo">
-                <img src="Assets/image/spacecoffee222 1.png" class="header-image" alt="Logo Rocket Coffee" />
-                <button type="button" id="btnMenu" class="btn-menu-responsivo">⚙️</button>
-              </div>
-              </div>
+          <div class="nav-container">
 
-            <button type="button" id="btn-close-menu" class="btn-close btn-close--is-hidden">x</button>
-            <div class="link-container">
-              <a class="nav-link" href="index.html">Home</a>
-              <a class="nav-link" href="Menu-page/menu.html">Cardápio</a>
-              <a class="nav-link" href="About-page/aboutPage.html">Sobre</a>
-              <a class="nav-link" href="Contact-Page/Contact.html">Contato</a>
-            </div>
-            <div class="button-container" id="btnContainer">
-              <button id="btnModalLogin" class="header-button">Login</button>
-              <button id="btnUser"><ion-icon name="log-out-outline" id="IconBtnUser"></ion-icon></button>
-              <button class="header-button" onclick="window.location.href='./Cart-Page/cart.html'">
-                Carrinho
-              </button>
+            <div class="container-button-responsivo">
+              <img src="Assets/image/spacecoffee222 1.png" class="header-image" alt="Logo Rocket Coffee" />
+              <button type="button" id="btnMenu" class="btn-menu-responsivo">⚙️</button>
             </div>
           </div>
+
+          <button type="button" id="btn-close-menu" class="btn-close btn-close--is-hidden">x</button>
+          <div class="link-container">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="Menu-page/menu.html">Cardápio</a>
+            <a class="nav-link" href="About-page/aboutPage.html">Sobre</a>
+            <a class="nav-link" href="Contact-Page/Contact.html">Contato</a>
+          </div>
+          <div class="button-container" id="btnContainer">
+            <button id="btnModalLogin" class="header-button">Login</button>
+            <button id="btnUser"><ion-icon name="log-out-outline" id="IconBtnUser"></ion-icon></button>
+            <button class="header-button" onclick="window.location.href='./Cart-Page/cart.html'">
+              Carrinho
+            </button>
+          </div>
         </div>
+      </div>
       </div>
     </nav>
   </header>
@@ -165,6 +188,8 @@
       <strong>ROCKET COFFEE</strong> | 2023 | Todos os direitos reservados
     </p>
   </footer>
+  <script src="Assets/scripts/mascara.min.js"></script>
+  <script src="Assets/scripts/mascaraCampos.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule="" src="https://unpkg.com/ionicons@latest/dist/ionicons/ionicons.js"></script>
   <script type="module" src="Assets/scripts/menu-responsivo.js"></script>

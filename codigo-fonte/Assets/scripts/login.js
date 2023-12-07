@@ -13,12 +13,15 @@ window.addEventListener('DOMContentLoaded', () => {
 
     btnModalLogin.onclick = () => {
         login.style.display = "flex";
-        groupNome.style.display = "none"
+        groupNome.style.display = "none";
         btnCadastro.style.display = "none";
         linkLogin.style.display = "none";
         linkCadastro.style.display = "block";
         logintext.style.display = "block"
         btnLogin.style.display = "block"
+        groupCep.style.display = "none";
+        groupRua.style.display = "none";
+        groupNumero.style.display = "none";
     }
 
 
@@ -32,6 +35,9 @@ window.addEventListener('DOMContentLoaded', () => {
         logintext.style.display = "block"
         linkCadastro.style.display = "block";
         btnLogin.style.display = "block"
+        groupCep.style.display = "none";
+        groupRua.style.display = "none";
+        groupNumero.style.display = "none";
         inputNome.value = ''
         inputSenha.value = ''
         inputEmail.value = ''
@@ -49,6 +55,9 @@ window.addEventListener('DOMContentLoaded', () => {
         groupNome.style.display = "flex";
         linkLogin.style.display = "block";
         btnCadastro.style.display = "block";
+        groupCep.style.display = "block";
+        groupRua.style.display = "block";
+        groupNumero.style.display = "block";
         inputNome.value = ''
         inputSenha.value = ''
         inputEmail.value = ''
@@ -58,8 +67,10 @@ window.addEventListener('DOMContentLoaded', () => {
     inputNome.onkeyup = () => { nomeUsuario = inputNome.value; }
     inputEmail.onkeyup = () => { emailUsuario = inputEmail.value; }
     inputSenha.onkeyup = () => { senhaUsuario = inputSenha.value; }
-
-
+inputCep.addEventListener('keyup', () => {
+if(inputCep.value.length == 9){
+autocompletarRua()
+}})
 
     btnCadastro.onclick = () => {
         let validadorCampos = verificador()
@@ -87,3 +98,6 @@ window.addEventListener('DOMContentLoaded', () => {
         }
     }
 })
+async function autocompletarRua(){
+    inputRua.value = await fetch(`https://viacep.com.br/ws/${inputCep.value}/json/`).then(e => e.json()).then(e => {return `${e.logradouro}`})
+}
