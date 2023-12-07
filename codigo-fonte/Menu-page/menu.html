@@ -69,6 +69,31 @@
           <input type="text" name="campoCadastroLogin" id="inputEmail">
         </div>
 
+        <div class="inputGroup" id="groupCep">
+          <label class="labelModal" id="textcep" for="inputCep">CEP</label>
+          <img id="senhaImg" class="senhaImg" src="../Assets/image/home-solid-24.png" alt="">
+          <input type="text" name="campoCadastroLogin" id="inputCep" onkeyup="mascara('#####-###',this,event,true)">
+        </div>
+
+        <div class="inputGroup" id="groupRua">
+          <label class="labelModal" id="textrua" for="inputRua">Rua</label>
+          <img id="ruaImg" class="ruaImg" src="../Assets/image/home-solid-24.png" alt="">
+          <input type="text" name="campoCadastroLogin" id="inputRua">
+        </div>
+
+        <div class="inputGroup" id="groupNumero">
+          <div>
+            <label class="labelModal" id="textnumero" for="inputNumero">Número</label>
+            <img id="numeroImg" class="numeroImg" src="../Assets/image/left-arrow-solid-24.png" alt="">
+            <input type="Number" name="campoCadastroLogin" id="inputNumero">
+          </div>
+          <div>
+            <label class="labelModal" id="textcomplemento" for="inputComplemento">Complemento</label>
+            <img id="complementoImg" class="complementoImg" src="../Assets/image/left-arrow-solid-24.png" alt="">
+            <input type="text" name="campoCadastroLogin" id="inputcomplemento">
+
+          </div>
+        </div>
 
         <div class="inputGroup" id="groupSenha">
           <label class="labelModal" for="inputSenha">Senha</label>
@@ -76,12 +101,13 @@
           <input type="password" name="campoCadastroLogin" id="inputSenha">
         </div>
 
+
         <div class="inputGroup" id="groupEsqueciASenha">
           <button type="button" id="esqueciASenha">Esqueci a senha</button>
         </div>
 
         <div class="inputGroup">
-          
+
           <button type="button" id="btnLogin">Login</span></button>
           <button type="button" id="btnCadastro">Cadastre-se</span></button>
         </div>

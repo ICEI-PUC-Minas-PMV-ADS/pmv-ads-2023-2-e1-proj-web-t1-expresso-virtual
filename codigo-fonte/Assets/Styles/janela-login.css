@@ -1,201 +1,238 @@
-#esqueciASenha, #linkCadastro, #linkLogin {
-    cursor: pointer;
-    border: none;
-    background-color: transparent;
-    text-decoration: underline;
+#esqueciASenha,
+#linkCadastro,
+#linkLogin {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 #login {
-    position: fixed;
-    display: none;
-    align-items: center;
-    width: 100vw;
-    max-width: 100vw;
-    height: 100vh;
-    max-height: 100vh;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    background-color: rgba(0, 0, 0, .2);
-    backdrop-filter: blur(5px);
-    box-shadow: 10px 10px 8px black;
-    z-index: 2;
-
+  position: fixed;
+  display: none;
+  align-items: center;
+  width: 100vw;
+  max-width: 100vw;
+  height: 100vh;
+  max-height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  box-shadow: 10px 10px 8px black;
+  z-index: 2;
 }
 
 #linkLogin {
-
 }
 
 #registertext {
-    color: var(--cor4);
-    font-size: 2.5em;
-    padding-bottom: 60px;
-    
+  color: var(--cor4);
+  font-size: 2.5em;
+  padding-bottom: 60px;
 }
 #logintext {
-    color: var(--cor4);
-    font-size: 2.5em;
+  color: var(--cor4);
+  font-size: 2.5em;
 }
 .caixaModal {
-    min-width: 400px;
-    min-height: 300px;
-    padding: 40px;
-    margin: auto;
-    width: auto;
-    border-radius: 10px;
-    background-color:var(--cor6);
-    border: 2px solid var(--cor3);
+  min-width: 400px;
+  min-height: 300px;
+  padding: 40px;
+  margin: auto;
+  width: auto;
+  border-radius: 10px;
+  background-color: var(--cor6);
+  border: 2px solid var(--cor3);
 }
 
 #closeModal {
-    margin-left: calc(100% - 20px);
-    background-color: transparent;
-    border: none;
+  margin-left: calc(100% - 20px);
+  background-color: transparent;
+  border: none;
 }
 
 ion-icon {
-    font-size: 24px;
+  font-size: 24px;
 }
 
-
 .inputGroup {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
 }
 
 .labelModal {
-    display: block;
-    margin: 10px 0;
-    width: 300px;
+  display: block;
+  margin: 10px 0;
+  width: 300px;
 }
 
-
 input[name="campoCadastroLogin"] {
-    display: block;
-    width: 300px;
-    padding: 10px 10px;
-    border: 1px solid var(--cor13);
-    border-radius: 5px;
-    border: 2px solid rgb(170, 170, 170);
-    transition-timing-function: linear;
-    transition: .7s;
-    margin: 0 auto 10px;
-
+  display: block;
+  width: 300px;
+  padding: 10px 10px;
+  border: 1px solid var(--cor13);
+  border-radius: 5px;
+  border: 2px solid rgb(170, 170, 170);
+  transition-timing-function: linear;
+  transition: 0.7s;
+  margin: 0 auto 10px;
 }
 
 input[name="campoCadastroLogin"]:focus {
-    outline: none;
-    border-color: var(--cor4);
+  outline: none;
+  border-color: var(--cor4);
 }
 
 #linkLogin:hover,
 #linkLogin:focus {
   transition: 0.4s;
-  transform: translateX(8px) scale(1.1)
+  transform: translateX(8px) scale(1.1);
 }
 #linkCadastro:hover,
 #linkCadastro:focus {
   transition: 0.4s;
-  transform: translateX(8px) scale(1.1)
+  transform: translateX(8px) scale(1.1);
 }
 
 #esqueciASenha:hover,
 #esqueciASenha:focus {
   transition: 0.4s;
-  transform: translateX(8px) scale(1.1)
+  transform: translateX(8px) scale(1.1);
 }
 
 #btnLogin:hover,
 #btnLogin:focus {
   transition: 0.1s;
-  transform: translateX(1px) scale(0.96) 
+  transform: translateX(1px) scale(0.96);
 }
 
 #btnCadastro:hover,
 #btnCadastro:focus {
   transition: 0.1s;
-  transform: translateX(1px) scale(0.96) 
+  transform: translateX(1px) scale(0.96);
 }
 
 #btnLogin,
 #btnCadastro {
-    margin: 30px auto;
-    width: 300px;
-    padding: 10px;
-    border-radius: 100px;
-    font-size: 16px;
-    background: var(--cor3);
-    border: none;
-    text-decoration: none;
-    font-weight: 700;
-    color: var(--cor6);
+  margin: 30px auto;
+  width: 300px;
+  padding: 10px;
+  border-radius: 100px;
+  font-size: 16px;
+  background: var(--cor3);
+  border: none;
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--cor6);
 }
 
-.nomeImg{
-    display: flex;
-    margin-left: 330px;
-    margin-bottom: -70px;
+.nomeImg {
+  display: flex;
+  margin-left: 330px;
+  margin-bottom: -70px;
 }
 .emailImg {
-    display: flex;
-    margin-left: 330px;
-    margin-bottom: -30px;
-    
+  display: flex;
+  margin-left: 330px;
+  margin-bottom: -30px;
 }
-.senhaImg{
-    
-    display: flex;
-    margin-left: 330px;
-    margin-bottom: -30px;
+.senhaImg {
+  display: flex;
+  margin-left: 330px;
+  margin-bottom: -30px;
+}
+
+.ruaImg {
+  display: flex;
+  margin-left: 330px;
+  margin-bottom: -30px;
+}
+
+#textcomplemento {
+    margin-left: 28px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+#textrua {
+    margin-left: 28px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+#textnumero {
+    margin-left: 28px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+#textcep {
+    margin-left: 28px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+
+.numeroImg {
+  display: flex;
+  margin-left: 330px;
+  margin-bottom: -30px;
+}
+
+.complementoImg {
+  display: flex;
+  margin-left: 330px;
+  margin-bottom: -30px;
 }
 
 #btnUser {
-    display: none;
-    background-color: transparent;
-    outline: none;
-    border: none;
+  display: none;
+  background-color: transparent;
+  outline: none;
+  border: none;
 }
 
 ion-icon[name="log-out-outline"] {
-    display: none;
-    color: var(--cor11);
-    z-index: 1;
-    margin: auto;
+  display: none;
+  color: var(--cor11);
+  z-index: 1;
+  margin: auto;
 }
 
 @media (max-width: 830px) {
-    .caixaModal {
-        min-width: 0;
-        min-height: 0;
-        padding: 40px;
-        width: 100vw;
-        max-width: 500px;
-    }
+  .caixaModal {
+    min-width: 0;
+    min-height: 0;
+    padding: 40px;
+    width: 100vw;
+    max-width: 500px;
+  }
 
-    .labelModal {
-        display: block;
-        margin: 10px auto;
-        width: 90vw;
-        padding: 0px;
-    }
+  .labelModal {
+    display: block;
+    margin: 10px auto;
+    width: 90vw;
+    padding: 0px;
+  }
 
-    .input,
-    input[name="campoCadastroLogin"],
-    .labelModal {
-        width: 90% !important;
-    }
+  .input,
+  input[name="campoCadastroLogin"],
+  .labelModal {
+    width: 90% !important;
+  }
 
-    .containerModal {
-        max-width: 300px;
-        margin: auto;
+  .containerModal {
+    max-width: 300px;
+    margin: auto;
+  }
 
-    }
-
-    #btnLogin,
-    #btnCadastro {
-        width: 90%;
-    }
+  #btnLogin,
+  #btnCadastro {
+    width: 90%;
+  }
 }
