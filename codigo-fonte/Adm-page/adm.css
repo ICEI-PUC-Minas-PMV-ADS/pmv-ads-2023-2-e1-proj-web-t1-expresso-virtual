@@ -1,20 +1,35 @@
-
-
-
 #nome,
 #email,
 #id {
   display: none;
 }
 
-
 .tabelaAdm {
+  display: flex;
   background-color: #4d2a06de;
-  width: 1000px;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
   margin: auto;
   text-align: center;
   margin-top: 100px;
   border-radius: 10px;
+}
+
+.container-button {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.grafico {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
 }
 
 h1 {
