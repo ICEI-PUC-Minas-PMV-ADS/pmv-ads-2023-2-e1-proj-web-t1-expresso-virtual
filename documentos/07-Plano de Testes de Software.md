@@ -238,6 +238,6 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
    </ol>
    </td>
   <td>O site deve permanecer igual em todos os navegadores, sem apresentar erros.</td>
-  <td>Laura</td>
+  <td>Lucas Souza</td>
  </tr>
 </table>
