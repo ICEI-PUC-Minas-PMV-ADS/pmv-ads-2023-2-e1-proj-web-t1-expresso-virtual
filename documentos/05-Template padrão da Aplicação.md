@@ -24,23 +24,23 @@ Assim, a combinação de azul e amarelo no logotipo do site foi estrategicamente
 <p>Exibe informações sobre itens do cardápio, botões de login, e acesso ao cardápio, contato e sobre nós.</p>
 <figure> 
   <img src="img/home page.png">
-  <figcaption> Figura 17 - Tela de Homepage
+  <figcaption> Figura 1 - Tela de Homepage
 </figure> 
 <hr>
 <h3><b>Página Sobre Nós</b></h3>
 <p>Exibe informações sobre a cafeteria e sua história .</p>
 <figure> 
   <img src="img/SobreNos.png">
-  <figcaption>Figura 18 - Tela de Sobre Nós    
+  <figcaption>Figura 2 - Tela de Sobre Nós    
 </figure> 
 <hr>
 
 <figure> 
   <img src="img/FaleConosco.JPG">
-    <figcaption>Figura 19 - Tela Fale Conosco
+    <figcaption>Figura 3 - Tela Fale Conosco
 </figure> 
 <hr>
 <figure> 
   <img src="img/Carrinho.png">
-    <figcaption>Figura 20 - Tela Carrinho
+    <figcaption>Figura 4 - Tela Carrinho
 </figure> 
