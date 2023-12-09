@@ -71,13 +71,11 @@ function renderCart() {
           <div class="cart-info">
             <p>Quantidade</p>
             <div class="cart-info-button">
-              <img class="cart-info-button-img" src="./img/seta-para-cima.png" onclick="increaseQuantity(${
-                item.id
-              })" />
+              <img class="cart-info-button-img" src="./img/seta-para-cima.png" onclick="increaseQuantity(${item.id
+      })" />
               <p>${item.quantity}</p>
-              <img class="cart-info-button-img" src="./img/seta-para-baixo.png" onclick="decreaseQuantity(${
-                item.id
-              })" />
+              <img class="cart-info-button-img" src="./img/seta-para-baixo.png" onclick="decreaseQuantity(${item.id
+      })" />
             </div>
           </div>
           <div class="cart-info">
@@ -144,25 +142,72 @@ function decreaseQuantity(productId) {
 //Remove o carrinho do localStorage, redefine cartData como um array vazio e chama renderCart.
 //Exibe um alerta informando que a compra foi finalizada e o carrinho foi esvaziado.
 function finalizePurchase() {
-  // Verifica se possui itens no carrinho, e exibe um alerta
-  if (!cartData || cartData.length === 0) {
-    alert("Seu carrinho está vazio! Compra não efetuada!");
-    return;
+  //verifica se o usuário está logado com retorno true ou false
+  let verificaLogin = loginChecker();
+
+  if (verificaLogin == true) {
+    // Verifica se possui itens no carrinho, e exibe um alerta
+    if (!cartData || cartData.length === 0) {
+      alert("Seu carrinho está vazio! Compra não efetuada!");
+      return;
+    }
+    // salva os dados da compra
+    addToBuyHistory()
+    // Limpar o carrinho no localStorage
+    localStorage.removeItem("cart");
+
+    // Atualizar o carrinho local
+    cartData = [];
+
+    // Renderizar o carrinho novamente
+    renderCart();
+    alert("Compra finalizada! O carrinho foi esvaziado.");
+    window.location.href = "../Thanks-Page/thanks.html";
+  } else {
+    alert("Você precisa logar antes!")
   }
-
-  // Limpar o carrinho no localStorage
-  localStorage.removeItem("cart");
-
-  // Atualizar o carrinho local
-  cartData = [];
-
-  // Renderizar o carrinho novamente
-  renderCart();
-
-  alert("Compra finalizada! O carrinho foi esvaziado.");
-  window.location.href = "../Thanks-Page/thanks.html";
-
 }
 
 // Chame a função renderCart() para inicializar o carrinho na página
 renderCart();
+
+function loginChecker() {
+  let StorageUser = localStorage.getItem('usuarioLogado')
+  if (StorageUser != undefined) {
+    return true;
+  } else {
+    return false;
+  }
+}
+function addToBuyHistory() {
+  try {
+    let purchasesHistoric = localStorage.getItem('purchasesHistoric')
+    let arrPurchasesHistoric = JSON.parse(purchasesHistoric)
+  } catch {
+    let arrPurchasesHistoric = {}
+   }
+  let StorageUser = localStorage.getItem('usuarioLogado');
+  let UserJson = JSON.parse(StorageUser);
+  let UserName = UserJson.nome;
+  let UserEmail = UserJson.email;
+  let UserId = UserJson.id;
+  let buyDateComplete = new Date();
+  let buyDateConvert = buyDateComplete.getTime()
+  let dateConvert = dateNow()
+
+  let finishBuy = { nome: UserName, email: UserEmail, id: UserId, buyDate: buyDateConvert, dateConvert: dateConvert, itens: cartData }
+
+  localStorage.setItem('purchasesHistoric', JSON.stringify(finishBuy))
+
+
+
+}
+
+function dateNow() {
+  let dateToday = new Date();
+  let dateDay = dateToday.getDay();
+  let dateMonth = dateToday.getMonth();
+  let dateYear = dateToday.getFullYear();
+
+  return `${dateDay}/${dateMonth}/${dateYear}`
+}

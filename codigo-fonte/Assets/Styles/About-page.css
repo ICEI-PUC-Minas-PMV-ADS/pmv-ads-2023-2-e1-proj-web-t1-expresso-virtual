@@ -2,13 +2,6 @@
     min-height: calc(100vh - 113px);
   }
   
-  .container {
-    margin: 0 auto;
-    text-align: center;
-    max-width: 1024px;
-  
-  }
-  
   .img-sobre-nos {
     display: block;
     margin: auto;
