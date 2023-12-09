@@ -10,8 +10,5 @@ DIAS, Roger. Brasil é líder no crescimento de compras on-line, diz estudo. Cor
 https://www.correiobraziliense.com.br/economia/2022/08/5028885-brasil-e-lider-no-crescimento-de-compras-on-line-diz-estudo.html. Acesso em: 3 set. 2023.
 
 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
 
 SUTHERLAND, Jeff. Scrum a Arte de Fazer o Dobro do Trabalho na Metade do Tempo. [S. l.]: Leya, 2014. 238 p.
