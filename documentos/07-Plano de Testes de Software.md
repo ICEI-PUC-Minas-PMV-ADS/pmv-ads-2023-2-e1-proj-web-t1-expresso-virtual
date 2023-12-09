@@ -99,7 +99,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>Colocar os dados válidos e logar</li>
    </ol>
    </td>
-  <td>Usuário registrado e conseguindo logar</td>
+  <td>Usuário deve conseguir registrar e logar</td>
   <td>Lucas Quintanilha</td>
  </tr>
 </table>
@@ -133,7 +133,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>Visualizar os pedidos dos clientes</li>
    </ol>
    </td>
-  <td>Administrador consegue logar e conferir informações dos clientes</td>
+  <td>Administrador deve conseguir logar e conferir informações dos clientes</td>
   <td>Josef</td>
  </tr>
 </table>
@@ -164,7 +164,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>Clicar na página Contato.</li>
    </ol>
    </td>
-  <td>Cliente consegue mandar um e-mail através  da opção "Fale conosco".</td>
+  <td>Cliente deve conseguir visualizar todas as informações de contato.</td>
   <td>Vitor</td>
  </tr>
 </table>
