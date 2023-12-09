@@ -66,7 +66,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>Visualizar o carrinho, quantidade de produtos e valor.</li>
    </ol>
    </td>
-  <td>Tela Menu mostrando os produtos e características, porém o preço não está aparecendo na tela Cardápio.</td>
+  <td>Tela Cardápio deve  mostrar os produtos e características</td>
   <td>Josef</td>
  </tr>
 </table>
