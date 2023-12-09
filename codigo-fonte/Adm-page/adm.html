@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,40 +14,33 @@
   <link rel="stylesheet" href="../Assets/Styles/janela-login.css">
   <link rel="stylesheet" href="../Assets/Styles/header.css">
 </head>
-
 <body>
-
   <section id="login">
     <div class="caixaModal">
       <div class=" containerModal">
         <button type="button" id="closeModal"><ion-icon name="close-outline" id="close-outline"></ion-icon></button>
-
         <div class="inputGroup" id="groupNome">
           <h1 id="registertext">Register</h1>
           <img id="nomeImg" class="nomeImg" src="../Assets/image/user-pin-solid-24.png" alt="">
           <label class="labelModal" for="inputNome">Nome Completo</label>
           <input type="text" name="campoCadastroLogin" id="inputNome">
         </div>
-
         <div class="inputGroup" id="groupEmail">
           <h1 id="logintext">Login</h1>
           <label class="labelModal" for="inputEmail">Email</label>
           <img id="emailImg" class="emailImg" src="../Assets/image/envelope-solid-24.png" alt="">
           <input type="text" name="campoCadastroLogin" id="inputEmail">
         </div>
-
         <div class="inputGroup" id="groupCep">
           <label class="labelModal" id="textcep" for="inputCep">CEP</label>
           <img id="senhaImg" class="senhaImg" src="../Assets/image/home-solid-24.png" alt="">
           <input type="text" name="campoCadastroLogin" id="inputCep" onkeyup="mascara('#####-###',this,event,true)">
         </div>
-
         <div class="inputGroup" id="groupRua">
           <label class="labelModal" id="textrua" for="inputRua">Rua</label>
           <img id="ruaImg" class="ruaImg" src="../Assets/image/home-solid-24.png" alt="">
           <input type="text" name="campoCadastroLogin" id="inputRua">
         </div>
-
         <div class="inputGroup" id="groupNumero">
           <div>
             <label class="labelModal" id="textnumero" for="inputNumero">Número</label>
@@ -59,54 +51,38 @@
             <label class="labelModal" id="textcomplemento" for="inputComplemento">Complemento</label>
             <img id="complementoImg" class="complementoImg" src="../Assets/image/left-arrow-solid-24.png" alt="">
             <input type="text" name="campoCadastroLogin" id="inputcomplemento">
-
           </div>
         </div>
-
         <div class="inputGroup" id="groupSenha">
           <label class="labelModal" for="inputSenha">Senha</label>
           <img id="senhaImg" class="senhaImg" src="../Assets/image/lock-alt-solid-24.png" alt="">
           <input type="password" name="campoCadastroLogin" id="inputSenha">
         </div>
-
-
         <div class="inputGroup" id="groupEsqueciASenha">
           <button type="button" id="esqueciASenha">Esqueci a senha</button>
         </div>
-
         <div class="inputGroup">
-
           <button type="button" id="btnLogin">Login</span></button>
           <button type="button" id="btnCadastro">Cadastre-se</span></button>
         </div>
-
         <div class="inputgroup">
           <button type="button" id="linkCadastro">Ou cadastre-se</button>
           <button type="button" id="linkLogin">Faça Login</button>
         </div>
-
       </div>
-
     </div>
-
     </div>
   </section>
-
   <header>
     <nav id="navbar">
       <div class="container">
-
-
         <div id="navigator" class="navigator navigator--is-hidden">
-
           <div class="nav-container">
-
             <div class="container-button-responsivo">
               <img src="../Assets/image/spacecoffee222 1.png" class="header-image" alt="Logo Rocket Coffee" />
               <button type="button" id="btnMenu" class="btn-menu-responsivo">⚙️</button>
             </div>
           </div>
-
           <button type="button" id="btn-close-menu" class="btn-close btn-close--is-hidden">x</button>
           <div class="link-container">
             <a class="nav-link" href="../index.html">Home</a>
@@ -126,8 +102,6 @@
       </div>
     </nav>
   </header>
-
-
   <section>
     <h1>ADMNISTRADOR</h1>
     <div class="tabelaAdm" id="2">
@@ -139,14 +113,16 @@
         </tr>
       </table>
     </div>
-    <div class="container-button"> 
+    <div class="container-button">
       <button id="puxar">Listar usuários</button>
     </div>
     <div class="grafico">
-      <div id='myDiv'><!-- Plotly chart will be drawn inside this DIV --></div>
+      <div id='myDiv'></div>
+    </div>
+    <div class="grafico">
+      <div id='myDiv2'></div>
     </div>
   </section>
-
   <script src='https://cdn.plot.ly/plotly-2.27.0.min.js'></script>
   <script type="module" src="https://unpkg.com/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule="" src="https://unpkg.com/ionicons@latest/dist/ionicons/ionicons.js"></script>
@@ -154,7 +130,5 @@
   <script type="module" src="../Assets/scripts/crudLogin.js"></script>
   <script type="module" src="../Assets/scripts/login.js"></script>
   <script src="../Assets/scripts/menu-responsivo.js"></script>
-
 </body>
-
 </html>
