@@ -3,7 +3,6 @@ export function iniciarSessao() {
     var armazenaUserJSON = localStorage.getItem('usuarioLogado');
     var armazenaUser = JSON.parse(armazenaUserJSON);
     if (armazenaUser != null) {
-        console.log("hello world");
         btnUser.style.display = "block";
         IconBtnUser.style.display = "block"
         btnModalLogin.style.display = "none"

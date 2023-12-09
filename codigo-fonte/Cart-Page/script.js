@@ -167,7 +167,6 @@ function finalizePurchase() {
     alert("Você precisa logar antes!")
   }
 }
-
 // Chame a função renderCart() para inicializar o carrinho na página
 renderCart();
 
@@ -179,6 +178,7 @@ function loginChecker() {
     return false;
   }
 }
+
 function addToBuyHistory() {
   try {
     let purchasesHistoric = localStorage.getItem('purchasesHistoric')
@@ -202,12 +202,11 @@ function addToBuyHistory() {
 
 
 }
-
 function dateNow() {
   let dateToday = new Date();
   let dateDay = dateToday.getDay();
   let dateMonth = dateToday.getMonth();
   let dateYear = dateToday.getFullYear();
 
-  return `${dateDay}/${dateMonth}/${dateYear}`
+  return `${dateDay}/${dateMonth}/${dateYear}`;
 }
