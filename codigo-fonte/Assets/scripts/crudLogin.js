@@ -1,19 +1,23 @@
 import { iniciarSessao } from './sessaoIniciada.js';
 
-export async function cadastro(nomeUsuario, emailUsuario, senhaUsuario) {
+export async function cadastro(nomeUsuario, emailUsuario, senhaUsuario, cepUsuario, ruaUsuario, numEndUsuario, complementoUsuario) {
     let idUsuario = await geradorId();
     try {
         let usuariosCadastrados = localStorage.getItem('usuarios');
         let ArrUsuariosCadastro = JSON.parse(usuariosCadastrados);
-        let cadastro = { nome: nomeUsuario, email: emailUsuario, id: idUsuario, senha: senhaUsuario };
+        let cadastro = { nome: nomeUsuario, email: emailUsuario, id: idUsuario, senha: senhaUsuario, cep: cepUsuario, rua: ruaUsuario, num: numEndUsuario, complemento: complementoUsuario };
         ArrUsuariosCadastro.push(cadastro);
         localStorage.setItem("usuarios", JSON.stringify(ArrUsuariosCadastro));
-        inputNome.value = ''
-        inputSenha.value = ''
-        inputEmail.value = ''
+        inputNome.value = '';
+        inputSenha.value = '';
+        inputEmail.value = '';
+        inputCep.value = '';
+        inputRua.value = '';
+        inputNumero.value = '';
+        inputcomplemento.value = '';
         alert("Cadastrado com sucesso!")
     } catch (error) {
-        let arrInicial = [{ nome: nomeUsuario, email: emailUsuario, id: idUsuario, senha: senhaUsuario }]
+        let arrInicial = [{ nome: nomeUsuario, email: emailUsuario, id: idUsuario, senha: senhaUsuario, cep: cepUsuario, rua: ruaUsuario, num: numEndUsuario, complemento: complementoUsuario }]
         localStorage.setItem('usuarios', JSON.stringify(arrInicial))
     }
 }

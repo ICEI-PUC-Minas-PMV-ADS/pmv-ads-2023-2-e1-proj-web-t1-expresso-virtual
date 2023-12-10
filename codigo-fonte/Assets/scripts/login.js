@@ -63,10 +63,15 @@ window.addEventListener('DOMContentLoaded', () => {
         inputEmail.value = ''
 
     }
-    let nomeUsuario, emailUsuario, senhaUsuario;
+    let nomeUsuario, emailUsuario, senhaUsuario, cepUsuario, ruaUsuario, numEndUsuario, complementoUsuario ;
     inputNome.onkeyup = () => { nomeUsuario = inputNome.value; }
     inputEmail.onkeyup = () => { emailUsuario = inputEmail.value; }
     inputSenha.onkeyup = () => { senhaUsuario = inputSenha.value; }
+    inputCep.onkeyup = () => { cepUsuario = inputCep.value; }
+    inputRua.onkeyup = () => { ruaUsuario = inputRua.value; }
+    inputNumero.onkeyup = () => { numEndUsuario = inputNumero.value; }
+    inputcomplemento.onkeyup = () => { complementoUsuario = inputcomplemento.value; }
+
 inputCep.addEventListener('keyup', () => {
 if(inputCep.value.length == 9){
 autocompletarRua()
@@ -76,7 +81,7 @@ autocompletarRua()
         let validadorCampos = verificador()
 
         if (validadorCampos) {
-            cadastro(nomeUsuario, emailUsuario, senhaUsuario)
+            cadastro(nomeUsuario, emailUsuario, senhaUsuario, cepUsuario, ruaUsuario, numEndUsuario, complementoUsuario)
         } else {
             alert(inputNome.value.length)
         }
