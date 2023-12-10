@@ -1,7 +1,11 @@
-
 #nome,
 #email,
-#id {
+#id,
+#rua,
+#cep,
+#endereco,
+#complemento,
+#numero {
   display: none;
 }
 
