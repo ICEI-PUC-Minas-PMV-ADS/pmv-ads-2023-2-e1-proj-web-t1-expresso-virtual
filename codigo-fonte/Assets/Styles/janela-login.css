@@ -74,7 +74,6 @@ input[name="campoCadastroLogin"] {
   display: block;
   width: 300px;
   padding: 10px 10px;
-  border: 1px solid var(--cor13);
   border-radius: 5px;
   border: 2px solid rgb(170, 170, 170);
   transition-timing-function: linear;

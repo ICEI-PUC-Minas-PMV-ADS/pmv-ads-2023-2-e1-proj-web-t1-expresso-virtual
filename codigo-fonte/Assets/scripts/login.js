@@ -63,19 +63,20 @@ window.addEventListener('DOMContentLoaded', () => {
         inputEmail.value = ''
 
     }
-    let nomeUsuario, emailUsuario, senhaUsuario, cepUsuario, ruaUsuario, numEndUsuario, complementoUsuario ;
+    let nomeUsuario, emailUsuario, senhaUsuario, cepUsuario, ruaUsuario, numEndUsuario, complementoUsuario;
     inputNome.onkeyup = () => { nomeUsuario = inputNome.value; }
     inputEmail.onkeyup = () => { emailUsuario = inputEmail.value; }
     inputSenha.onkeyup = () => { senhaUsuario = inputSenha.value; }
     inputCep.onkeyup = () => { cepUsuario = inputCep.value; }
-    inputRua.onkeyup = () => { ruaUsuario = inputRua.value; }
     inputNumero.onkeyup = () => { numEndUsuario = inputNumero.value; }
     inputcomplemento.onkeyup = () => { complementoUsuario = inputcomplemento.value; }
 
-inputCep.addEventListener('keyup', () => {
-if(inputCep.value.length >= 8){
-autocompletarRua()
-}})
+    inputCep.addEventListener('keyup', () => {
+        ruaUsuario = inputRua.value;
+        if (inputCep.value.length >= 8) {
+            autocompletarRua()
+        }
+    })
 
     btnCadastro.onclick = () => {
         let validadorCampos = verificador()
@@ -83,7 +84,7 @@ autocompletarRua()
         if (validadorCampos) {
             cadastro(nomeUsuario, emailUsuario, senhaUsuario, cepUsuario, ruaUsuario, numEndUsuario, complementoUsuario)
         } else {
-            alert(inputNome.value.length)
+            mensagemErro();
         }
     }
 
@@ -92,17 +93,52 @@ autocompletarRua()
     }
 
     function verificador() {
+        const emailValidador = () => { if (inputEmail.value.includes('@')) { return true } else { return false } }
         if (
+            inputRua.value.length > 3 &&
             inputNome.value.length > 3 &&
             inputEmail.value.length > 3 &&
-            inputSenha.value.length > 3
+            inputSenha.value.length > 3 &&
+            inputCep.value.length > 7 &&
+            inputCep.value.length <= 9 &&
+            inputNome.value.length > 0 
         ) {
+            inputRua.style.border = "border: 2px solid rgb(170, 170, 170);"
+            inputNome.style.border = "border: 2px solid rgb(170, 170, 170);"
+            inputEmail.style.border = "border: 2px solid rgb(170, 170, 170);"
             return true
         } else {
             return false
         }
     }
 })
-async function autocompletarRua(){
-    inputRua.value = await fetch(`https://viacep.com.br/ws/${inputCep.value}/json/`).then(e => e.json()).then(e => {return `${e.logradouro}`})
+async function autocompletarRua() {
+    inputRua.value = await fetch(`https://viacep.com.br/ws/${inputCep.value}/json/`).then(e => e.json()).then(e => { return `${e.logradouro}` })
+}
+
+function mensagemErro() {
+    if (inputRua.value.length <= 3) {
+        alert('digite um endereço válido');
+        inputRua.style.border = "2px solid red"
+    }
+    if (inputNome.value.length <= 3) {
+        alert('digite um nome válido');
+        inputNome.style.border = "2px solid red"
+    }
+    if (inputEmail.value.length <= 3) {
+        alert('digite um email válido');
+        inputEmail.style.border = "2px solid red"
+        if(!inputEmail.value.includes('@')){
+            alert('O Email deve ser realizado no formato: XXXXX@XXXX.XXX')
+        }
+    }
+    if (inputCep.value.length <= 7 || inputCep.value.length > 9) {
+        alert('digite um CEP válido');
+        inputCep.style.border = "2px solid red"
+    }
+    if (inputNumero.value === "") {
+        alert('digite um Número de residência válido');
+        inputNumero.style.border = "2px solid red"
+    }
+
 }
