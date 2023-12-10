@@ -11,7 +11,7 @@
 
 
 
-Figura 1 - Fluxo de telas do usuário
+Figura 3 - Fluxo de telas do usuário
 <hr>
 
 
@@ -32,7 +32,7 @@ A estrutura das telas do sistema é consistentemente representada na figura 4. D
 ![271787763-65aa419e-7947-44c6-b69f-a932899a4f3d](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/141934958/e2d29a0f-ee98-44c6-bf51-6526ea9b8830)
 
 
-Figura 2 - Estrutura padrão do site
+Figura 4 - Estrutura padrão do site
 <hr>
 
 <h3>Tela - Home page</h3>
@@ -40,7 +40,7 @@ Figura 2 - Estrutura padrão do site
 
 ![telahome](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/144382841/9edeea57-3e86-4204-8691-e3dd5c05e003)
 
-Figura 3 - Tela Home page
+Figura 5 - Tela Home page
 <hr>
 
 <h3>Tela - Menu</h3>
@@ -48,7 +48,7 @@ Figura 3 - Tela Home page
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/144072871/35593f51-ce79-44f8-9b7f-e8c0cabd2d08)
 
-Figura 4 - Tela Menu
+Figura 6 - Tela Menu
 <hr>
 
 
@@ -57,7 +57,7 @@ Figura 4 - Tela Menu
 
 ![telasobre](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/144382841/b101f3c0-83fd-47d6-bff2-72a9c1faefc7)
 
-Figura 5 - Tela Sobre nós
+Figura 7 - Tela Sobre nós
 <hr>
 
 
@@ -66,7 +66,7 @@ Figura 5 - Tela Sobre nós
 
 ![telalogin](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/144382841/b87e33e0-bc03-45ae-94da-0e3e4df0da07)
 
-Figura 6 - Tela de Login
+Figura 8 - Tela de Login
 <hr>
 
 
@@ -75,7 +75,7 @@ Figura 6 - Tela de Login
 
 ![telacadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/144382841/7e1fd609-b088-4bfa-ac6f-563674158cb8)
 
-Figura 7 - Tela de Cadastro
+Figura 9 - Tela de Cadastro
 <hr>
 
 
@@ -84,7 +84,7 @@ Figura 7 - Tela de Cadastro
 
  ![telacarrinho](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/144382841/2f146100-e63d-4662-9720-b098dc98bd07)
 
-Figura 8 - Tela Carrinho
+Figura 10 - Tela Carrinho
 <hr>
 
 
@@ -94,7 +94,7 @@ Figura 8 - Tela Carrinho
 
 ![telaagradecimento](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/144382841/5dea6742-39a9-4034-b8a3-095aa39ae2fb)
 
-Figura 9 - Tela Agradecimento
+Figura 11 - Tela Agradecimento
 <hr>
 
 
@@ -103,35 +103,5 @@ Figura 9 - Tela Agradecimento
 
 ![telacontato](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/144382841/a3048822-7538-4d80-b794-9a49eaeb12bb)
 
-Figura 10 - Tela Contato
+Figura 12 - Tela Contato
 <hr>
-
-
-<h3>Tela - Pedidos</h3>
-<p  align="justify">A tela de pedidos é utilizada somente pelo administrador, após o login específico, onde o mesmo irá administrar os pedidos dos clientes. </p>
-
- ![telapedidos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/144382841/65862818-c653-49ae-89c5-2e2f2f22e7ec)
-
- Figura 11 - Tela Pedidos
-<hr>
-
-
-
-<h3>Tela - Adicionar Produtos</h3>
-<p  align="justify">Tela na qual o adminstrador irá montar o cardápio, adicionando e removendo produtos sempre que necessário. </p>
-
-![addprodutos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/144382841/6ffd4a4d-2fdb-49f3-bfa7-03ea4b70b5ca)
-
-Figura 12 - Tela Adicionar Produtos
-<hr>
-
-
-<h3>Tela - Meus Pedidos</h3>
-<p align="justify">Após o login do usuário é possível acessar essa tela,  onde mostra todas as compras feitas pelo cliente, em que o mesmo terá acesso ao histórico de pedidos. </p>
-
-![telameuspedidos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/144382841/9cc3d86f-94ee-46a7-94c0-b5e24bfbe78a)
-
-Figura 13 - Tela Meus Pedidos
-<hr>
-
-
