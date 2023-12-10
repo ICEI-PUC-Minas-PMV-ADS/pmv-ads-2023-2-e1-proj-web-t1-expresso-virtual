@@ -106,6 +106,9 @@ window.addEventListener('DOMContentLoaded', () => {
             inputRua.style.border = "border: 2px solid rgb(170, 170, 170);"
             inputNome.style.border = "border: 2px solid rgb(170, 170, 170);"
             inputEmail.style.border = "border: 2px solid rgb(170, 170, 170);"
+            inputCep.style.border = "border: 2px solid rgb(170, 170, 170);"
+            inputNumero.style.border = "border: 2px solid rgb(170, 170, 170);"
+            
             return true
         } else {
             return false
@@ -138,6 +141,10 @@ function mensagemErro() {
     }
     if (inputNumero.value === "") {
         alert('digite um Número de residência válido');
+        inputNumero.style.border = "2px solid red"
+    }
+    if (inputSenha.value.length <= 3) {
+        alert('digite uma senha válida');
         inputNumero.style.border = "2px solid red"
     }
 
