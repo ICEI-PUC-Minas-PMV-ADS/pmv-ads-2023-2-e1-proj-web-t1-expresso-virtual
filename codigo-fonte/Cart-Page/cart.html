@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,6 +13,7 @@
   <link rel="stylesheet" href="../Assets/Styles/janela-login.css">
 
 </head>
+
 <body>
 
   <section id="login">
@@ -129,16 +131,16 @@
   <section id="section-cart">
     <div>
       <h2>CARRINHO</h2>
-        <div class="container" id="cart-container">
+      <div class="container" id="cart-container">
+      </div>
+      <div class="cart-footer">
+        <div class="cart-container-footer">
+          <div class="cart-price">
+            <p class="cart-price-title">Total <span id="preco-total">R$ 0,00</span></p>
+          </div>
+          <button class="cart-button" onclick="finalizePurchase()">FINALIZAR COMPRA</button>
         </div>
-        <div class="cart-footer">
-            <div class="cart-container-footer">
-                <div class="cart-price">
-                    <p class="cart-price-title">Total <span id="preco-total">R$ 0,00</span></p>
-                </div>
-                <button class="cart-button" onclick="finalizePurchase()">FINALIZAR COMPRA</button>
-            </div>
-        </div>
+      </div>
     </div>
   </section>
   <footer class="footer">
@@ -147,7 +149,8 @@
 
 
 
-  <script src="../Assets/scripts/menu-responsivo.js"></script>
+  <script src="../Assets/scripts/mascara.min.js"></script>
+  <script src="../Assets/scripts/mascaraCampos.js"></script>
   <script src="./script.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule="" src="https://unpkg.com/ionicons@latest/dist/ionicons/ionicons.js"></script>
@@ -155,5 +158,8 @@
   <script type="module" src="../Assets/scripts/sessaoIniciada.js"></script>
   <script type="module" src="../Assets/scripts/crudLogin.js"></script>
   <script type="module" src="../Assets/scripts/login.js"></script>
+
+
 </body>
+
 </html>
