@@ -73,7 +73,7 @@ window.addEventListener('DOMContentLoaded', () => {
     inputcomplemento.onkeyup = () => { complementoUsuario = inputcomplemento.value; }
 
 inputCep.addEventListener('keyup', () => {
-if(inputCep.value.length == 9){
+if(inputCep.value.length >= 8){
 autocompletarRua()
 }})
 
