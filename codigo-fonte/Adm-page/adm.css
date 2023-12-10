@@ -1,3 +1,4 @@
+
 #nome,
 #email,
 #id {
@@ -12,8 +13,8 @@
   margin: auto;
   text-align: center;
   margin-top: 100px;
-  border-radius: 10px;
-  background-color: #4d2a06de;
+  border-radius: 2px;
+  border: thin black solid;
 }
 
 .container-button {
