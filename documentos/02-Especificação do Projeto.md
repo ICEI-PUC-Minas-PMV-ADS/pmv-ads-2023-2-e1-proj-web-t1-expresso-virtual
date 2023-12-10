@@ -67,13 +67,13 @@
 
 ### Requisitos Funcionais
 
-|  ID   |                                               Descrição                                                         | Prioridade |
+|  ID   |                                               Descrição                                                          | Prioridade |
 | --- | --- | --- |
-| RF-01 | A aplicação deve permitir o usuário cadastrar uma conta e adicionar informações, como endereço, telefone e nome. |    ALTA    | 
-| RF-02 | A aplicação deve permitir que o usuário faça login em sua conta.                                                 |    ALTA    |
-| RF-03 | A aplicação deve permitir que o usuário visualize todos os produtos, preços e seus ingredientes, antes da compra. |    ALTA    |
-| RF-04 | A aplicação deve permitir que o usuário compre os produtos através de um carrinho de compras.                    |    ALTA    |
-| RF-05 |A aplicação deve conter informações para contato com a empresa.                                                  |    MÉDIA   |
+| RF-01 | A aplicação deve permitir que o usuário visualize todos os produtos, preços e seus ingredientes, antes da compra. |    ALTA    | 
+| RF-02 | A aplicação deve permitir que o usuário compre os produtos através de um carrinho de compras.                     |    ALTA    |
+| RF-03 | A aplicação deve permitir que o usuário consiga se cadastrar                                                      |    ALTA    |
+| RF-04 | A aplicação deve permitir que o usuário consiga enviar tickets para o suporte                                     |    MÉDIA   |
+| RF-05 | A aplicação deve permitir que o usuário consiga se logar                                                          |    ALTA    |
 
 **Prioridade: Alta / Média / Baixa. 
 
