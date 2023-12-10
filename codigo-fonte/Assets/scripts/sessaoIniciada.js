@@ -27,14 +27,14 @@ export function iniciarSessao() {
 }
 function redirecionar() {
     var urlDaPagina = window.location.href;
-    if (urlDaPagina != "http://127.0.0.1:5501/codigo-fonte/Adm-page/adm.html") {
-        window.location.href = "./Adm-page/adm.html"
+    if (urlDaPagina != "https://pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual-6d1hp9k7y.vercel.app/Adm-page/adm.html") {
+        window.location.href = "https://pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual-6d1hp9k7y.vercel.app/Adm-page/adm.html"
     }
 }
 
 function sairDaPaginaAdmin() {
     var urlDaPagina = window.location.href;
-    if (urlDaPagina == "http://127.0.0.1:5501/codigo-fonte/Adm-page/adm.html") {
-        window.location.href = "../index.html"
+    if (urlDaPagina == "https://pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual-6d1hp9k7y.vercel.app/Adm-page/adm.html") {
+        window.location.href = "https://pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual-6d1hp9k7y.vercel.app/index.html"
     }
 }

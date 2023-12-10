@@ -8,11 +8,6 @@ h2 {
     font-family: rowdies;
 }
 
-.container {
-    max-width: 100vw;
-    margin: auto;
-}
-
 .block-master {
     display: flex;
     justify-content: center;

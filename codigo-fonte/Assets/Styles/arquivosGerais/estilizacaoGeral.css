@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: #ebded5b4;
+  background-color: #ffffff !important;
   min-height: 100vh;
 }
 
@@ -56,7 +56,8 @@ footer {
 }
 
 :root {
-  --cor0: #ebded5;
+  /*#ebded5 */
+  --cor0: #ffffff;  
   --cor1: #ed9812;
   --cor2: #593f30;
   --cor3: #181c26;
