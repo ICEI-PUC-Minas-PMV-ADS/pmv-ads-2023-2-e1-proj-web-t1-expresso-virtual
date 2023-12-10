@@ -53,7 +53,7 @@ address {
     min-width: 300px;
     border-radius: 0px 20px 20px 0px;
     background-color: var(--cor3);
-    box-shadow: var(--cor4)(0, 0, 0, 0.733) 0px 2px 3px;
+    box-shadow: rgba(0, 0, 0, 0.61) 0px 2px 3px;
 }
 
 input {
@@ -129,8 +129,8 @@ textarea::placeholder {
     }
     section.main {
         text-align: center;
-        width: 100%;
-        padding: 10px 0;
+        width: 93%;
+        padding: 40px 0;
         border-radius: 20px 20px 0 0;
 }
 }
