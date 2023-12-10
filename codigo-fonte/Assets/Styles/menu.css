@@ -97,20 +97,19 @@ p.text {
 
 
 
-@media (max-width: 1080px) {
+@media (max-width: 1030px) {
 
-  .cafe1,
-  .cafe2 {
+  .container-card {
     display: flex;
     margin: auto;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 60%;
+    width: 90%;
   }
 
   .img-cafe {
-    width: 100%;
+    width: 60%;
     height: auto;
     border-radius: 20px 20px 0 0;
   }
@@ -122,9 +121,31 @@ p.text {
     min-width: 0;
   }
 
-  section {
-    height: 160vh;
-  }
 }
 
-@media (max-width: 830px) {}
+@media (max-width: 830px) {
+  
+    .container-card {
+      display: flex;
+      margin: auto;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      width: 80%;
+    }
+  
+    .img-cafe {
+      width: 60%;
+      height: auto;
+      border-radius: 20px 20px 0 0;
+    }
+  
+    .cafeA {
+      margin-top: 1px;
+      padding-bottom: 30px;
+      border-radius: 0 0 20px 20px;
+      min-width: 0;
+    }
+  
+  
+}
