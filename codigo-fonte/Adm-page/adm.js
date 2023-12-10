@@ -8,25 +8,36 @@ puxar.onclick = function () {
 document.addEventListener("DOMContentLoaded", function () {
   let tabela = document.getElementById("tabela");
 
-  function adicionarLinha(nome, email, id) {
+  function adicionarLinha(nome, email, id, cep, rua, numero, complemento) {
     let novaLinha = tabela.insertRow();
     let colunaNome = novaLinha.insertCell(0);
     let colunaEmail = novaLinha.insertCell(1);
     let colunaId = novaLinha.insertCell(2);
+    let colunaRua = novaLinha.insertCell(3);
+    let colunaCep = novaLinha.insertCell(4);
+    let colunaNumero = novaLinha.insertCell(5);
+    let colunaComplemento = novaLinha.insertCell(5);
+    
 
     colunaNome.innerHTML = nome;
     colunaEmail.innerHTML = email;
     colunaId.innerHTML = id;
+    colunaRua.innerHTML = rua;
+    colunaCep.innerHTML = cep;
+    colunaNumero.innerHTML = numero;
+    colunaComplemento.innerHTML = complemento;
+    
+
   }
 
   document.getElementById("puxar").addEventListener("click", function () {
     let dadosArmazenados = JSON.parse(localStorage.getItem("usuarios"));
 
-    tabela.innerHTML = "<tr><th>Nome</th><th>Email</th><th>ID</th></tr>";
+    tabela.innerHTML = "<tr><th>Nome</th><th>Email</th><th>ID</th><th>Rua</th><th>Cep</th><th>Número</th><th>Complemento</th></tr>";
 
     if (dadosArmazenados) {
       dadosArmazenados.forEach(function (cliente) {
-        adicionarLinha(cliente.nome, cliente.email, cliente.id);
+        adicionarLinha(cliente.nome, cliente.email, cliente.id, cliente.cep, cliente.rua, cliente.complemento, cliente.numero);
       });
     }
   });
