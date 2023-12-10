@@ -90,7 +90,7 @@ function renderCart() {
   });
 
   // Calcular o total
-  const total = groupedCartData.reduce(
+  total = groupedCartData.reduce(
     (acc, item) => acc + item.price * item.quantity,
     0
   );
@@ -195,7 +195,7 @@ function addToBuyHistory() {
   let buyDateConvert = buyDateComplete.getTime()
   let dateConvert = dateNow()
 
-  let finishBuy = { nome: UserName, email: UserEmail, id: UserId, buyDate: buyDateConvert, dateConvert: dateConvert, itens: cartData }
+  let finishBuy = { nome: UserName, email: UserEmail, id: UserId, buyDate: buyDateConvert, dateConvert: dateConvert, itens: cartData, totalCompra: total}
 
   localStorage.setItem('purchasesHistoric', JSON.stringify(finishBuy))
 
