@@ -69,7 +69,6 @@ let products = "";
 for (let key in list) {
   if (list.hasOwnProperty(key)) {
     const product = list[key];
-    console.log(product.image)
     // Constrói a representação HTML para cada produto
     products += `
     <div class="container-cafe">

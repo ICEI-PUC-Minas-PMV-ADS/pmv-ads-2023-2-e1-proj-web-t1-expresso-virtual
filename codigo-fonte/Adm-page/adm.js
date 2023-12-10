@@ -1,8 +1,6 @@
 let usuariosCadastrados = localStorage.getItem("usuarios");
 let ArrUsuariosCadastro = JSON.parse(usuariosCadastrados);
 
-//console.log(dadosArmazenados);
-
 puxar.onclick = function () {
   let dadosArmazenados = JSON.parse(localStorage.getItem("usuarios"));
 };
@@ -38,7 +36,6 @@ let usersList = JSON.parse(localStorage.getItem("usuarios"));
 let usersLength = usersList.length;
 let purchaseList = JSON.parse(localStorage.getItem("storedCart"));
 let purchaseLength = purchaseList.length;
-console.log(purchaseList);
 
 var dataAtual = new Date();
 var nomesDosMeses = [
@@ -75,8 +72,6 @@ var layout = {
 };
 
 var config = { responsive: true };
-
-// Plotly.newPlot("myDiv", data, layout, config);
 
 var trace2 = {
   type: "bar",
