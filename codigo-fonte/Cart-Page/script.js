@@ -152,6 +152,11 @@ function finalizePurchase() {
       return;
     }
     // salva os dados da compra
+    var storedCartData = JSON.parse(localStorage.getItem("storedCart")) || [];
+    storedCartData = storedCartData.concat(cartData);
+  
+    localStorage.setItem("storedCart", JSON.stringify(storedCartData));
+    
     addToBuyHistory()
     // Limpar o carrinho no localStorage
     localStorage.removeItem("cart");
