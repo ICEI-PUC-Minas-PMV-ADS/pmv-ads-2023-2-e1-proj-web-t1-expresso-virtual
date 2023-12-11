@@ -19,4 +19,4 @@ A equipe também deverá gravar um vídeo de, no máximo, três minutos, com a a
 
 ## Hospedagem
 
-<a href="https://pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual.vercel.app/index.html>01%3A420"> <ins>Site Hospedado</ins></a>
+<a href="https://pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual.vercel.app/index.html"> <ins>Site Hospedado</ins></a>
