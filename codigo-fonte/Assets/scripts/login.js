@@ -77,7 +77,6 @@ window.addEventListener('DOMContentLoaded', () => {
     inputEmail.onkeyup = () => { emailUsuario = inputEmail.value; }
     inputSenha.onkeyup = () => { senhaUsuario = inputSenha.value; }
     inputCep.onkeyup = () => { cepUsuario = inputCep.value; }
-    inputRua.onkeyup = () => { ruaUsuario = inputRua.value; }
     inputNumero.onkeyup = () => { numEndUsuario = inputNumero.value; }
     inputcomplemento.onkeyup = () => { complementoUsuario = inputcomplemento.value; }
 
