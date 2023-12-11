@@ -91,6 +91,10 @@ textarea::placeholder {
     margin-top: 5px;
     padding: 5px;
 }
+footer{
+    position: fixed;
+    bottom: 0;
+  }
 
 
 @media (max-width:768px) {

@@ -82,6 +82,10 @@
   font-size: 13px;
   margin: 15px auto;
 }
+footer{
+  position: fixed;
+  bottom: 0;
+}
 
 @media (max-width: 768px) {
   .hero {
