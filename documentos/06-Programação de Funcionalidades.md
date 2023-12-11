@@ -2,12 +2,11 @@
 
 Implementação da aplicação descritas por meio dos requisitos codificados.
 
-### Tela do Cardápio (RF-01)
+### Tela do Cardápio
 O acesso a tela de cardápio poderá ser feito através da opção do menu “Cardápio”. As estruturas de dados foram baseadas em HTML, CSS e JS.
 
-Exemplo de tela de cardápio:
-
 ![Cardápio](./img/Tela-Cardapio.jpg)
+<figcaption>Figura 17 - Tela do Cardápio
 
 #### Requisito atendido
 
@@ -25,7 +24,11 @@ RF-01: A aplicação deve permitir que o usuário visualize todos os produtos, p
 
 #### Estrutura de Dados
 
-● [menu.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/blob/main/codigo-fonte/Menu-page/menu.html)
+<figure> 
+  <img src="img/Estrutura-de-Dados-CartPage.jpg">
+  <figcaption> Figura 18 - Estrutura de dados do cardápio
+</figure> 
+<hr>
 
 #### Instruções de acesso
 
@@ -37,12 +40,11 @@ Responsável: Laura
 
 <hr>
 
-### Tela do Carrinho (RF-02)
+### Tela do Carrinho
 O acesso a tela de carrinho poderá ser feito através da opção de menu “Carrinho”. As estruturas de dados foram baseadas em HTML, CSS e JS.
 
-Exemplo de tela de carrinho:
-
 ![Carrinho](./img/Tela-Carrinho.jpg)
+<figcaption>Figura 19 - Tela do Carrinho
 
 #### Requisito atendido
 
@@ -58,10 +60,6 @@ RF-02: A aplicação deve permitir que o usuário compre os produtos através de
 
 ● cart-page.css
 
-#### Estrutura de Dados
-
-● [cart.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/blob/main/codigo-fonte/Cart-Page/cart.html)
-
 #### Instruções de acesso
 
 Clicando em "carrinho" no menu, vai aparecer todos os seus produtos adicionados ao carrinho.
@@ -72,13 +70,12 @@ Responsável: Laura
 
 <hr>
 
-### Tela do Cadastro (RF-03)
+### Tela do Cadastro
 
 O acesso a tela de cadastro poderá ser feito através da opção de menu “Login”. As estruturas de dados foram baseadas em HTML, CSS e JS.
 
-Exemplo de tela de cadastro:
-
 ![Cadastro](./img/Tela-Cadastro.jpg)
+<figcaption>Figura 20 - Tela do Cadastro
 
 #### Requisito atendido
 
@@ -94,10 +91,6 @@ RF-03: A aplicação deve permitir que o usuário consiga se cadastrar
 
 ● janela-login.css
 
-#### Estrutura de Dados
-
-● [login.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/blob/main/codigo-fonte/pagina-login/login.html)
-
 #### Instruções de acesso
 
 A tela de cadastro poderá ser utilizada através do menu no botão “login” onde o usuario vai ir em "Cadastre-se" e irá preencher os dados.
@@ -108,12 +101,11 @@ Responsável: Vitor
 
 <hr>
 
-### Tela do Fale Conosco (RF-04)
+### Tela do Fale Conosco
 O acesso a tela de Contato poderá ser feito através da opção de menu “Contato”. As estruturas de dados foram baseadas em HTML, CSS.
 
-Exemplor de tela Fale-Conosco:
-
 ![FaleConosco](./img/Tela-FaleConosco.jpg)
+<figcaption>Figura 21 - Tela de Fale Conosco
 
 #### Requisito não atendido
 
@@ -127,10 +119,6 @@ RF-04: A aplicação deve permitir que o usuário consiga enviar tickets para o 
 
 ● menu-responsivo.js
 
-#### Estrutura de Dados
-
-● [contact.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/blob/main/codigo-fonte/Contact-page/contact.html)
-
 #### Instruções de acesso
 
 clicanco em "contato" na navbar aparecerá a pagina, e ao visualizar os campos, deve preenchê los e enviar. 
@@ -141,11 +129,11 @@ Responsável: Lucas Gonçalves
 
 <hr>
 
-### Tela do Login (RF-05)
+### Tela do Login
 O acesso a tela de Login poderá ser feito através da opção de menu “Login”. As estruturas de dados foram baseadas em HTML, CSS e JS
 
-Exemplo de tela de login:
 ![Login](./img/Tela-Login.jpg)
+<figcaption>Figura 21 - Tela de login
 
 #### Requisito atendido
 
@@ -162,10 +150,6 @@ RF-05: A aplicação deve permitir que o usuário consiga se logar
 ● crudLogin.js
 
 ● menu-responsivo.js
-
-#### Estrutura de Dados
-
-● [login.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/blob/main/codigo-fonte/pagina-login/login.html)
 
 #### Instruções de acesso
 
