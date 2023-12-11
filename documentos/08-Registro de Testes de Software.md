@@ -30,6 +30,7 @@ CT-04: Verificar funcionalidades de administrador
 <p>Responsável: Vitor</p>
 
 ![teladmin](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/144382841/294b32f5-ffa2-4584-aebf-6c69b988fd03)
+<figcaption>Figura 22 - Tela de admin
 <hr>
 
 CT-05: Verificar as opções de contato
@@ -37,6 +38,7 @@ CT-05: Verificar as opções de contato
 <p>Tela apresentou erro no footer</p>
 
 ![contato2222](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/144382841/f979c34d-2047-422f-b5f5-83977b0b3369)
+<figcaption>Figura 23 - Tela de fale conosco
 <hr>
 
 CT-06: Verificar a responsividade do site em diferentes formatos de tela.
@@ -44,6 +46,7 @@ CT-06: Verificar a responsividade do site em diferentes formatos de tela.
 <p>Telas vistas de diferentes dispositivos</p>
 
 ![testetelas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/144382841/bacc07bd-ccd0-476a-98f8-544f8e0db07b)
+<figcaption>Figura 24 - Responsividade do site
 <hr>
 
 CT-07: Verificar a compatibilidade do site em diferentes navegadores
@@ -51,13 +54,18 @@ CT-07: Verificar a compatibilidade do site em diferentes navegadores
 <p>Site aberto em diferentes navegadores: Firefox</p>
 
 ![firefox](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/144382841/0cee0328-a6ef-40e9-97ea-9436b8fc1ecf)
+<figcaption>Figura 25 - Projeto aberto no Firefox
+<hr>
 
 <p>Edge</p>
 
 ![eddge](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/144382841/6e8fb59a-e126-44d7-8133-62576ea4b569)
+<figcaption>Figura 26 - Projeto aberto no Edge
+<hr>
 <p>Chrome</p>
 
 ![chrome](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual/assets/144382841/7900d451-a061-4d8b-b290-9d2780576af1)
+<figcaption>Figura 27 - Projeto aberto no Chrome
 <hr>
 
 ## Avaliação
