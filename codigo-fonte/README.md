@@ -4,8 +4,8 @@
 
 Nesse primeiro eixo do curso, para simplificar a utilização do Git e a organização das pastas e artefatos de implementação no sistema de arquivos, sugerimos que o projeto seja estruturado de modo que cada aluno trabalhe com seus arquivos nas suas respectivas pastas, identificadas por nomes das suas respectivas telas. Por exemplo:
 - Pasta src (root do projeto): index.html, index.css, index.js - Desenvolvedora responsável: Vitor.
-- Pasta src\clientes: clientes.html, clientes.css, clientes.js - Desenvolvedor responsável: Laura.
-- Pasta src\funcionarios: funcionarios.html, funcionarios.css, funcionarios.js  - Desenvolvedora responsável: Lucas Souza.
+- Pasta src\menu: menu.html, menu.css, menu.js - Desenvolvedor responsável: Laura.
+- Pasta src\admin: admin.html, admin.css, admin.js  - Desenvolvedor responsável: Lucas Souza.
 
 ## Instalação do Site
 
@@ -17,4 +17,5 @@ O site em HTML/CSS/JS é um projeto estático. É necessário implantá-lo em um
 #### Adicionado
 - Homepage - HTML, CSS e Imagens.
 
-### [0.1.1] - 
+### [0.1.1] - 01/10/2023
+- asdasd
