@@ -63,6 +63,7 @@ window.addEventListener('DOMContentLoaded', () => {
         inputEmail.style.border = "border: 2px solid rgb(170, 170, 170);";
         inputCep.style.border = "border: 2px solid rgb(170, 170, 170);";
         inputNumero.style.border = "border: 2px solid rgb(170, 170, 170);";
+        inputSenha.style.border = "border: 2px solid rgb(170, 170, 170);";
 
         inputRua.value = '';
         inputCep.style.value = '';
@@ -155,7 +156,7 @@ function mensagemErro() {
     }
     if (inputSenha.value.length <= 3) {
         alert('digite uma senha válida');
-        inputNumero.style.border = "2px solid red"
+        inputSenha.style.border = "2px solid red"
     }
 
 }
