@@ -19,7 +19,7 @@ export function iniciarSessao() {
         btnModalLogin.style.display = "block"
     }
     try {
-        if (armazenaUser.nome === 'admin' && armazenaUser.email === 'admin@admin.com' && armazenaUser.senha === "admin" && armazenaUser.cep === 'admin' && armazenaUser.rua === 'admin' && armazenaUser.numero === 'admin' && armazenaUser.complemento === 'admin' ) {
+        if (armazenaUser.nome === 'admin' && armazenaUser.email === 'admin@admin.com') {
             redirecionar()
         }
     } catch (error) {
