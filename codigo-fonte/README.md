@@ -18,4 +18,35 @@ O site em HTML/CSS/JS é um projeto estático. É necessário implantá-lo em um
 - Homepage - HTML, CSS e Imagens.
 
 ### [0.1.1] - 01/10/2023
-- asdasd
+#### Atualizado
+- Homepage: HTML, CSS e Imagens.
+#### Adicionado
+- Imagens
+- Cardápio: HTML, CSS e Imagens.
+- Sobre: HTML, CSS e Imagens.
+- Contato: HTML, CSS e imagens.
+
+### [0.1.3] - 29/10//2023
+  #### Atualizado
+  - Homepage: HTML e CSS.
+  - Cardápio: CSS e Imagens.
+  - Sobre: CSS.
+  - Contato: HTML e CSS.
+#### Adicionado
+- Login: HTML e CSS.
+
+### [0.1.4] - 26/11/2023
+#### Atualizado
+- Homepage: HTML, CSS, JS e Imagens.
+- Cardápio: HTML, CSS, JS e Imagens.
+- Contato: HTML, CSS, JS e Imagens.
+- Login: HTMl, CSS, JS e Imagens.
+#### Adicionado
+- Tela Admin: HTML, CSS e JS.
+
+### [0.1.5] - 10/12/2023
+#### Atualizado
+- Homepage: HTML, CSS, JS e Imagens.
+- Cardápio: HTML, CSS, JS e Imagens.
+- Login: HTML, CSS, JS e Imagens.
+- Tela Admin: HTML, CSS e JS.
