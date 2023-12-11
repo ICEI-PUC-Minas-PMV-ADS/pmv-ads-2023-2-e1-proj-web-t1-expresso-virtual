@@ -47,20 +47,29 @@ window.addEventListener('DOMContentLoaded', () => {
 
     linkCadastro.onclick = () => {
         //some ao clicarmos em login
-        logintext.style.display = "block"
+        logintext.style.display = "block";
         linkCadastro.style.display = "none";
         btnLogin.style.display = "none";
         //aparece ao clicar em Login
-        logintext.style.display = "none"
+        logintext.style.display = "none";
         groupNome.style.display = "flex";
         linkLogin.style.display = "block";
         btnCadastro.style.display = "block";
         groupCep.style.display = "block";
         groupRua.style.display = "block";
         groupNumero.style.display = "block";
-        inputNome.value = ''
-        inputSenha.value = ''
-        inputEmail.value = ''
+        inputRua.style.border = "border: 2px solid rgb(170, 170, 170);";
+        inputNome.style.border = "border: 2px solid rgb(170, 170, 170);";
+        inputEmail.style.border = "border: 2px solid rgb(170, 170, 170);";
+        inputCep.style.border = "border: 2px solid rgb(170, 170, 170);";
+        inputNumero.style.border = "border: 2px solid rgb(170, 170, 170);";
+
+        inputRua.value = '';
+        inputCep.style.value = '';
+        inputNumero.style.value = '';
+        inputNome.value = '';
+        inputSenha.value = '';
+        inputEmail.value = '';
 
     }
     let nomeUsuario, emailUsuario, senhaUsuario, cepUsuario, ruaUsuario, numEndUsuario, complementoUsuario;
@@ -101,14 +110,14 @@ window.addEventListener('DOMContentLoaded', () => {
             inputSenha.value.length > 3 &&
             inputCep.value.length > 7 &&
             inputCep.value.length <= 9 &&
-            inputNome.value.length > 0 
+            inputNome.value.length > 0
         ) {
             inputRua.style.border = "border: 2px solid rgb(170, 170, 170);"
             inputNome.style.border = "border: 2px solid rgb(170, 170, 170);"
             inputEmail.style.border = "border: 2px solid rgb(170, 170, 170);"
             inputCep.style.border = "border: 2px solid rgb(170, 170, 170);"
             inputNumero.style.border = "border: 2px solid rgb(170, 170, 170);"
-            
+
             return true
         } else {
             return false
@@ -131,7 +140,7 @@ function mensagemErro() {
     if (inputEmail.value.length <= 3) {
         alert('digite um email válido');
         inputEmail.style.border = "2px solid red"
-        if(!inputEmail.value.includes('@')){
+        if (!inputEmail.value.includes('@')) {
             alert('O Email deve ser realizado no formato: XXXXX@XXXX.XXX')
         }
     }
