@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (dadosArmazenados) {
       dadosArmazenados.forEach(function (cliente) {
-        adicionarLinha(cliente.nome, cliente.email, cliente.id, cliente.cep, cliente.rua,cliente.num, cliente.complemento);
+        adicionarLinha(cliente.nome, cliente.email, cliente.id, cliente.cep, cliente.rua, cliente.complemento, cliente.num);
       });
     }
   });
