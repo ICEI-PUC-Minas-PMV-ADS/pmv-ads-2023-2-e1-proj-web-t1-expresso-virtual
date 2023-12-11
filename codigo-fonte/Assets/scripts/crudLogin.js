@@ -15,6 +15,11 @@ export async function cadastro(nomeUsuario, emailUsuario, senhaUsuario, cepUsuar
         inputRua.value = '';
         inputNumero.value = '';
         inputcomplemento.value = '';
+        inputRua.style.border = "border: 2px solid rgb(170, 170, 170);";
+        inputNome.style.border = "border: 2px solid rgb(170, 170, 170);";
+        inputEmail.style.border = "border: 2px solid rgb(170, 170, 170);";
+        inputCep.style.border = "border: 2px solid rgb(170, 170, 170);";
+        inputNumero.style.border = "border: 2px solid rgb(170, 170, 170);";
         alert("Cadastrado com sucesso!")
     } catch (error) {
         let arrInicial = [{ nome: nomeUsuario, email: emailUsuario, id: idUsuario, senha: senhaUsuario, cep: cepUsuario, rua: ruaUsuario, num: numEndUsuario, complemento: complementoUsuario }]
