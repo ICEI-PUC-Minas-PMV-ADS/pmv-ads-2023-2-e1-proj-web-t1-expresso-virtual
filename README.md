@@ -10,8 +10,6 @@ O problema que este projeto visa abordar é a falta de uma via moderna para atin
 
 ## Integrantes
 
-Diego Lucas Soares de Freitas Araújo
-
 Josef Félix Vieira
 
 Laura Lanna Brandão
@@ -41,9 +39,7 @@ Joyce Christina de Paiva Carvalho
 </ol>
 
 # Hospedagem
-
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
-
+https://pmv-ads-2023-2-e1-proj-web-t1-expresso-virtual.vercel.app/
 # Código-Fonte
 
 * <a href="codigo-fonte/README.md">Código Fonte</a>
